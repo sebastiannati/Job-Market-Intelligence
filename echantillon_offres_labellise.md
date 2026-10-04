@@ -6,7 +6,7 @@
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -59,7 +59,7 @@ La connaissance de IBI Webfocus est un plus, la connaissance de nos outils (CRM)
 
 ·
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ La connaissance de IBI Webfocus est un plus, la connaissance de nos outils (CRM)
 **Description :**
 Job Description We’re looking for an experienced Python developer to reinforce our team and contribute to our mission to deliver the best platform to our Users. With 5 years of experience in backend development, you master the coding, testing, and deployment best practices . You are willing to thrive in a constantly evolving environment and be a driving force for your team by ensuring clear and effective communication. You will join one of our squads and implement our Product Major Initiatives to reinforce Sekoia's top European positioning in the cybersecurity ecosystem. Your missions : Collaborate with product management, Frontend and Infrastructure teams to build our platform at scale. Innovate to tackle complex technical challenges using industry best practices. Guide & Support team members to foster professional growth and continuous learning, embrace our culture of feedback. Challenge yourself and others. Explore new techniques to improve development processes. Deliver valuable new features to our users. 📍 The position can be based in Paris, Rennes or fully remote. Professional trips paid for by the company might be required.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -186,7 +186,7 @@ Bonnes connaissances en MLOps, industrialisation et Infrastructure as Code
 
 Capacité à interagir avec des interlocuteurs techniques et métiers
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -198,7 +198,7 @@ Capacité à interagir avec des interlocuteurs techniques et métiers
 **Description :**
 Descriptif du poste We're looking for a Security Governance Manager to lead Governance, Risk & Compliance across Welcome to the Jungle. You'll drive our SOC 2 certification, run day-to-day security governance (access reviews, audits, controls, vendor reviews, security questionnaires), and navigate regulatory requirements (GDPR, AI Act, SOC2) to accelerate business growth and meet Enterprise customer needs across our France, UK, and US markets. You'll work in collaboration with our Security Squad (Platform Engineering, Corporate IT, Legal) and cross-functional teams, with a pragmatic mindset and an AI-first approach to GRC. Reporting to: Kévin Le Roy, VP AI Transformation, IT & Security 🔑 Key Responsibilities SOC 2 Certification & Compliance Own and drive our SOC2 certification program: gap analysis, control mapping, evidence collection, remediation coordination, and auditor management Prepare and coach cross-functional teams for audit readiness through mock audits and training sessions Navigate overlapping regulatory requirements and enterprise customer expectations Provide security expertise to Legal and DPO on regulatory topics (GDPR, AI Act, etc.) Lay the groundwork for future certifications (ISO 27001) Risk Management & Vendor Security Conduct and maintain risk assessments following ISO 27005 methodology Own the risk register with quarterly reviews, prioritizing risks by business impact Perform SaaS security reviews during procurement and manage third-party risk assessments for critical vendors Assess security impact of organizational, technical, or product changes Respond to customer security questionnaires and support sales cycles with accurate, timely answers Security Governance & Controls Execute recurring governance activities: monthly control checks, quarterly access reviews (Ploy), periodic internal audits Monitor security dashboards and KPIs with Corporate IT and Platform Engineering teams Coordinate security incident response and lead post-incident reviews Coordinate penetration tests with external providers and track vulnerability remediation with Platform Engineering Track and report on security & compliance metrics to leadership Policy, Awareness & Communication Develop and maintain security policies that improve our security posture while minimizing productivity impact Maintain and enrich the Security Knowledge Base with up-to-date documentation Contribute to Security Committee preparation, facilitate meetings, and drive action items Design and deliver security awareness content: onboarding sessions, ongoing trainings (Elba), and internal communications Partner with Engineering to continuously improve security in the SDLC and products
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -242,7 +242,7 @@ FORMATION, PROFIL ET EXPERIENCE :
 
 ·       Expérience en déploiement continu CI/CD (Azure Devops)
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -298,7 +298,7 @@ Appréciées / appréciables
 
  Pourquoi nous rejoindre ?Rejoindre e-NRJ, c'est intégrer un environnement stimulant au sein d'un grand groupe média, avec :-	Des marques iconiques : NRJ, Chérie FM, Nostalgie, Rire & Chansons-	Des enjeux concrets de croissance, d'audience, d'engagement et de monétisation
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -322,7 +322,7 @@ Au sein du Département Pilotage Temps Réel (POTR), rattaché à la Direction d
 **Description :**
 Dassault Systèmes, l'entreprise de la 3DEXPERIENCE, est un « accélérateur de progrès humain ». Elle propose aux entreprises et aux particuliers des environnements virtuels collaboratifs qui leur permettent d'imaginer des innovations plus durables. En développant un jumeau virtuel du monde réel, grâce à la plateforme 3DEXPERIENCE et à ses applications, Dassault Systèmes donne à ses clients les moyens de repousser les limites de l'innovation, de l'apprentissage et de la production. Les 20000 collaborateurs de Dassault Systèmes travaillent à créer de la valeur pour nos 270000 clients de toutes tailles, dans toutes les industries, dans plus de 140 pays. Pour plus d'informations, visitez notre site www.3ds.com/fr  Nous recherchons notre futur(e) ingénieur(e) de données, pour intégrer nos équipes Information Systems (IS).Dassault Systèmes, « The 3DEXPERIENCE Company », offre aux entreprises et aux particuliers les univers virtuels nécessaires à la conception d'innovations durables. Ses solutions leaders sur le marché transforment pour ses clients, la conception, la fabrication et la maintenance de leurs produits. Les solutions collaboratives de Dassault Systèmes permettent de promouvoir l'innovation sociale et offrent de nouvelles possibilités d'améliorer le monde réel grâce aux univers virtuels. Avec des ventes dans plus de 140 pays, le Groupe apporte de la valeur à plus de 250000 entreprises de toutes tailles dans toutes les industries. Vos missions :Contribuer à la conception et à la structuration de méthodes et de bonnes et de pratiques sur des sujets data sciences (gouvernance, framework, etc)Concevoir et maintenir des pipelines de données supportant des applications de reporting, d'analyse, et de data science.Collaborer avec un large panel d'interlocuteurs au sein des différentes équipes impliquées.Participer au bon fonctionnement de l'environnement technique (orchestration, ETL, applications, etc) et à aux projets structurants du département Data IS.Assurer la gouvernance des données, la sécurité et la gestion des données.Surveiller, tester et améliorer les performances, la fiabilité et la rentabilité des pipelines et de toutes les exécutions des développeurs.    Vos qualifications :Vous êtes issu d'une formation supérieure de niveau Bac +5, type Ingénieur ou équivalent.Vous souhaitez développer ou approfondir vos compétences en définition, mise en place de méthodologie et plus largement de structuration. Vous avez de l'expérience dans l'intégration d'API, la composition de pipeline, l'orchestrationVous maîtrisez le développement de tâches ETL/ELT et le scripting Python.Vous avez de l'expérience dans l'intégration de sources de données SAP et non SAP, ainsi que dans la modélisation et dans l'ingestion de données à grande échelleVous avez de l'expérience avec les plateformes de données cloud de dernière génération.   Vous maîtrisez l'anglais à l'écrit et à l'oral Nous rejoindre c'est aussi:Intégrer une entreprise scientifique au cœur de l'innovation technologique, portée par une forte croissance depuis plus de 40 ansPrincipaux avantages et bénéfices :*    Environnement multiculturel*    Cadre de travail convivial axé sur le bien-être et la santé (salles de sport & de musique, conciergerie…)*    Engagement en faveur de la diversité et de l'inclusion*    Politique dynamique de développement de carrière : plan de formation, mobilités internes, etc
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -346,7 +346,7 @@ Descriptif du poste ALTERNANCE 12 MOIS - A partir de Septembre 2026 - ETN - Mast
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -376,7 +376,7 @@ Vous souhaitez évoluer dans un environnement exigeant, où la précision, l'ana
 - Esprit curieux, structuré et orienté amélioration continue 
 - Intérêt marqué pour l'univers du luxe, du savoir-faire et de l'excellence client
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -421,7 +421,7 @@ Compétences techniques recherchées Databricks : maîtrise confirmée (minimum 
 * Python : solides compétences pour le développement de pipelines et traitements data
 * Anglais professionnel : bon niveau requis pour évoluer dans un contexte international
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -434,7 +434,7 @@ Compétences techniques recherchées Databricks : maîtrise confirmée (minimum 
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -581,7 +581,7 @@ Description de l'entrepriseSopra Steria, acteur majeur de la Tech en Europe, ave
 
 The world is how we shape it*Description du posteVotre rôle et vos missions :Dans le cadre d'un projet client à forts enjeux techniques et remplis d'innovation, vous participerez à :La compréhension des besoins métiers et la traduction solution de data ingénierie et ou data analysis ;La mise en œuvre de solutions d'ingestion des données quelles soit en batch et/ou en streaming dans un contexte Cloud ;La structuration du DataLake, la mise en place des processus de gouvernance et de sécurisation des données ;Le traitement de la donnée jusqu'à l'exposition au métier ;La mise en place de la chaine CI/CD et de sa supervision ;La veille technologique avec nos partenaires éditeurs et la mise en place de Prototype Design, Proof of Concept ou encore MVP dans un objectif d'idéation pour nos clients.Environnement technique : Spark, Hadoop, Hive, Kafka, Elastic, Cloudera, Azure HD Insight, Informatica, Talend, Stambia, DataStage, SAS, DataIku, DataBricks, Qlik, SAP BI (BO), Power BI, Java, Scala, Python, RQualificationsVous maitrisez un langage de programmation appliqué à l’analyse de données (Python principalement, SQL, Scala, R, Java), le traitement distribué de données (Spark, Pyspark , Hadoop) et un Framework de streaming de données (Kafka, RabbitMQ, etc.)Vous souhaitez évoluer vers un monde numérique orienté, Cloud, DataOps.Vous avez un bon esprit d'analyse, êtes curieux(se) et passionné(e) et vous avez le sens du travail en équipe dans une organisation Agile type Scrum ou SAFEVous accordez une importance particulière au développement de vos compétences sur plusieurs technologies. Vous souhaitez une évolution réelle de carrière à travers l'expérience projet. Vous êtes soucieux de l'apport de valeur pour vos clients. Et vous voulez transmettre votre savoir auprès de collaborateurs moins expérimentés. Alors, n'attendez-plus, ce poste est fait pour vous !Diplômé(e) d'une Ecole d'ingénieur ou formation équivalente, vous avez déjà participé à un projet Data (Big Data) et vous avez une expérience de minimum 5 ans.Informations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos missions. Un package avantages intéressant : une mutuelle, un CSE, des titres restaurants, un accord d’intéressement, des primes vacances et cooptation.Des opportunités de carrières multiples : plus de 30 familles de métiers, autant de passerelles à imaginer ensemble.Plusieurs centaines de formations accessibles en toute autonomie avec Sopra Steria Academy.La possibilité de s'engager auprès de notre fondation ou de notre partenaire « Vendredi ».L'opportunité de rejoindre le collectif Tech'Me UP (formations, conférences, veille, et bien plus encore…).Employeur inclusif et engagé, notre société œuvre chaque jour pour lutter contre toute forme de discrimination et favoriser un environnement de travail respectueux. C’est pourquoi, attachés à la mixité et à la diversité, nous encourageons toutes les candidatures et tous les profils.https://www.soprasteria.fr/nous-connaitre/nos-engagements
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -676,7 +676,7 @@ Etudes et choix de solutions et de plateformes big data, analytics.
 ·        Assistance à la mise en œuvre d'exigences réglementaires
 ·        Veille sur l'évolution des méthodes, des pratiques, des outils.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -705,7 +705,7 @@ Contribuer à la mise en place d'outils tels que des Data Catalogue, Marketplace
 Participer à l'acculturation de nos clients à la Gouvernance et au Management des données et les sensibiliser à l'importance du sujet
 Faire de la veille technologique et animer des sessions de knowledge sharing en faisant part de vos retours d'expérience en interne
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -779,7 +779,7 @@ ATOUTS
 - Autonomie et organisation
 - Capacité à travailler en équipe projet
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -807,7 +807,7 @@ Accompagner les équipes métier dans l'interprétation des résultats
 
 Contribuer aux cas d'usage IA et NLP de la plateforme
 
-**seniority_level :** Jeune diplômé (0)
+**seniority_level :** Jeune diplômé
 
 --------------------------------------------------------------------------------
 
@@ -843,7 +843,7 @@ Identifier les solutions technologiques appropriées aux besoins et soutenir nos
 Contribuer au choix et à la mise en place d'outils tels que des Data Catalogue, Marketplace de données, solution de Master Data Management (MDM) et plus globalement des outils de Data Quality (assistance au choix de solution et réalisation des benchmarks de solution)
 Faire de la veille technologique et animer des sessions de knowledge sharing en faisant part de vos retours d'expérience en interne
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -904,7 +904,7 @@ de scalabilité***Vous avez un bon niveau d'anglais
 RÉMUNÉRATION : 65K/75K SELON PROFIL ; TÉLÉTRAVAIL : 2 JOURS PAR
 SEMAINE
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -940,7 +940,7 @@ Au sein du Département Pilotage Temps Réel (POTR), rattaché à la Direction d
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -973,7 +973,7 @@ Identifier les solutions technologiques appropriées aux besoins et soutenir nos
 Contribuer au choix et à la mise en place d'outils tels que des Data Catalogue, Marketplace de données, solution de Master Data Management (MDM) et plus globalement des outils de Data Quality (assistance au choix de solution et réalisation des benchmarks de solution)
 Faire de la veille technologique et animer des sessions de knowledge sharing en faisant part de vos retours d'expérience en interne
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -1054,7 +1054,7 @@ Tes Hard Skills : Maîtrise de Python, SQL et Statistiques. Expertise sur les 
   
 Ton état d'esprit : Excellente communication pour naviguer dans des discussions architecturales complexes et changeantes. Tu es orienté "produit" et impact business.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1112,7 +1112,7 @@ Parce que vous êtes #DataGeek, #DigitalAddict, #InnovationLover !
 A travers une Mission Santé-Handicap dédiée, Keyrus déploie une politique de recrutement et met en place un environnement Handi-accueillants. Tous nos postes sont ouverts aux personnes en situation de handicap. 
 Keyrus a été classé dans le palmarès Le Point « Les entreprises les plus responsables de France 2022 » sur la base d'indicateurs dérivés, entre autres, de rapports sur la RSE.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -1224,7 +1224,7 @@ Descriptif du poste STAGE 6MOIS - À partir dejuillet 2026 - Supply Chain - Mast
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1236,7 +1236,7 @@ Missions principales  Être le premier consultant Databricks de l’entreprise e
 **Description :**
 Vous êtes Data Engineer et vous souhaitez évoluer dans un environnement cloud stimulant, au cœur de projets data ambitieux ? Nous proposons une opportunité à Toulouse, dans un contexte technique exigeant où l’automatisation, la scalabilité et la performance sont au cœur des enjeux. Expérience requise : 4 à 5 ans minimum, dont 2 ans sur Databricks     Compétences techniques recherchées :  Databricks : maîtrise confirmée (minimum 2 ans d’expérience) Apache Spark : expertise dans le traitement distribué de données Azure : très bonne connaissance de l’environnement cloud Microsoft Python : solides compétences pour le développement de pipelines et traitements data Anglais professionnel : bon niveau requis pour évoluer dans un contexte international
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -1276,7 +1276,7 @@ Informations supplémentaires
 * La possibilité de s'engager auprès d'une association grâce à notre plateforme d'engagement citoyen.
 * L'opportunité de rejoindre le collectif Tech'Me UP (formations, conférences, veille, et bien plus encore Employeur inclusif et engagé, notre société œuvre chaque jour pour lutter contre toute forme de discrimination et favoriser un environnement de travail respectueux. C'est pourquoi, attachés à la mixité et à la diversité, nous encourageons toutes les candidatures et tous les profils.***
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1288,7 +1288,7 @@ Informations supplémentaires
 **Description :**
 Descriptif du poste Voici un descriptif du poste cohérent avec ce boss , plus clair et plus structuré pour l’annonce. Objectif : montrer que le coach est terrain, exigeant et utile , sans donner l’impression d’un simple consultant. Descriptif du poste En tant que Sales Coach Culturelive , tu es au cœur de la mission : aider les équipes commerciales de nos clients à prospecter mieux, vendre mieux et installer des routines de performance durables. Tu interviens directement auprès des équipes commerciales pour installer la méthode Culturelive sur le terrain, faire progresser les commerciaux et transformer la data commerciale en leviers d’amélioration concrets . Tes missions Coacher les équipes commerciales sur le terrain Tu accompagnes commerciaux et managers sur l’ensemble du cycle de vente B2B : prospection, découverte, relance, closing et suivi. Tu observes, tu coaches, tu corriges et tu aides les équipes à progresser concrètement dans leurs pratiques. Animer les rituels de performance commerciale Tu fais vivre les rituels qui structurent la performance : revues de pipeline, sessions de prospection, call reviews, ateliers d’entraînement. Ton objectif est simple : installer des routines efficaces et durables. Accompagner les managers commerciaux Tu aides les managers à mieux piloter leurs équipes : animation des rituels, feedback aux commerciaux, suivi des indicateurs, gestion de l’énergie commerciale et de la discipline de prospection. Structurer les référentiels de vente Tu contribues à construire et améliorer les référentiels commerciaux des clients : messages de prospection, séquences, scripts d’appels, playbooks commerciaux, en lien avec la plateforme Culturelive. Collecter et exploiter la data commerciale À chaque mission, tu participes à la collecte et à l’analyse de la data terrain : KPIs de prospection issus du CRM, niveaux de compétence, engagement dans les rituels, progression des équipes. Cette data nourrit à la fois les recommandations clients et l’amélioration de la plateforme. Contribuer à la méthode Culturelive En interne, tu participes à l’amélioration continue de la méthode : retours de mission, partage d’expérience avec l’équipe, enrichissement des pratiques et des contenus. Ce qui caractérise le rôle Un rôle très terrain : coaching réel des équipes commerciales. Un travail au cœur des opérations commerciales des clients . Une approche pragmatique, basée sur la data et les rituels de performance . Une contribution directe à l’évolution de la méthode et de la plateforme Culturelive.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -1302,7 +1302,7 @@ Description de l'entrepriseSopra Steria, acteur majeur de la Tech en Europe avec
 
 Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif. En 2023, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.Description du posteAu sein du vertical Services financiers, vous participez à des grands projets de transformations des systèmes d’informations de nos clients bancaires.  Acteur incontournable de l'avant-vente jusqu'à la mise en production, vous intervenez sur un périmètre large, au sein d'un environnement technique innovant.  Sopra Steria investit dans votre parcours professionnel en vous proposant des formations spécialisées (e-learning, présentiel), des parcours de certification et un accès des communautés internes.  Au travers du collectif TechMe Up, Sopra Steria porte une attention toute particulière au bien-être et à l'épanouissement professionnel des population tech en proposant entre autres :  Des journées de conférences tech biannuelles internes  Des accès à des conférences externes  Des pc « boostés » pour les développements  Parcours de formation dédié pour nos experts techniques  Vos principales missions sont : Vous communiquez avec de nombreuses parties prenantes de l’entreprise pour évaluer les besoins et les objectifs de la plateforme Data  Vous évaluez l’architecture des données et les bases de données actuelles  Vous recommandez les meilleures pratiques ETL pour l’ingestion des données  Vous faites des recommandations pour la plateforme cible en prenant en compte les usages existants et à venir   Vous mettez en place des architectures data en environnement multicloud/ cloud Hybride  Vous veillez à l'exploitabilité continue du SI et l'ensemble des aspects de sécurité Reconnu(e) pour votre expertise, vous participez activement à la montée en compétence des équipes Enfin, vous assurez une veille technologique DATA et partagez cette connaissance au sein de la DSI et autres DirectionsEnvironnement technologique : Bases de données Relationnelles et NoSQL,  Cloud (Azure, ou AWS notamment) en particulier leur capacité Data et IA, FinOps,  Technologies Big Data (Hadoop, Spark, Kafka, etc.),  Outils de modélisation : Visio… Langages de programmation, Python et Java. DevOps & CI/CD : Maven, GitLab, Sonar, Checkmark, …  QualificationsVous possédez une forte expérience sur les technologies citées ci-dessus, ainsi qu’une réelle force de proposition en portant les sujets techniques ardus, et un comportement proactif pour embarquer l’équipe et le client dans le succès des projets. Le travail en équipe sera clé en interaction avec le client et aussi en interne avec une forte qualité pédagogique et d’intégration au sein des multiples équipes projets. Vous êtes un vrai couteau suisse, permettant de descendre dans la technique sur les sujets ardus (exemplarité vis-à-vis des équipes techniques), tout en gardant du recul, et sachant aussi remonter plus haut au niveau DAT / Roadmap / Stratégie. Vous êtes issu(e) d'un Master 2 ou équivalent (Ecole d'Ingénieurs ou Universitaire) et possédez au moins 5 ans d'expérience en tant qu'Architecte DATA, dans des environnements complexes et exigeants. Informations supplémentairesCe que nous proposons : Un accord télétravail pour télétravailler jusqu'à 2 jours par semaine selon vos missions.Un package avantages intéressants : une mutuelle, un CSE, des titres restaurants, un accord d'intéressement, des primes vacances et cooptation.Un accompagnement individualisé avec un mentor que vous choisissez.Des opportunités de carrières multiples : plus de 50 métiers, autant de passerelles à imaginer ensemble. Plusieurs centaines de formations accessibles en toute autonomie depuis l'app mobile avec Sopra Steria Academy.La possibilité de s'engager auprès de notre fondation ou de notre partenaire «Vendredi »L'opportunité de rejoindre le collectif Tech'Me UP (formations, conférences, veille, et bien plus encore...).Parcours de certifications (Kubernetes (CKA, CKD), GCP, Dataiku , Microsoft Azure, AWS). Des environnements industrialisés en self-service (GitLab, OpenShift 4, Azure, …) Employeur inclusif et engagé, Sopra Steria œuvre chaque jour pour lutter contre toute forme de discrimination et favoriser un environnement de travail respectueux. C’est pourquoi, attachés à la mixité et à la diversité, nous encourageons toutes les candidatures et tous les profils.https://www.soprasteria.fr...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1344,7 +1344,7 @@ Contribuer à la préparation des réponses aux appels d'offres, avec l'appui d'
 
 Pour réaliser ces missions, vous pouvez compter sur les compétences de votre équipe ainsi que sur le réseau des experts multidisciplinaires d'Artelia.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -1381,7 +1381,7 @@ Au sein du Département Pilotage Temps Réel (POTR), rattaché à la Direction d
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1406,7 +1406,7 @@ La démarche d’Excellence Opérationnelle (OPEX) chez Framatome repose sur la 
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1469,7 +1469,7 @@ Compétences techniques appréciées :
 - SageMaker, outils MLOps
 - Sécurité cloud / gouvernance data
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1583,7 +1583,7 @@ Profil recherché :
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1595,7 +1595,7 @@ Description de l'entrepriseSopra Steria Next est la marque de conseil en transf
 **Description :**
 Job Description As Finance Manager (France), you will own the full French finance scope and act as the key interface between the French entity and the Group Finance team. You will ensure compliant, reliable, and timely financial operations (statutory and group), lead reporting and audit coordination, and establish scalable finance processes and best practices for affiliate reporting to headquarters — helping define standards that can be extended across the wider business. You will work closely with an external accounting. You will report directly to the Group CFO (based in Sweden). Key responsibilities Finance management (France entity ownership) Own the finance function for the French entity end-to-end, ensuring accuracy, compliance, and operational efficiency Act as a trusted finance partner to local leadership and the Group CFO Monitor cash position and overall financial health Lead coordination for the annual CAC statutory audit in France Lead the preparation, coordination, and timely filing of CIR/CII declarations in France Accounting, closing & reporting Oversee month-end activities with the external accountant and ensure smooth, timely closings Deliver high-quality monthly reporting to the Group, aligned with group timelines and standards Ensure accurate revenue recognition in accordance with SaaS models, including alignment of systems and billing Prepare and maintain Monthly Recurring Revenue (MRR) reporting, including new business, expansions, contractions, and churn Collaborate with Sales and Customer Success to ensure data accuracy and consistency Payroll & financial operations Process and oversee payroll, including salary calculations, variable compensation, commissions, benefits, and payroll taxes Coordinate with external payroll providers to ensure accuracy and timeliness Ensure proper controls and reliability across key financial operations HR administration & office Oversee HR administration for the French entity, including employee contracts, onboarding/offboarding, and compliance with local labor laws Act as the main point of contact for employees on administrative HR topics (contracts, benefits, payroll questions) Coordinate with external suppliers and service providers (office, equipment, insurance, etc.) Ensure smooth day-to-day office operations and vendor management
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1607,7 +1607,7 @@ Job Description As Finance Manager (France), you will own the full French financ
 **Description :**
 Descriptif du poste L’équipe Success est au cœur de l’expérience client : elle veille à ce que chaque utilisateur tire un maximum de valeur de notre solution et contribue directement à notre croissance. Nous recherchons un(e) Customer Support Engineer avec 1 à 3 ans d’expérience en support technique, capable de prendre en charge les tickets de niveau 1 et 2, tout en contribuant activement à la structuration et à l’amélioration continue du support. Tu travailleras en étroite collaboration avec les équipes Tech, Produit et CSM , et reporteras directement à Lucas (DevOps). Ton rôle s’articulera autour de trois piliers : gestion des tickets, structuration du support (Ops) et excellence relation client. 📩 Gestion des tickets : prendre en charge le support niveau 1 & 2 Gérer les tickets entrants (qualification, priorisation, respect des SLA). Gérer les questions Product de niveau 1. Réaliser les investigations techniques : reproduction des bugs, analyse fonctionnelle, collecte d’informations auprès des clients. Apporter des réponses claires, structurées et pédagogiques aux utilisateurs. Assurer le suivi des tickets jusqu’à leur résolution (communication proactive, mise à jour des statuts). Escalader efficacement vers les équipes Tech ou Produit lorsque nécessaire, avec un diagnostic précis. Identifier les incidents récurrents et proposer des actions correctives. ⚙️ Ops : participer à la structuration du support Participer à la structuration des processus de support (workflow, règles de priorisation, escalade). Contribuer à la mise en place et au suivi du reporting support : Volume de tickets Temps de réponse (SLA) Temps de résolution Typologie des incidents Concevoir et améliorer les templates de réponse. Rédiger et maintenir les procédures de traitement des incidents. Faire le lien entre les équipes techniques et non-techniques : Product ↔ Support Tech ↔ Support CSM ↔ Support Participer activement à l’amélioration continue des applications en collaboration avec l’équipe Produit. 🤝 Relation client & satisfaction Garantir un haut niveau de satisfaction client dans chaque interaction. Remonter les besoins clients et principaux irritants aux équipes internes. Collaborer étroitement avec les CSM pour offrir une expérience fluide et cohérente. Participer à la mise en place et au suivi d’indicateurs de satisfaction client. Contribuer à l’amélioration continue du service client.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -1666,7 +1666,7 @@ _La Banque de France est une institution socialement responsable_ [https://www.b
 
 _Des aménagements de poste peuvent être organisés pour tenir compte des handicaps des personnes recrutées._
 
-**seniority_level :** Jeune diplômé (0)
+**seniority_level :** Jeune diplômé
 
 --------------------------------------------------------------------------------
 
@@ -1777,7 +1777,7 @@ Curiosité et ouverture d'esprit pour challenger les outils actuels et apprendre
 
 Sens de l'analyse et esprit critique pour aborder les problématiques de gouvernance et de qualité des données.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -1790,7 +1790,7 @@ Sens de l'analyse et esprit critique pour aborder les problématiques de gouvern
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -1842,7 +1842,7 @@ Profil recherché:
  
 Prêt à rejoindre l'équipe ? Postulez dès maintenant et lancez-vous dans l'aventure Datatorii !
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -1854,7 +1854,7 @@ Prêt à rejoindre l'équipe ? Postulez dès maintenant et lancez-vous dans l'av
 **Description :**
 Descriptif du poste 🌱 Le contexte Goodvest est la première assurance-vie 100 % compatible avec les accords de Paris. Depuis 2021, nous permettons à des milliers d'épargnants de faire fructifier leur argent en finançant uniquement des entreprises vertueuses pour le climat et la société. Nous sommes à un moment charnière : notre base client s'accélère, notre gamme de produits s'élargit (livret, assurance-vie, plan épargne retraite), et la relation client devient un levier de croissance central. Pour passer à l'échelle, nous cherchons un·e CRM Manager capable de construire une relation durable, personnalisée et performante avec nos clients. Tu rejoins une équipe Growth & Marketing ambitieuse, dans une startup en forte croissance (~40 personnes), où tu auras une vraie latitude pour structurer le CRM de A à Z. 🎯 Ta mission Maximiser la valeur client à chaque étape du cycle de vie : activation, nurturing, montée en engagement, cross-sell et up-sell. Tu es le·la garant·e d'une communication client pertinente, personnalisée et mesurable, au service de la collecte et de la fidélisation. 🧩 Tes missions principales Gestion et développement des parcours CRM Concevoir, déployer et améliorer les parcours de marketing automation sur tous les canaux : email, SMS, push notification, appels, etc. Segmenter finement nos audiences et personnaliser les messages selon les comportements, les produits détenus et les intentions détectées Piloter des campagnes ad hoc en appui des temps forts commerciaux Mettre en place des cycles d'AB testing réguliers pour optimiser les messages, timings et séquences Être force de proposition sur les bonnes pratiques CRM auprès de l'équipe contenus Personnalisation et intégration de l'IA Exploiter la couche data et des agents IA pour personnaliser les communications selon l'historique de chaque client Optimiser la fréquence et la pertinence des prises de contact Améliorer en continu les prompts utilisés dans les séquences automatisées Analyse et reporting des performances Monitorer et analyser les performances des campagnes (taux d'ouverture, clics, conversion, revenus générés) Construire et faire évoluer des tableaux de bord et reportings clés (Metabase, PostHog, Google Sheets) Contribuer à la définition des KPIs CRM et proposer des analyses permettant de mieux comprendre les comportements clients Concevoir et piloter des enquêtes ou questionnaires pour enrichir la connaissance client Collaboration cross-team Travailler en étroite collaboration avec les équipes Commerciales, Customer Care, Produit, Data et Tech Co-construire des scorings clients avec l'équipe Data pour mieux prioriser les actions CRM Optimiser les processus commerciaux en lien avec les Sales Assurer une veille active sur les pratiques CRM, email marketing et les tendances du secteur (fintech, assurance, épargne)
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -1889,7 +1889,7 @@ Tu es à l'aise dans la gestion des composants et de la documentation pertinente
  
 Le poste est situé à Porte d'Orléans, proche du périphérique et du métro.
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -1920,7 +1920,7 @@ Solides compétences en pilotage de projets et coordination multi-acteurs
 Bonne connaissance des lots techniques (CVC, électricité, systèmes critiques)
 Autonomie, rigueur et sens des responsabilités
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -1962,7 +1962,7 @@ PROFIL ET PARCOURS :
 	* Startup, ISV ou éditeur logiciel — a déjà fait tourner du ML en production réelle
 	* Sensibilité produit forte : vous pensez à l'utilisateur final et à la maintenabilité, pas seulement à valider une hypothèse
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -2075,7 +2075,7 @@ Mécénat de compétences
 Partenariat pour le bien-être mental
 Attentif au bien-être de ses collaborateurs, Square Management vous propose une évolution de carrière en adéquation avec vos ambitions au sein d'une ambiance conviviale et d'évènements renforçant la cohésion d'entreprise.
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -2107,7 +2107,7 @@ Collaborer avec les Data Engineers pour l'accès aux données
 
 Contribuer à l'amélioration de la qualité des données
 
-**seniority_level :** Jeune diplômé (0)
+**seniority_level :** Jeune diplômé
 
 --------------------------------------------------------------------------------
 
@@ -2343,7 +2343,7 @@ Les atouts en nous rejoignant
 **Description :**
 Descriptif du poste Au quotidien, tu debugues et résous les tickets remontés par les clients ou l'équipe, tu développes des features concrètes pour améliorer le quotidien de l'équipe TAM, et tu automatises les process manuels qui ralentissent tout le monde. Tu construis des intégrations robustes, des scripts fiables, des dashboards utiles. Managé·e par Maria pour la priorisation globale et les arbitrages entre build et run, tu travailles en autonomie complète sur l'exécution. Tu collabores directement avec Aristide (CTO) sur les décisions d'architecture complexes. L'IA est dans ta stack au quotidien : pour coder plus vite, automatiser plus loin, et proposer des usages nouveaux à l'équipe. 💻 Développement & Debugging Prendre en charge et résoudre les tickets P1 & P2 : identifier la cause racine, corriger le bug, livrer, documenter Développer des features internes pour améliorer le quotidien de l'équipe TAM : outils, interfaces, automatisations Écrire des scripts Python/JS pour automatiser les tâches répétitives et éliminer les process manuels Rédiger des requêtes SQL complexes : analyses, exports, modifications en base Construire et maintenir des dashboards Metabase (clients et usage interne) Maintenir un code propre, versionné, documenté 🤖 IA & Automatisation Utiliser l'IA de façon structurée : génération et revue de code, debugging, documentation automatisée, agents LLM Concevoir et déployer des automatisations sur les workflows internes (support, onboarding, documentation) Prototyper de nouveaux cas d'usage IA à fort levier pour l'équipe Être référent·e IA : partager tes pratiques, documenter tes outils, embarquer les profils moins techniques 🔗 Intégrations techniques Développer et maintenir les intégrations clients : API REST, SSO SAML/OAuth, DNS, SFTP Identifier les frictions techniques et développer des améliorations pour fiabiliser les déploiements Collaborer directement avec le CTO sur les choix d'architecture des intégrations complexes Rédiger et maintenir la documentation technique associée
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -2419,7 +2419,7 @@ Profil recherché :
 * Excellentes compétences analytiques et capacité à traduire des résultats complexes,
 * Forte aptitude à travailler en équipe et à communiquer efficacement.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -2648,7 +2648,7 @@ Expertises demandées:
 Modalités de la prestation :
 La  Présence sur site à Paris XV ème est requise en fonction des besoins de la prestation et a minima équivalente à 50% du temps de la prestation.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -2672,7 +2672,7 @@ Maintien en Condition Opérationnelle : Support de niveau 3, gestion des inciden
 
 Automatisation : Industrialisation des processus de provisioning et de reporting via scripting PowerShell.
 
-**seniority_level :** Jeune diplômé (0)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -2690,7 +2690,7 @@ Animer une équipe de recherche
 Publier les résultats des travaux en conférences ou en revues internationales
 Publier les codes et données produits pour mener les travaux
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -2727,7 +2727,7 @@ Profil recherché:
 * Bonne aisance technique et relationnelle,
 * Etre force de proposition de solutions techniquement innovantes et fiables.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -2780,7 +2780,7 @@ deux jours de TT par semaine une fois la PE validée (deux mois non renouvelable
 vendredi après-midi non travaillé
 vous démarrez le matin à 8h ou 9h et faites vos 8h par jour
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -2836,7 +2836,7 @@ La formation dans les métiers de l'environnement, de l'aménagement du territoi
 
 Alors cette offre est faite pour vous !
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Stage/Alternance
 
 --------------------------------------------------------------------------------
 
@@ -2849,7 +2849,7 @@ Alors cette offre est faite pour vous !
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -2891,7 +2891,7 @@ Autonomie, rigueur, sens du détail et excellent relationnel.
 
 remote
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -2950,7 +2950,7 @@ Savoir-être
 * Bon relationnel et sens du travail en équipe
 * Organisation et capacité de priorisation.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -2993,7 +2993,7 @@ Informations supplémentaires
 * Plusieurs centaines de formations accessibles en toute autonomie avec Sopra Steria Academy.
 * L'opportunité de rejoindre le collectif Tech'Me UP (formations, conférences, veille, et bien plus encore Employeur inclusif et engagé, notre société œuvre chaque jour pour lutter contre toute forme de discrimination et favoriser un environnement de travail respectueux. C'est pourquoi, attachés à la mixité et à la diversité, nous encourageons toutes les candidatures et tous les profils.***
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -3018,7 +3018,7 @@ Au sein du Département Pilotage Temps Réel (POTR), rattaché à la Direction d
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -3059,7 +3059,7 @@ En rejoignant Wavestone, vous bénéficierez de Carreer model: une carrière sur
 * Smartworking : le travail flexible et mobile fait partie de notre ADN et permet un cadre adéquat de collaboration.
 * A Great Place To Work : nous sommes reconnus comme Great Place To Work 2025, nous classant numéro un dans notre catégorie
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -3151,7 +3151,7 @@ Frameworks Front : Angular ou React
 
 IA Générative / NLP / ML appliqué à la QA
 
-**seniority_level :** Jeune diplômé (0)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -3254,7 +3254,7 @@ PROCESSUS DE CANDIDATURE :
 
 _Vous vous êtes reconnu.e ? Alors rejoignez-nous en postulant à cette offre._
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -3391,7 +3391,7 @@ Langage : Python
 
 Streaming : Event Hub, Service Bus
 
-**seniority_level :** Jeune diplômé (0)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -3405,7 +3405,7 @@ Description de l'entrepriseSopra Steria, acteur majeur de la Tech en Europe, ave
 
 The world is how we shape it*Description du posteVous prenez en charge la modélisation fonctionnelle des pivots référentiels du produit Référentiel Nomenclatures EP (Informatica MDM IDMC SaaS).Vous pilotez les ateliers, structurez le backlog, rédigez les spécifications et garantissez la cohérence fonctionnelle du produit.Vos missionsEn tant que Business Analyst expert MDM, vos responsabilités :Modélisation fonctionnelle des pivots référentiels, incluant les fragments (multi-fragments complexes).Définition d’un standard pivot pour les nomenclatures simples/complexes.Contribution à la cohérence fonctionnelle globale du produit.Rédaction des spécifications fonctionnelles détaillées (SFD).Co‑travail quotidien avec la PO et les autres BA du produit.En liaison directe avec les experts métiers et les MOA internes :Organisation et animation des ateliers fonctionnels.Préparation des supports, production des comptes rendus et relevés de décisions.Point d’avancement hebdomadaire obligatoire avec la PO et les équipes du produitQualificationsVous maîtrisez la modélisation conceptuelle, la modélisation pivot référentiel (fragments, structures multi‑niveaux, cardinalités) et JSON. (structures pivot, schémas, interprétation).Vous êtes rigoureux(se), autonome, doté(e) d’un bon relationnel et à l’aise dans les environnements agiles.Diplômé(e) d’une Ecole d’Ingénieurs, de Commerce ou équivalent Universitaire, vous justifiez d’une expérience minimum de 4 ans.Informations supplémentairesLes avantages à nous rejoindre :  ​Un accord télétravail pour télétravailler jusqu'à 2 jours par semaine selon vos missions.Un package avantages intéressants : une mutuelle, un CSE, des titres restaurants, un accord d'intéressement, des primes vacances et cooptation.Des opportunités de carrières multiples : plus de 50 métiers, des secteurs d’activités très hétérogènes autant de passerelles à imaginer ensemble.La possibilité de s'engager auprès de notre fondation et / ou de notre partenaire « Vendredi »L'opportunité de rejoindre le collectif Tech'Me UP / Tech Women Up, communauté technique du groupe pour s’enrichir de formations, conférences, actions de veille, et bien plus encore...Plusieurs centaines de formations accessibles en toute autonomie avec la Sopra Steria AcademyEmployeur inclusif et engagé, notre société œuvre chaque jour pour lutter contre toute forme de discrimination et favoriser un environnement de travail respectueux. C’est pourquoi, attachés à la mixité et à la diversité, nous encourageons toutes les candidatures et tous les profils.https://www.soprasteria.fr/nous-connaitre/nos-engagements
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -3460,7 +3460,7 @@ Vos conditions et environnement de travail
 .Engagements RSE forts, et initiatives des collaborateurs encouragées
 .Environnement multiculturel (plus de 75 nationalités sur le campus)
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -3494,7 +3494,7 @@ Profil recherché :
 * Disposer d'une première expérience en exécution de tests, notamment UAT (User Acceptance Testing), appréciée
 * Faire preuve de rigueur, d'esprit analytique et de bonnes capacités de communication avec des interlocuteurs métiers et techniques
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -3549,7 +3549,7 @@ Soft skills
 Environnement technique
 * SAS (actuel)
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -3649,7 +3649,7 @@ Les atouts en nous rejoignant
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -3697,7 +3697,7 @@ La démarche d’Excellence Opérationnelle (OPEX) chez Framatome repose sur la 
 **Description :**
 Job Description About the role 🚀 You’ll join Qantev’s Go-To-Market (GTM) team , a group of talented professionals based in Paris and Hong Kong. As a Senior AE, you’ll play a pivotal role in driving Qantev’s growth with enterprise insurance customers worldwide. You’ll be responsible for managing the full sales cycle — from prospecting and qualification to negotiation and closing — while collaborating closely with our Sales Development, Customer Success, and Product teams. We’re looking for someone who thrives in a fast-paced, collaborative environment, combines commercial acumen with curiosity, and can build trusted relationships with senior stakeholders in the insurance ecosystem. - Culture add/fit : low-ego, collaborative, fast feedback loops, reliable follow-through. What you will do 👊 1. Pipeline Generation & Business Development Identify, qualify, and develop new enterprise opportunities in the health insurance sector. Partner with the Sales executive team to refine outreach strategies and ensure a steady, high-quality pipeline. Drive outbound prospecting efforts through strategic campaigns and personalized engagement. 2. Full Sales Cycle Ownership Manage complex B2B sales cycles, from discovery and demos to proposals, negotiation, and closing. Understand client challenges, quantify business impact, and position Qantev’s value proposition effectively. Work closely with Pre-Sales  and Solution Consultants to tailor demos and proof-of-value. 3. Strategic Account Management Develop long-term relationships with key accounts to drive renewals and expansion opportunities. Support Customer Success in ensuring customer satisfaction and identifying upsell potential. Maintain account plans and accurate forecasting in CRM (Pipedrive) 4. Market & Brand Development Represent Qantev at industry conferences and client events. Contribute to marketing initiatives such as webinars, white papers, or speaking engagements. Gather and share market intelligence to help refine our GTM strategy and product roadmap.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -3788,7 +3788,7 @@ AVANTAGES MAYOLY
 	* Nombreux avantages CSE
 	* Politique d’inclusion et diversité engagée
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -3808,7 +3808,7 @@ MISSION GLOBALE :
 
 Notre client est un grand groupe industriel de référence dans le secteur défense & technologies. Dans le cadre du développement d'une V0 sur un projet de détection d'éléments pour le secteur Naval (analyse d'images et flux vidéos), nous recherchons un Data Scientist Senior à forte séniorité et capacité de leadership. Vous participerez activement à la phase de scoping et au cadrage des besoins IA avec les équipes métiers, tout en concevant, développant et validant des solutions algorithmiques de Computer Vision/DRI et en assurant le cycle de vie complet des modèles (MLOps) dans un environnement de sprint condensé.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -3849,7 +3849,7 @@ Pourquoi nous rejoindre ?
 - Réduction au personnel
 - Système de rémunération variable.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -3873,7 +3873,7 @@ La démarche d’Excellence Opérationnelle (OPEX) chez Framatome repose sur la 
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -3917,7 +3917,7 @@ Vous justifiez d'une expérience significative en Data Engineering (3 à 5 ans i
 
 La Diversité trouve toute son expression dans la politique de recrutement du Groupe Casino qui privilégie l'égalité des chances et la diversité des individus au sein de ses équipes.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -3946,7 +3946,7 @@ Description de l'entrepriseSopra Steria Next est la marque de conseil en transfo
 • Capacité à prioriser, arbitrer et influencer les décisions.
 • Esprit analytique, rigueur et sens politique. Tous nos postes sont ouverts aux personnes en situation de handicap. https://www.soprasteria.fr/nous connaitre/nos engagementsEmployeur inclusif et engagé, Sopra Steria œuvre chaque jour pour lutter contre toute forme de discrimina...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -3979,7 +3979,7 @@ Participer aux réflexions stratégiques sur l'évolution de la stack et les mig
 Contribuer à la veille technologique et à l'innovation.
 Aider à accroître la maturité de l'entreprise concernant les pratiques liées à l'IA.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -4015,7 +4015,7 @@ Ce que nous vous proposons***Un accord télétravail pour télétravailler jusqu
 * Plusieurs centaines de formations accessibles en toute autonomie.
 * La possibilité de s'engager auprès de notre fondation ou de notre partenaire «Vendredi L'opportunité de rejoindre le collectif Tech'Me UP (formations, conférences, veille, et bien plus encore Employeur inclusif et engagé, notre société œuvre chaque jour pour lutter contre toute forme de discrimination et favoriser un environnement de travail respectueux. C'est pourquoi, attachés à la mixité et à la diversité, nous encourageons toutes les candidatures et tous les profils.***
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -4050,7 +4050,7 @@ Profil recherché:
 Issu(e) d'une formation Bac+5 en électricité, MEP, génie civil ou construction, idéalement avec une spécialisation ou une expérience en environnement Data Center ou site critique, vous justifiez d'une expérience significative en gestion de projets en maîtrise d'œuvre (MOE), MOA, AMO, contractant général ou au sein d'entreprises de travaux. 
 Cette opportunité te correspond, envoie-nous ton CV !
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -4135,7 +4135,7 @@ Bus 23 - Arrêt ZAC de Tulipes Nord  
 * 
 Une navette gratuite est disponible, reliant la gare du Bourget (RER B) à Manutan en seulement 15min
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -4224,7 +4224,7 @@ Langues
 * Anglais courant (indispensable)
 * Français professionnel (souhaité)
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -4277,7 +4277,7 @@ Bac +5 en maintenance industrielle avec analyse DATA
 
 24 mois
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Stage/Alternance
 
 --------------------------------------------------------------------------------
 
@@ -4303,7 +4303,7 @@ Vous avez une bonne compréhension des principes Infrastructure as Code, CI/CD e
 
 Vous êtes autonome, rigoureux·se et aimez résoudre des problématiques techniques complexes.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -4377,7 +4377,7 @@ validation des chaînes de retrieval et d?embeddings,
 
 comparaison de prompts, modèles ou configurations
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -4413,7 +4413,7 @@ o   Le cas échéant, aide à l?industrialisation du POC,
 
 ·        Aide et accompagnement des équipes MOE et MOA sur les méthodes, algorithmes, technologies utilisées dans les POC.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -4458,7 +4458,7 @@ Concevoir et faire évoluer les entrepôts de données BI (ODS, DWH, DTM) et les
 Intégrer les données métiers issues des applicatifs du SI et du MDM dans la BI ; concevoir et maintenir les KPI et tableaux de bord à destination des directions ;
 Produire et faire évoluer les reportings à destination de la gouvernance et des directions métiers ; définir les normes et bonnes pratiques BI de la DOSI ;
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -4519,7 +4519,7 @@ La CDC fonde le recrutement sur les compétences en excluant tout critère de di
 ·         Polyvalent, doté d’un sens analytique et d’une grande curiosité intellectuelle.
 ·         Capacité rédactionnelle synthétique appréciée
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -4794,7 +4794,7 @@ Profil recherché:
  
 Prêt à rejoindre l'équipe ? Postulez dès maintenant et lancez-vous dans l'aventure Datatorii !
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -4826,7 +4826,7 @@ Dans le cadre de l?évolution de ses plateformes Big Data et décisionnelles, AD
 
 Vous participerez à la migration et à l?optimisation d?environnements Big Data (Cloudera, Spark, Hive, Scala) et contribuerez à la mise en place de solutions BI performantes et scalables.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -4950,7 +4950,7 @@ Descriptif du poste Role Overview As a Commercial/Business Development Intern, y
 **Description :**
 Descriptif du poste Nous recrutons un(e) Customer Success Manager - SMB pour renforcer l’équipe et accompagner la croissance du portefeuille clients SMB. Ta mission : garantir la réussite, la satisfaction et la croissance de tes clients sur notre solution SaaS, dans un contexte de gestion de portefeuille structuré. L’onboarding reste une étape essentielle de la relation, mais ton rôle se concentre principalement sur le run, la rétention et la croissance du portefeuille. Tu devras assurer un suivi efficace, détecter les signaux faibles et maintenir un haut niveau d’engagement. Tu deviendras un partenaire clé de tes clients, capable de créer rapidement de la valeur et de transformer leur usage de Mayday en un levier d’efficacité et de performance pour leurs équipes tout en adoptant une approche pragmatique et scalable. Tu évolueras dans un environnement où il est clé de trouver le bon équilibre entre maximiser la satisfaction de tes clients tout en déployant des stratégies scalables (1-to-many) . Tu reporteras directement à Solène, Responsable de l’équipe Customer Success, et collaboreras au quotidien avec les équipes Onboarding, Sales, Produit et Marketing pour maximiser la valeur délivrée à nos clients et faire évoluer nos pratiques sur le segment SMB. 🎯 Missions principales Ton rôle se décompose en deux volets : pilotage de la relation client et développement de la valeur et de la croissance , avec une contribution clé à la structuration de l’équipe Success . 🧑‍✈️ Pilotage du portefeuille Gérer avec agilité un portefeuille de 50 à 80 comptes SMB , en adaptant l’accompagnement à leur maturité et en priorisant les actions selon le potentiel et les risques de chaque compte. Créer rapidement une relation de confiance avec les interlocuteurs tout en optimisant les cycles d’échanges pour gagner en productivité. Sécuriser les renouvellements et développer le portefeuille en transformant les besoins clients en opportunités de croissance. Contribuer à l’onboarding de nouveaux clients (4 à 5 sessions en moyenne) dans un contexte de transformation vers un modèle CSM spécialisé Onboarding / Run , tout en participant à l’amélioration des processus. ✍️ Scalabilité et création de ressources Mettre en place une approche 1-to-many dès que pertinent , sans dégrader l’expérience client. Créer et améliorer des ressources réutilisables (playbooks d’onboarding, templates, vidéos, tutoriels, emails automatisés) afin d’accélérer l’adoption et favoriser l’autonomie des clients. Animer des webinars clients pour adresser les problématiques communes et créer une dynamique collective. Suivre l’adoption produit et exploiter les données pour transformer les insights en actions concrètes, mesurables et documentées. 🤝 Contribution à la structuration du pôle CS Être force de proposition sur les process, les outils et l’organisation pour améliorer la gestion d’un portefeuille à fort volume. Porter la voix des clients SMB en interne auprès des équipes Produit, Marketing et Sales. Mettre en place et suivre les bons indicateurs pour le segment : NPS, adoption, churn risk, engagement avec des rituels adaptés au scale.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -5020,7 +5020,7 @@ Excellente maîtrise de Scala
 Très bonne connaissance de Spark et écosystème Hadoop / Cloudera
 Solide expérience en Hive et SQL (optimisation de requêtes, gestion de la volumétrie)
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -5032,7 +5032,7 @@ Solide expérience en Hive et SQL (optimisation de requêtes, gestion de la volu
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -5067,7 +5067,7 @@ Profil recherché 
 * Esprit d'analyse, rigueur, autonomie et sens du service client
 * Français courant, anglais professionnel
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -5118,7 +5118,7 @@ Ce que nous proposons Un accord télétravail pour télétravailler jusqu'à 2 j
 * Des opportunités de carrières multiples : plus de 50 métiers, autant de passerelles à imaginer ensemble. Plusieurs centaines de formations accessibles en toute autonomie depuis l'app mobile avec Sopra Steria Academy.
 * La possibilité de s'engager auprès de notre fondation ou de notre partenaire «V
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -5169,7 +5169,7 @@ Nous accueillons toutes les candidatures sans distinction et favorisons un envir
 
 Aie le goût de l'aventure et rejoins nos 6000 collaborateurs en France !
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -5181,7 +5181,7 @@ Aie le goût de l'aventure et rejoins nos 6000 collaborateurs en France !
 **Description :**
 Job Description Context You'll join a tight-knit team with high product standards and direct access to production deployment : our models are tested in real-world conditions, with several million users each month, with very short cycles between prototyping, integration and deployment. In this context, you'll work on the next generation of agentic and recommendation systems — building the pipelines, agents, and models that sit at the core of our product. Your Mission Your goal is to build and scale the agentic infrastructure that powers Lemrock's commerce intelligence — turning raw signals into automated, self-improving systems at production scale. Concretely, you will: Analyze large-scale conversational interaction datasets (100M+ events/month) to uncover behavioral patterns, intent signals, and performance drivers. Design and deploy agentic pipelines end-to-end — from data ingestion and enrichment to model orchestration, monitoring, and continuous improvement — integrated into systems exposed to millions of requests daily. Build autonomous agents that keep our knowledge infrastructure accurate and current. Translate insights into iteration loops in production , by updating, fine-tuning, and improving our existing recommendation and ranking algorithms with tight constraints on latency, robustness, and business outcomes. Design and train new recommendation models from scratch when needed, with a focus on scalability, evaluation rigor, and deployability in real-world traffic.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -5217,7 +5217,7 @@ Descriptif du poste Chez Istya, nous sommes convaincus que l'innovation est une 
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -5250,7 +5250,7 @@ En tant que Data Engineer GCP vous maîtrisez :
  - Les concepts de la modélisation relationnelle et non-relationnelle
 Diplômé(e) d'une école d'ingénieur ou d'une université, vous justifiez d'au minimum 3 ans d'expérience professionnelle dans un contexte projet Data. Rigoureux(se), proactif(ve) et autonome vous restez en veille technologique et êtes force de proposition. Vous êtes capable de prendre de la hauteur et vous adapter aux enjeux du projet.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -5335,7 +5335,7 @@ Rémunération fixe : 50-59K€ selon profil2 jours de télétravail hebdomadair
 * Entretien avec le manager de l'équipe
 * Test de personnalité
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -5392,7 +5392,7 @@ Profil recherché:
  
 Prêt à rejoindre l'équipe ? Postulez dès maintenant et lancez-vous dans l'aventure Datatorii !
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -5408,7 +5408,7 @@ Sopra Steria place l’humain au centre de son action et s’engage auprès de s
 
 The world is how we shape itDescription du posteLe Data Center of Excellence Sopra Steria (DCoE), entité transverse du pôle France, est au cœur de l’accompagnement et de la transformation Data / IA de nos clients. Convaincu que la Data est le moteur d’un socle industriel évolutif et durable, construit pour répondre aux enjeux buisness, nous travaillons sur toute la chaine afin d’apporter de la valeur à nos clients sur tous les niveaux (métier, IT, CxO…) en lien avec nos équipes conseils et delivery.Le DCOE regroupe les expertises technologiques et méthodologiques sur toute la chaine de valeur Data : de la stratégie de transformation, à la mise en place d’usage d’IA au quotidien, en passant par la gouvernance et les architectures Data Cloud et on premise. Environnement de travail En tant que Consultant Analytics & IA vous intégrerez notre centre d’excellence Data, ce qui vous permettra d’intervenir auprès de divers clients dans des secteurs d’activités variés (Banque, Assurance, Secteur Public, Télécom, Média, Jeux, Industrie et Services) sur l’ensemble du territoire Français. Nous intervenons en appuis des équipes delivery, lors de la phase de prospection, d’avant-vente et de réalisation des projets. Vous travaillerez en priorité sur les sujets d’Analytics & d’industrialisation IA (traitement des données, qualité, modélisation, visualisation, veille, innovation) tout en intégrant les meilleures pratiques d’industrialisation des projets IA à l’échelle d’une organisation. Nous travaillons en partenariat avec les éditeurs phares du marché, ainsi qu’avec les hyperscaler.  Vos missions Analyser des ensembles de données complexes pour répondre à des questions commerciales stratégiques et opérationnelles Participer à des ateliers de conception et de conseil avec les clients. Aider les clients à valoriser leurs données en leur donnant du sens à travers des outils d'exploration et de dashboarding. Proposer des solutions de IA/ML, incluant méthodologies, architectures et outillages, tout en assurant l'accompagnement des clients. Posséder des compétences sur des stacks MLOps et les meilleures pratiques, ex. ZenML, Dataiku, SageMaker, VertexAI, MLFlow, Docker, Kubernetes, etc.  Mettre en œuvre des transformations et valoriser les données en utilisant SQL, Python, Java, Scala. Avoir une bonne connaissance des méthodologies et des outils liés au CI/CD. Avoir une maîtrise d’au moins un des cloud provider (AWS, GCP ou Azure)  Cadrer les projets, comprendre un RFP, élaborer une réponse technique (Audit, Roadmap, propositions techniques et logicielles) et la défendre devant un auditoire mixte, à la fois technique et fonctionnel. Avoir une connaissance de Snowflake ou de Databricks serait un atout majeur. (incluant l'optimisation des performances et la réduction des coûts d'utilisation). Effectuer une veille technologique et académique constante sur les avancées en IA.   Suite à votre prise de poste, vous serez potentiellement amené(e) à réaliser de l’encadrement d’équipe et/ou intervenir sur le delivery de solution (à titre d’expertise). QualificationsDe formation Bac+5 ou plus (ingénieur grandes écoles ou universités), vous justifiez d’une expérience d’au moins trois ans sur un poste de Consultant Analytics et IA vous ayant permis d’acquérir de solides compétences. Vous avez une sensibilité particulière sur des sujets Data et IA plus larges (Algorithmie, industrialisation, explicabilité) ? Cela sera un véritable atout pour vous adaptez aux différents projets desquels vous serez en charge.  A l’aise avec la prise de parole en public cela vous permettra de présenter et animer des ateliers et réunions autour de solutions IA.  Pour finir, vous disposez d’un anglais de niveau B2 nécessaire pour adresser nos clients à l’étrangers.  Tous nos postes sont ouverts aux personnes en situation de handicap. https://www.soprasteria.fr/nous connaitre/nos engagements Employeur inclusif et engagé, Sopra Steria œuvre chaque jour pour lutter contre toute forme de discrimination et favoriser un environnement de travail respectueux. C’est pourquoi, attachés à la mixité et à la diversité, nous encourageons toutes les candidatures et tous les ...
 
-**seniority_level :** Jeune diplômé (0)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -5421,7 +5421,7 @@ The world is how we shape itDescription du posteLe Data Center of Excellence Sop
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -5470,7 +5470,7 @@ Profil recherché:
 * Connaissance du milieu hospitalier ou de la recherche clinique appréciée
 Qualités attendues : rigueur, esprit d'initiative, capacité à travailler en équipe.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -5482,7 +5482,7 @@ Qualités attendues : rigueur, esprit d'initiative, capacité à travailler en �
 **Description :**
 Dassault Systèmes, l'entreprise de la 3DEXPERIENCE, est un « accélérateur de progrès humain ». Elle propose aux entreprises et aux particuliers des environnements virtuels collaboratifs qui leur permettent d'imaginer des innovations plus durables. En développant un jumeau virtuel du monde réel, grâce à la plateforme 3DEXPERIENCE et à ses applications, Dassault Systèmes donne à ses clients les moyens de repousser les limites de l'innovation, de l'apprentissage et de la production. Les 20000 collaborateurs de Dassault Systèmes travaillent à créer de la valeur pour nos 270000 clients de toutes tailles, dans toutes les industries, dans plus de 140 pays. Pour plus d'informations, visitez notre site www.3ds.com/fr  Nous recherchons notre futur(e) ingénieur(e) de données, pour intégrer nos équipes Information Systems (IS).Dassault Systèmes, « The 3DEXPERIENCE Company », offre aux entreprises et aux particuliers les univers virtuels nécessaires à la conception d'innovations durables. Ses solutions leaders sur le marché transforment pour ses clients, la conception, la fabrication et la maintenance de leurs produits. Les solutions collaboratives de Dassault Systèmes permettent de promouvoir l'innovation sociale et offrent de nouvelles possibilités d'améliorer le monde réel grâce aux univers virtuels. Avec des ventes dans plus de 140 pays, le Groupe apporte de la valeur à plus de 250000 entreprises de toutes tailles dans toutes les industries. Vos missions :Contribuer à la conception et à la structuration de méthodes et de bonnes et de pratiques sur des sujets data sciences (gouvernance, framework, etc)Concevoir et maintenir des pipelines de données supportant des applications de reporting, d'analyse, et de data science.Collaborer avec un large panel d'interlocuteurs au sein des différentes équipes impliquées.Participer au bon fonctionnement de l'environnement technique (orchestration, ETL, applications, etc) et à aux projets structurants du département Data IS.Assurer la gouvernance des données, la sécurité et la gestion des données.Surveiller, tester et améliorer les performances, la fiabilité et la rentabilité des pipelines et de toutes les exécutions des développeurs.    Vos qualifications :Vous êtes issu d'une formation supérieure de niveau Bac +5, type Ingénieur ou équivalent.Vous souhaitez développer ou approfondir vos compétences en définition, mise en place de méthodologie et plus largement de structuration. Vous avez de l'expérience dans l'intégration d'API, la composition de pipeline, l'orchestrationVous maîtrisez le développement de tâches ETL/ELT et le scripting Python.Vous avez de l'expérience dans l'intégration de sources de données SAP et non SAP, ainsi que dans la modélisation et dans l'ingestion de données à grande échelleVous avez de l'expérience avec les plateformes de données cloud de dernière génération.   Vous maîtrisez l'anglais à l'écrit et à l'oral Nous rejoindre c'est aussi:Intégrer une entreprise scientifique au cœur de l'innovation technologique, portée par une forte croissance depuis plus de 40 ansPrincipaux avantages et bénéfices :*    Environnement multiculturel*    Cadre de travail convivial axé sur le bien-être et la santé (salles de sport & de musique, conciergerie…)*    Engagement en faveur de la diversité et de l'inclusion*    Politique dynamique de développement de carrière : plan de formation, mobilités internes, etc
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -5547,7 +5547,7 @@ Vous êtes à l?aise avec les outils de versioning (Git) et les workflows collab
 
 Vous savez concevoir des pipelines Data comme de véritables produits logiciels, en tenant compte de la maintenabilité, de l?évolutivité et de l?observabilité
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -5559,7 +5559,7 @@ Vous savez concevoir des pipelines Data comme de véritables produits logiciels,
 **Description :**
 Missions principales  Être le premier consultant Databricks de l’entreprise en France et contribuer à la création et au développement de l’équipe Databricks française.   Déployer des solutions Databricks de qualité sur des projets clients, couvrant data engineering, architecture, analytics et Lakehouse.   Concevoir et mettre en œuvre des architectures de données modernes (Lakehouse, pipelines ELT, analytics).   Interagir directement avec les clients et interlocuteurs seniors pour cadrer les besoins, animer des workshops et proposer des solutions adaptées, incluant la dimension pre-sales et accompagnement stratégique.   Contribuer à la structuration du centre de compétence : bonnes pratiques, modèles, composants réutilisables et standards internes.   Participer au mentorat et à la montée en compétences des consultants plus juniors, en diffusant l’expertise Databricks au sein de l’équipe.   Jouer un rôle clé dans la promotion et la croissance de la practice Databricks en France, en support à la business unit et aux initiatives stratégiques.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -5658,7 +5658,7 @@ Travail en étroite coordination avec les équipes métiers.
 
 Participation aux cérémonies projets et aux ateliers de design.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -5703,7 +5703,7 @@ PROFIL
  
  Besoin d'un nouveau challenge ? Postulez à cette offre pour que nous échangions sur vos perspectives ! Pour toute information complémentaire, n'hésitez pas à contacter notre bureau le plus proche. Nos consultants seront ravis de répondre à vos questions. Et si vous souhaitez consulter l'ensemble des opportunités professionnelles que nous proposons, rendez-vous sur notre site : adsearch.fr !
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -5755,7 +5755,7 @@ Composition et effectifs du service : Le bureau budget et réglementation dirig
 Liaisons hiérarchiques : Quotidienne avec le chef de section et le personnel du bureau et de la sous-direction.
 Liaisons fonctionnelles : Liaisons régulières avec l’agence du numérique des forces de sécurité intérieure et autres entités chargées des projets informatiques.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -5893,7 +5893,7 @@ Livrables/résultats à produire :
 - Assister les Caisses Régionales dans le paramétrage de l'outil ODIGO (Orchestration appels voix entrants et sortants, TCHAT...),
 - Produire des livrables de synthèse et de présentation
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -5921,7 +5921,7 @@ Assurer une veille technologique active et contribuer à la roadmap technique
 
 Garantir la sécurité, la fiabilité et l'évolutivité de la plateforme
 
-**seniority_level :** Jeune diplômé (0)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -5934,7 +5934,7 @@ Garantir la sécurité, la fiabilité et l'évolutivité de la plateforme
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -5967,7 +5967,7 @@ Vous aurez 4 types de missions :
  * Assistance et réalisation d'analyses ponctuelles
  * Participation aux reportings (réglementaires...)
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -6000,7 +6000,7 @@ Tu es à l'aise dans la gestion des composants et de la documentation pertinente
  
 Le poste est situé à Porte d'Orléans, proche du périphérique et du métro.
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -6084,7 +6084,7 @@ Paris
 **Description :**
 Job Description We are looking for a passionate Senior Product Manager to join our team in Paris. You’ll also be helping to define our product strategy, processes, and product culture largely from the ground up. Your role: As a member of the Product Management Team , alongside our technical experts, you will get an opportunity to: Own product strategy, roadmaps, and metrics for the collaboration areas of Qantev’s product, while also contributing to Qantev’s overall product vision Be extremely customer centric. Understand customer needs, then define and ship zero-to-one features and enhance and scale one-to-n features Partner with engineering and product design to iterate and ship features using agile processes Partner with cross-functional teams including customer success, sales, and marketing to gather feedback, communicate product strategy, and drive the introduction and adoption of product features Implement, refine, and scale product management best practices Contribute to Qantev’s product culture, assisting with hiring and team development Bring first principles thinking and a focus on continuous improvement to all aspects of your work
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -6108,7 +6108,7 @@ Job Description Role Overview We are looking for a Full Stack Engineering Appren
 **Description :**
 Job Description We are hiring a Forward Deployed Engineer in our Paris office to own and improve customer projects end to end. This is a hands-on software and data engineering role focused on deploying CarbonFarm’s technical capabilities in real customer environments. Our work combines remote sensing, agricultural data, and machine learning . We work closely with customers around the world to turn complex carbon project requirements into reliable workflows and high-value outputs. The role sits at the intersection of engineering, delivery, and product . You will work across operations, engineering, product, and R&D to run data pipelines, validate model outputs, shape technical requirements, and identify what should evolve into core product functionality. This is not a consulting role. We are looking for someone who is comfortable working directly with code, databases, pipelines, and technical systems , and who can help translate delivery needs into better product and engineering decisions. What you’ll do Run and maintain customer mission workflows from data intake to final output Operate and improve data and ML pipelines Work with Python, SQL, cloud systems, and orchestration tooling (e.g. Dagster) Validate model outputs and investigate issues in data or execution Translate customer needs into actionable technical requirements Support reporting and delivery for multiple customers in parallel Coordinate with operations, engineering, product, and R&D Identify recurring delivery patterns that should be improved or productised Contribute to product improvements over time as delivery work reveals missing capabilities Leverage AI tooling to drive rapid iteration, with a bias for technical accuracy
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -6160,7 +6160,7 @@ Vous êtes intéressé(e) par cette offre d'emploi en alternance ? Postulez dès
 **Description :**
 Rejoignez la communauté Data d’Atos ! La raison d’être d’Atos est de contribuer à façonner l’espace informationnel. Avec ses compétences et ses services, le Groupe supporte le développement de la connaissance, de l’éducation et de la recherche dans une approche pluriculturelle et contribue au développement de l’excellence scientifique et technologique. Partout dans le monde, Atos permet à ses clients et à ses collaborateurs, et plus généralement au plus grand nombre, de vivre, travailler et progresser durablement et en toute confiance dans l’espace informationnel. Dans le cadre du développement de nos solutions d’IA générative et de systèmes multi-agents autonomes, nous recherchons un(e) Data & AI Engineer pour concevoir, industrialiser et déployer des architectures Agentic AI à forte valeur métier.Vous travaillerez sur des projets innovants intégrant LLM, RAG, orchestration d’agents, outils métiers et pipelines data à grande échelle. Missions : Conception d’architectures Agentic AI : Maitriser ensemble des concepts IA : ML, Deep Learning , LLM  Concevoir des systèmes d’agents autonomes (multi-agents, tool usage, planning) Implémenter des architectures RAG avancées Connecter les agents aux APIs et outils métiers Gérer la mémoire (court / long terme) des agents Concevoir des architectures conformes à l'IA Act pour garantir la sécurité et l'éthique des systèmes autonomes.  Data & Pipelines :  Construire et maintenir des pipelines de données (ETL/ELT) Structurer les datasets pour l’IA générative Gérer les embeddings et bases vectorielles Garantir qualité, traçabilité et gouvernance des données  Industrialisation & MLOps :  Déployer des LLM et agents en production Mettre en place CI/CD pour workflows IA Monitoring performance, coûts et hallucinations Optimisation latence et scalabilité cloud Sécuriser un système multi-agents
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -6214,7 +6214,7 @@ Profil recherché :
 * Capacité à structurer et piloter des workflows data.
 * Esprit analytique, rigueur et sens du collectif.
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -6238,7 +6238,7 @@ Contexte :Vous souhaitez donner du sens aux données et contribuer à l’améli
 **Description :**
 Job Description As Customer Marketing Manager (Europe) , you will own and scale customer marketing programs that drive retention, expansion, and advocacy across Fabriq’s European customer base. This is a strategic and hands-on role at the intersection of Marketing, Customer Success, Sales, and Product , focused on ensuring customers: Reach value quickly (time-to-value) Adopt Fabriq deeply across teams and sites Expand usage and deployments (new sites, new use cases) Become vocal advocates (references, stories, peer-to-peer influence) You will operate in a multi-country, multilingual environment and build repeatable programs that can scale across Europe. What success looks like (goals) You will be accountable for measurable outcomes that support Net Revenue Retention (NRR), including: Higher customer engagement and product adoption across key features and workflows Stronger retention and reduced churn risk through lifecycle orchestration with Customer Success More expansion pipeline and expansion wins influenced by customer campaigns A reliable customer advocacy engine (references, reviews, stories) A growing community program that increases stickiness and peer learning Key Responsibilities 1) Customer lifecycle & lifecycle campaigns (ownership) Own the European customer lifecycle strategy: onboarding, activation, adoption, retention, and expansion. Design and run lifecycle programs that improve time-to-value across industrial sites. Build segmentation frameworks (industry, region, maturity, use case, deployment stage) and use them to personalize messaging. Partner closely with Customer Success to improve engagement, health, renewals readiness, and customer outcomes. 2) Product adoption & usage growth Drive adoption of key Fabriq workflows (e.g., tier meetings, problem-solving, performance routines). Create playbooks, enablement assets, and customer communications that embed Fabriq into daily routines on the shop floor. Identify friction points in adoption (by persona, site type, maturity) and design targeted interventions. Support multi-site rollouts and cross-country deployments with scalable communication and enablement. 3) Expansion & retention impact (NRR) Partner with Sales and Customer Success to support land-and-expand motions in enterprise industrial accounts. Build and execute campaigns that promote new use cases, features, and additional deployments. Identify and activate expansion signals (usage, engagement, stakeholder mapping, use case coverage) and turn them into coordinated plays. Contribute directly to NRR improvement via programs, reporting, and iteration. 4) Customer advocacy (build from scratch) Define and build Fabriq’s European customer advocacy strategy. Identify and nurture champions (operators, plant managers, CI leaders, OpEx leaders, corporate transformation). Launch repeatable programs for: Customer references Reviews and ratings Testimonials and quotes Speaking opportunities and peer-to-peer moments Develop and maintain a pipeline of customer stories with measurable impact. 5) Customer community & events Build a community program driven by high-value experiences and learning: Fabriq Clubs Customer Advisory Board (CAB) Learning expeditions Plant tours / Fabriq tour Create an annual cadence and regional programming that fits European markets (country clusters, languages, travel constraints). Coordinate with Field/Partner Marketing for in-person formats that support adoption and advocacy. 6) Customer insights & feedback loops (voice of customer) Synthesize insights from NPS, QBR notes, support tickets, product usage, and customer calls. Identify churn risks and opportunities for deeper adoption or expansion, and coordinate cross-functional response. Create structured feedback loops with Product and Product Marketing (what’s blocking adoption, what’s resonating, what proof points matter in Europe). 7) AI-powered customer marketing (scale and speed) Use AI tools to scale segmentation insights, messaging variants, localization, and content production. Build repeatable AI workflows for: Email and in-app messaging drafts Campaign briefs and personalization angles VOC synthesis into themes and actions Identifying advocacy candidates and expansion signals Apply strong QA and governance (accuracy, claims, brand voice, compliance). Deliverables (expected outputs) You will be expected to produce and continuously improve: Lifecycle campaigns (onboarding, adoption nudges, renewal readiness, expansion programs) Case studies, testimonials, and customer stories with quantified operational outcomes Advocacy programs (references, reviews, speaker bureau, referrals where relevant) Expansion campaign results (influenced pipeline, engagement, conversion insights) Customer engagement metrics and reporting (adoption, participation, advocacy, lifecycle performance) Customer community growth : participation and impact across Fabriq Clubs, CAB, learning expeditions, tours
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
 
@@ -6261,7 +6261,7 @@ Niveau souhaité : expert de haut niveau, Expérience antérieure dans la condui
 Requises : expertise sur QlikSense.
 Souhaitées : travail en équipes transverses, force de proposition.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -6279,7 +6279,7 @@ Nous recherchons un consultant capable de mettre en place les flux d'interface e
 
 Il est nécessaire d'avoir une capacité à être force de proposition et travailler en autonomie.
 
-**seniority_level :** Intermédiaire (2-5 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -6310,7 +6310,7 @@ Soft Skills : Vous possédez un esprit entrepreneurial, une aisance relationnell
 
 Langues : Votre anglais est courant.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -6323,7 +6323,7 @@ Langues : Votre anglais est courant.
 Description de l'entrepriseSopra Steria Next est la marque de conseil en transformation digitale du Groupe Sopra Steria. Ses 3400 consultants en Europe conçoivent des stratégies visionnaires, réellement actionnables et s'engagent sur des résultats tangibles pour les entreprises, leurs collaborateurs et leurs clients.Sopra Steria Next fait partie du Groupe Sopra Steria, acteur majeur de la Tech en Europe, reconnu pour ses activités de conseil, de services numériques et d'édition de logiciels. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d'activité et des technologies innovantes à une approche résolument collaborative.Sopra Steria place l’humain au cœur de son action et s’engage auprès de ses clients à tirer le meilleur parti du numérique pour construire un avenir positif. En 2024, le Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape it*
 *Le monde est tel que nous le façonnonsDescription du posteRejoignez Sopra Steria Next, le cabinet de conseil en transformation digitale du groupe Sopra Steria, au sein du Pôle France. Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu GCP:Nos équipes accompagnent les grands comptes dans leurs programmes stratégiques de transformation Cloud, en combinant :Conseil et définition de trajectoiresExpertise technique approfondieDelivery de solutions Cloud ambitieuses et sécuriséesDans ce cadre, nous recherchons des Consultants Senior à Consultant Manager disposant d'une triple expertise GCP (Infrastructure, Data, Architecture) et capables d’intervenir aussi bien sur les missions de conseil que sur les projets de delivery et d’intégration.Vos missionsConseil et stratégie Cloud GCPVous intervenez auprès de nos clients et des équipes métiers pour :Définir et orienter les stratégies de transformation CloudConstruire des trajectoires cibles adaptées aux enjeux Data et InfrastructureParticiper aux phases de cadrage, d’avant-vente et aux travaux structurantsProduire des recommandations d’architecture alignées avec les bonnes pratiques Google CloudArchitecture et conception de solutions GCPVous concevez et validez des architectures complètes comprenant :Les architectures Data (BigQuery, Pub/Sub, Dataflow, Dataproc, IA/ML, Looker)Les architectures Infrastructure et plateforme (GKE, Compute Engine, Cloud Run, réseaux, IAM)Les modèles de sécurité, résilience, observabilité et optimisation des coûtsLes pipelines d’automatisation dans une approche DevSecOps (Terraform, CI/CD, GitOps)Vous apportez également un support technique avancé aux équipes de développement ou d’intégration.Delivery et intégrationEn mission, vous êtes un référent GCP en capacité de :Prendre en charge le design détaillé et la mise en œuvre de solutions CloudEncadrer techniquement des équipes internes ou clientGarantir la qualité, la performance, la sécurité et la conformité des livrablesParticiper activement au delivery de projets Cloud complexesContribution interne Sopra Steria NextVous intervenez dans la dynamique interne de la Tribu Cloud :Animation de communautés techniquesPartage de connaissances, capitalisation, mentoringParticipation au recrutement de profils expérimentésRédaction de contenus (articles, use cases, white papers)Contribution à la relation avec le partenaire Google (évènements, démonstrations, programmes partenaires)Participation aux sujets d’offres et d’avant-venteQualificationsFormation et expérienceBac+5 en informatique, ingénierie ou équivalent5 à 10+ ans d’expérience en architecture Cloud, Data et/ou InfrastructureExpertise confirmée sur Google Cloud PlatformExpérience hybride : conseil, cadrage, architecture, deliveryCompétences clés attenduesExpertise GCPCertification Google Cloud Professional Architect (ou Data Engineer, Network Engineer)Maîtrise des services Data et Platform GCPConnaissances solides en sécurité CloudConception de Landing Zones, architectures réseau, IAM, workloadsConnaissance de GKE, Cloud Run, Compute Engine, ObservabilitéCompétences hybrides Conseil / IntégrationCapacité à intervenir sur des phases de cadrage et de stratégieCapacité à délivrer des architectures et encadrer des implémentationsAisance relationnelle et posture conseilTravail en environnement multi-acteurs avec autonomie et leadershipPratiques techniques complémentairesDéveloppement (Python, Go, Java, JavaScript)Automatisation et DevSecOps (Terraform, GitLab CI, Cloud Build…)Connaissance d’autres Cloud Providers (AWS, Azure) appréciéeConnaissance des méthodes Agile et DevOpsQualités personnellesSens du service, écoute, diplomatieRigueur et capacité d’analyseLeadership technique et esprit d’équipeCapacité à vulgariser et structurer des enjeux complexesAnglais professionnel B2/CourantInformations supplémentairesUn accord télétravail pour télétravailler jusqu’à 2 jours par semaine selon vos miss...
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Senior
 
 --------------------------------------------------------------------------------
 
@@ -6377,7 +6377,7 @@ Missions internes : selon ta charge de travail et tes envies, tu participeras à
 Stratégie marketing et commerciale
 Amélioration des process internes
 
-**seniority_level :** Junior (0-2 ans)
+**seniority_level :** Junior
 
 --------------------------------------------------------------------------------
 
@@ -6421,7 +6421,6 @@ Compétences requises
 - Capacité à vulgariser des modèles complexes et à argumenter vos choix auprès d’interlocuteurs variés.
 - Esprit de collaboration, curiosité scientifique et envie de faire évoluer l’état de l’art de l’optimisation dans l’entreprise.
 
-**seniority_level :** Senior (5+ ans)
+**seniority_level :** Intermédiaire
 
 --------------------------------------------------------------------------------
-
