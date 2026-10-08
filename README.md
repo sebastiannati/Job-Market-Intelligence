@@ -37,11 +37,12 @@ Pour transformer ce corpus brut en un jeu de données exploitable pour l'analyse
 
 1. **Nettoyage et normalisation textuelle :**
    * Standardisation des dates de publication pour unifier les formats.
+   * Standardisation des noms des postes, soit par regex sur le titre original, soit par analyse des missions par LLM à qui j'ai donnée des définitions de chaque métier.
 
-2. **Extraction et classification intelligente par LLM local (via Ollama) :**
-   * Utilisation d'un modèle local tournant sur GPU (RX 6900 XT) pour classifier automatiquement le niveau de séniorité requis selon 4 catégories : **Stage/Alternance, Jeune diplômé(0), Junior(0-2 ans), Intermédiaire (2-5 ans) et Senior(5+ ans)**. Cette classification croise intelligemment le titre du poste, l'expérience brute et la description.
+2. **Extraction et classification intelligente par LLM local (via Ollama) :*
+   * Utilisation d'un modèle local tournant sur GPU (RX 6900 XT) pour classifier automatiquement le niveau de séniorité requis selon 4 catégories : **Stage/Alternance, Junior(0-2 ans), Intermédiaire (2-5 ans) et Senior(5+ ans)**. Cette classification croise intelligemment le titre du poste, l'expérience brute et la description. De plus, j'extrait aussi la stack techinque et les compétences requises pour postuler.
    * Identification automatisée des compétences clés, des langages de programmation, des frameworks et des outils cloud (ex: Python, SQL, Azure, Docker, etc.) mentionnés dans les offres.
-   * **Évaluation des performances :** Test et validation des performances du modèle en comparant ses prédictions à un corpus d'offres labellisé à la main pour garantir la fiabilité de la classification.
+   * **Évaluation des performances :** La labellisation par regex sur les titres des postes et le niveau de seniortité sert de référence. Ensuite j'essaye d'analyser les erreurs commises par le LLM et les raisons qui l'ont poussé a se trompé.
 
 3. **Consolidation finale :**
    * Fusion des données nettoyées et enrichies dans un format unifié (`.parquet` / `.csv`) prêt à alimenter la brique d'analyse du marché de l'emploi.

@@ -1,6 +1,68 @@
 import re
 
+import re, unicodedata
+import pandas as pd
 
+def norm(s):
+    # NFKD : retire les accents et convertit les caractères "gras" Unicode
+    s = unicodedata.normalize("NFKD", str(s))
+    return "".join(c for c in s if not unicodedata.combining(c)).lower()
+
+# --- Briques réutilisables ---
+DATA = (r"data|donnee|\bia\b|\bai\b|\bbi\b|analytics|power ?bi|talend|dataiku|teradata|"
+        r"snowflake|machine learning|\bml\b|genai|llm")
+ENG  = r"engineer|ingenieur|developpeu|research|scientist|\bops\b|mlops"
+
+# --- Règles, par ordre de priorité ---
+RULES = [
+    # 1. Consultant : prioritaire, à condition d'avoir un mot data/IA/ML dans le titre
+    ("Consultant Data / IA",
+     lambda t: re.search(r"consult|conseil|advisor|advisory", t) and re.search(DATA, t)),
+
+    # 2. Data Science
+    ("Data Science",
+     lambda t: re.search(r"data ?scien|datascien|statisticien", t)),
+
+    # 3. Data Engineer
+    ("Data Engineer",
+     lambda t: re.search(
+         r"data engineer|data ingenieur|ingenieur (de )?(donnees|data)|big data|analytics engineer|"
+         r"data platform|databricks|snowflake|dataops|\betl\b|talend|data architect|architecte data|"
+         r"bi engineer|developpeu\w* (bi|data|talend|databricks)", t)),
+
+    # 4. ML / IA Engineer (il faut un mot "engineer/ingénieur/..." pour éviter AI Trainer, AI Product Manager...)
+    ("ML / IA Engineer",
+     lambda t: re.search(
+         r"machine learning|\bml\b|mlops|ml ops|\bai\b|\bia\b|genai|llm|intelligence artificielle|"
+         r"agentic|agentique|deep learning|computer vision", t) and re.search(ENG, t)),
+
+    # 5. Data Analyst / BI
+    ("Data Analyst",
+     lambda t: re.search(
+         r"data.*analy|analy.*(data|donnees)|power ?bi|\bbi\b|business intelligence|web ?analy|reporting", t)),
+]
+
+def categorize(titre):
+    t = norm(titre)
+    for label, test in RULES:
+        if test(t):
+            return label
+    return "Autre"
+
+# --- Colonne optionnelle : type de contrat ---
+def contrat(titre):
+    t = norm(titre)
+    if re.search(r"alternan|apprenti|apprentissage|apprenticeship", t): return "Alternance"
+    if re.search(r"\bstage|stagiaire|\bintern\b|internship|\bpfe\b", t): return "Stage"
+    if "freelance" in t: return "Freelance"
+    return "CDI / autre"
+
+# --- Application ---
+counts = df["poste"].value_counts().rename_axis("poste").reset_index(name="n")
+counts["categorie"] = counts["poste"].apply(categorize)
+counts["contrat"]   = counts["poste"].apply(contrat)
+
+print(counts.groupby("categorie")["n"].sum().sort_values(ascending=False))
 # --------------------------------------------------------------------------- #
 # 1. Pré-classification par regex
 # --------------------------------------------------------------------------- #
@@ -83,3 +145,36 @@ def classify_regex(row):
     """Version DataFrame : retourne (label, source)."""
     label, source, _ = classify_regex_row(row["poste"], row["experience"], row["description"])
     return label, source
+
+# --------------------------------------------------------------------------- #
+# Tests rapides de la partie regex
+# --------------------------------------------------------------------------- #
+REGEX_TESTS = [
+    # (titre, champ expérience, description, label attendu)
+    ("2 Alternances - BI (H/F)", "", "", "Stage/Alternance"),
+    ("Analytics Engineer", "", "3+ years as an Analytics Engineer with experience", None),
+    ("Analytics Engineer", "", "3+ years of experience in analytics", "Intermédiaire"),
+    ("Staff ML Engineer", "", "7+ years of experience in ML", "Senior"),
+    ("Staff Engineer", "", "5 à 7 ans d'expérience en backend", "Senior"),
+    ("Data Engineer", "", "Expérience : 2 ans minimum", "Junior"),
+    ("Consultant", "", "Depuis 20 ans d'expérience, nous... ", None),
+    ("Data Engineer Senior", "", "Spark, Airflow", "Senior"),
+    ("Jr Developer", "", "", "Junior"),
+    ("Chief of Staff", "", "", None),
+    ("Data Engineer", "", "Pipelines Spark", None),
+]
+
+
+def run_regex_tests() -> int:
+    failures = 0
+    for title, field, desc, expected in REGEX_TESTS:
+        got = classify_regex_row(title, field, desc)
+        ok = got[0] == expected
+        failures += not ok
+        print("OK " if ok else "KO ", title, "->", got, "" if ok else f"(attendu {expected})")
+    print("Regex: TOUT OK" if not failures else f"{failures} ECHEC(S)")
+    return failures
+
+
+if __name__ == "__main__":
+    run_regex_tests()
