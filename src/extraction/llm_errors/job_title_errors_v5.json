@@ -1,0 +1,1099 @@
+[
+    {
+        "poste":"Lead Data Engineer \/ ML H\/F",
+        "cat_regex":"Data Engineer",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Data Engineer",
+        "description":"Description de l'entreprise Qui sommes-nous ? Rejoindre NEXTON, c'est intégrer une entreprise où convergent l'esprit d'un cabinet de conseil, la créativité d'une Factory et la dynamique d'une ESN ! Grâce à notre expertise, nous accompagnons des clients grands comptes et des pure players tels que SNCF, Orange, et BNP Paribas dans leurs stratégies d'évolution et d'innovation digitale. Fondée en 2011, NEXTON réunit aujourd'hui une équipe de plus de 450 experts spécialisés dans le digital, le design, l'agilité, le produit et le développement. Ensemble, ils créent un écosystème riche en connaissances et en compétences diversifiées. Description du poste NEXTON recrute un Lead Data Engineer \/ ML , en CDI , à Paris ! Ton futur environnement de travail : Tu intégreras l'équipe Discovery (basée majoritairement à Berlin). Ta mission sera d'optimiser les moteurs de recherche, de ranking (modèles Learning to Rank) et de recommandation. Dans une phase stratégique de transformation \"Buy vs Build\", tu feras le pont entre la Data Science pure et le Machine Learning Engineering pour garantir le déploiement opérationnel des modèles. Tes missions : Conception & Optimisation : Construire des pipelines ML end-to-end pour la recherche sémantique, la personnalisation et le ranking produit. Industrialisation & MLOps : Collaborer avec les ingénieurs backend pour déployer des solutions en production. Contribuer à l'architecture du Feature Store et automatiser le ré-entraînement des modèles (CI\/CD for ML). Stratégie & R&D : Prendre le leadership sur les choix techniques (algorithmes, transformations de données) et participer activement aux évaluations \"sandbox\" pour définir le futur technologique de la recherche. Expertise Data : Maîtriser l'ingestion et le calcul de features via Snowflake et dbt. Tes livrables : Modèles de ranking et recommandation optimisés. Pipelines de monitoring et rapports de tests A\/B. Documentation technique des choix d'architecture et des POC réalisés. Qualifications Ton expérience : Tu as un solide historique de projets ML mis en production avec un impact mesurable. Tu es à l'aise dans ce rôle hybride entre Data Scientist et ML Engineer. Tes Hard Skills : Maîtrise de Python, SQL et Statistiques . Expertise sur les frameworks PyTorch ou TensorFlow et les outils d'orchestration ( AWS SageMaker, Airflow, FastAPI ). Une maîtrise de dbt, Snowflake, Docker et Kubernetes est indispensable. Ton état d’esprit : Excellente communication pour naviguer dans des discussions architecturales complexes et changeantes. Tu es orienté \"produit\" et impact business. Informations supplémentaires Pourquoi choisir NEXTON ? Nous te proposons des avantages et des opportunités pour enrichir ton expérience professionnelle et personnelle tout au long de l'année : Des communautés dynamiques pour t'accompagner dans ton parcours. Des Meet Up pour développer tes compétences. Des formations pour te réinventer et progresser. Des événements sportifs et festifs pour t'épanouir. Un forfait mobilité durable pour faciliter ton quotidien et encourager la mobilité douce. Un téléphone de dernière génération pour rester connecté. Prêt à nous rejoindre ? Rencontrons-nous ! NEXTON",
+        "missions_relevees":[
+            "Construire des pipelines ML end-to-end pour la recherche sémantique, la personnalisation et le ranking produit.",
+            "Collaborer avec les ingénieurs backend pour déployer des solutions en production.",
+            "Contribuer à l'architecture du Feature Store et automatiser le ré-entraînement des modèles (CI\/CD for ML).",
+            "Prendre le leadership sur les choix techniques (algorithmes, transformations de données).",
+            "Maîtriser l'ingestion et le calcul de features via Snowflake et dbt."
+        ],
+        "stack_requise":[
+            "Python",
+            "SQL",
+            "PyTorch",
+            "TensorFlow",
+            "AWS SageMaker",
+            "Airflow",
+            "FastAPI",
+            "dbt",
+            "Snowflake",
+            "Docker",
+            "Kubernetes"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Maîtrise des statistiques",
+            "Conception et optimisation de pipelines ML",
+            "Industrialisation et MLOps",
+            "Gestion de l'architecture du Feature Store",
+            "Automatisation du ré-entraînement des modèles",
+            "Leadership technique",
+            "Expertise en transformations de données"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre mentionne explicitement « ML Engineer », et les missions décrivent clairement des responsabilités liées à la conception, à l'industrialisation et au déploiement de modèles en production, ce qui correspond au rôle de ML \/ IA Engineer."
+    },
+    {
+        "poste":"BUSINESS ANALYST F\/H",
+        "cat_regex":"Autre",
+        "categorie":"Consultant Data \/ IA",
+        "categorie_alternative":"Data Analyst",
+        "description":"iTekway, société de prestations de services techniques et d’ingénierie agréée entreprise adaptée, met son expertise du handicap au service de ses clients pour leurs recrutements inclusifs. Nous confier votre candidature, c’est avoir l’assurance de bénéficier d’un accompagnement personnalisé jusqu’à votre prise de poste. Description du poste Notre client est un acteur international de premier plan du secteur bancaire , engagé dans une transformation profonde de ses services via l'exploitation de la donnée. Pour accompagner le déploiement de solutions analytiques et d'IA innovantes, nous recherchons un(e) Business Analyst Data & IA F\/H . Vos missions : Analyse des besoins métiers, des données et des cas d’usage : Réaliser l’analyse approfondie des besoins métiers liés à la donnée, à l’analytique, au Machine Learning, à l’IA Generative et au reporting. Comprendre les processus et enjeux fonctionnels pour identifier précisément les informations nécessaires. Évaluer et qualifier les sources de données (Legacy vs Cible) afin d’identifier les données de confiance pertinentes. Définir et formaliser avec les Data Engineer et MLOps les besoins fonctionnels (features, KPIs, modèles IA), en veillant à leur faisabilité technique. Data Management by Design : Animer les workshops pour l’identification des concepts, sous-concepts et données métiers. Modéliser les données en formulant des propositions basées sur le modèle de données Métier et les référentiels stratégiques ( IIDR, ORUS ). Gérer la classification des données selon les matrices Groupe et soumettre la DACC ( Data Dictionary Asset Confidentiality Card ) complétée au Data Office. Spécification fonctionnelle et data design : Rédiger les spécifications détaillées (Règles de gestion, Dictionnaires, Mappings RAW vers TRUSTED , Schémas conceptuels\/logiques). Élaborer la stratégie et le plan de tests (unitaires et fonctionnels). Décrire les flux de données end-to-end (collecte, transformation, stockage, mise à disposition). Contribuer au design des pipelines avec les équipes techniques pour assurer performance et robustesse. Interface et Suivi de mise en œuvre : Assurer le rôle d'intermédiaire entre le Métier, le Data Office et l'IT pour garantir la conformité des solutions. Accompagner les utilisateur·ices dans l’appropriation des données \"trusted\" et des solutions IA. Valider fonctionnellement les livrables (KPI, Dashboards PowerBI, notebooks Dataiku, features IA) et intégrer les retours métiers. Documentation et gouvernance : Produire et mettre à jour la documentation fonctionnelle (Confluence). Contribuer activement aux démarches de gouvernance (qualité, conformité RGPD, traçabilité, sécurité). Environnement technique Outils : PowerBI (dashboards, dataset modeling), Python, Dataiku (préparation, pipelines, notebooks), SQL. Infrastructure : IBM Cloud (Postgres, COS), Data Hub, environnements Data Platform modernes. DevOps : CI\/CD (Gitlab). Méthodologie : Agile (Squads). Profil recherché ✅ Compétences Data & IA : Solide compréhension de la gouvernance, qualité, modèles de données et référentiels. Connaissance des cas d'usage IA (modèles prédictifs, feature engineering, reporting avancé). ✅ Capacités techniques : Capacité à réaliser des tests fonctionnels et unitaires sur les données et accompagner les UAT. ✅ Communication : Excellence rédactionnelle, capacité de vulgarisation et aptitude à traduire des besoins complexes en exigences opérationnelles. ✅ Expérience : Évoluer en contexte Agile, maîtrise des cycles de développement DSI et environnements de production. ✅ Langues : Maîtrise de l'anglais (échanges internationaux et documentation). Conditions Localisation : Île-de-France Démarrage : Dès que possible ________________________________________________________________________________________ En tant qu' Entreprise Adaptée , à compétences égales, nous privilégions l'embauche de personnes titulaires de la Reconnaissance de la Qualité de Travailleur Handicapé (RQTH).",
+        "missions_relevees":[
+            "Analyser les besoins métiers liés à la donnée, à l’analytique, au Machine Learning, à l’IA Generative et au reporting.",
+            "Évaluer et qualifier les sources de données (Legacy vs Cible) pour identifier les données de confiance pertinentes.",
+            "Définir et formaliser avec les Data Engineer et MLOps les besoins fonctionnels (features, KPIs, modèles IA).",
+            "Modéliser les données en formulant des propositions basées sur le modèle de données Métier et les référentiels stratégiques.",
+            "Rédiger les spécifications détaillées (Règles de gestion, Dictionnaires, Mappings RAW vers TRUSTED, Schémas conceptuels\/logiques).",
+            "Assurer le rôle d'intermédiaire entre le Métier, le Data Office et l'IT pour garantir la conformité des solutions."
+        ],
+        "stack_requise":[
+            "PowerBI",
+            "Python",
+            "Dataiku",
+            "SQL",
+            "IBM Cloud (Postgres, COS)",
+            "Data Hub",
+            "Gitlab"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Compréhension de la gouvernance, qualité, modèles de données et référentiels",
+            "Connaissance des cas d'usage IA (modèles prédictifs, feature engineering, reporting avancé)",
+            "Capacité à réaliser des tests fonctionnels et unitaires sur les données",
+            "Excellence rédactionnelle et capacité de vulgarisation",
+            "Traduction de besoins complexes en exigences opérationnelles",
+            "Maîtrise des cycles de développement DSI et environnements de production",
+            "Maîtrise de l'anglais"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre « Business Analyst Data & IA » et les missions centrées sur l'analyse des besoins métiers, la formalisation des besoins fonctionnels, la modélisation des données et la gouvernance des données indiquent clairement un rôle de Consultant Data \/ IA. Bien que le titre contienne le mot « Analyst », les missions dépassent le cadre d'un Data Analyst classique et s'alignent sur les responsabilités d'un Consultant Data \/ IA."
+    },
+    {
+        "poste":"STAGE- Business Analyst (H\/F)",
+        "cat_regex":"Autre",
+        "categorie":"Data Analyst",
+        "categorie_alternative":"Aucune",
+        "description":"Simpliciti est un acteur historique et reconnu des technologies embarquées « Made in France » déjà actif en France, en Belgique, en Afrique grâce à sa succursale au Maroc (Sabatier Géolocalisation) ainsi qu'au Canada grâce à sa filiale au Québec. Plus de 1500 acteurs du secteur privé et publics font appel au quotidien au savoir-faire des 160 collaborateurs composant une équipe engagée et passionnée. Concepteurs et développeurs de solutions hardware et software pour les Smart Cities, nous proposons des fonctionnalités innovantes afin d’optimiser – grâce à la data – les secteurs de la collecte des déchets, le transport de voyageurs, le transport de marchandises et le traitement de l'eau. Ainsi nos équipes adressent au quotidien des problèmes de société tels que la réduction des déchets, le recyclage ou l’accès à la mobilité des personnes. Nos solutions ont pour objectif d’améliorer la qualité de vie des citoyens en fournissant aux Collectivités un moyen de les rendre actrice d’une économie circulaire via des territoires plus connectés. Par exemple, les logiciels Simpliciti permettent ainsi à chaque client de piloter leur flotte de véhicules ou leur ressources humaines et matérielles, créer leurs circuits, planifier des transports, guider les conducteurs sur cartographie, suivre en temps réel l’activité ou encore éditer des tableaux de bords et statistiques. Mais aussi de consommer ces données par exemple pour facturer l’utilisateur final selon son usage. Par ailleurs, Simpliciti est Entreprise à Mission, labellisée Positive Workplace et agit activement pour avoir un impact positif chez ses clients mais aussi en interne via sa Green’Team et les initiatives RH\/RSE mises en œuvre. Description du poste Nous recherchons un Chargé Business Intelligence (H\/F) en stage . Vous aurez pour mission d’identifier, qualifier et activer des opportunités business à partir de la donnée, de la veille et des signaux marché. Vous serez en charge de structurer des mécaniques de génération de leads inbound et outbound et fournir aux équipes Sales des insights actionnables pour accélérer la croissance. Vos principales missions seront les suivantes : Business Intelligence & veille : Structurer et piloter une veille business et marché efficace (outils type Explain ou équivalents). Identifier et interpréter des signaux faibles (marché, prospects, comptes cibles). Transformer les informations collectées en opportunités concrètes ou recommandations d’actions rapides. Structurer et piloter la veille sur la concurrence Produire des synthèses claires à destination des équipes Sales, Sales Ops et Analytics : Analyse de données & insights Analyser des données business (pipeline, leads, conversions, comportements prospects). Produire des insights clairs, exploitables et orientés décision. Contribuer à l’amélioration continue du ciblage, des priorités commerciales et des actions marketing. Lead generation (Inbound & Outbound): Concevoir et déployer des mécaniques de lead generation (inbound et outbound) notamment quant au ciblage et la constitution des bases de prospection Mettre en place les outils permettant une prospection efficiente Optimiser les parcours de génération et de transmission des leads vers les Sales. Participer à la construction de la base de diffusion issue du CRM, gérer la base et mener les bonnes segmentations pour diffuser des contenus ciblés Collaboration Sales & Ops : Travailler en binôme avec les commerciaux. Comprendre le cycle de vente et adapter les actions en conséquence. Assurer un suivi rigoureux et fiable de l’information dans les outils CRM. Profil recherché Bac +5 en cours (école de commerce ou d’ingénieur ou équivalent) Expérience ou compétences en Business Intelligence, Sales Ops, Lead Generation ou analyse business en environnement B2B. Compétences analytiques et appétence data très fortes. Capacité à transformer la donnée, la veille et les signaux marché en insights actionnables et opportunités business . Bonne maîtrise des mécaniques de lead generation inbound et outbound, du ciblage et de la segmentation. À l’aise avec les outils CRM, BI, prospection et veille. Forte orientation business, esprit structuré, rigueur et aisance dans la collaboration avec les équipes Sales. Rejoignez-nous pour faire partie d'une équipe dynamique qui façonne l'avenir de la gestion des déchets à travers des solutions innovantes et durables. Le processus est en 3 étapes dont un entretien avec un inventaire de personnalité. (Assessfirst)",
+        "missions_relevees":[
+            "Structurer et piloter une veille business et marché efficace",
+            "Identifier et interpréter des signaux faibles (marché, prospects, comptes cibles)",
+            "Transformer les informations collectées en opportunités concrètes ou recommandations d’actions rapides",
+            "Analyser des données business (pipeline, leads, conversions, comportements prospects)",
+            "Concevoir et déployer des mécaniques de lead generation (inbound et outbound)",
+            "Travailler en binôme avec les commerciaux et assurer un suivi rigoureux et fiable de l’information dans les outils CRM"
+        ],
+        "stack_requise":[
+            "CRM",
+            "BI"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Compétences analytiques",
+            "Appétence data",
+            "Capacité à transformer la donnée, la veille et les signaux marché en insights actionnables et opportunités business",
+            "Maîtrise des mécaniques de lead generation inbound et outbound",
+            "Maîtrise du ciblage et de la segmentation",
+            "Orientation business",
+            "Rigueur",
+            "Aisance dans la collaboration avec les équipes Sales"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre « Business Analyst » et les missions centrées sur la veille, l'analyse de données et la génération de leads indiquent un rôle de type Data Analyst, bien que le terme « Business Analyst » soit plus large. Cependant, les responsabilités principales relèvent de l'analyse de données et de la production d'insights pour le développement commercial."
+    },
+    {
+        "poste":"Apprenti.e Data Analyst \/ Data Engineer F\/H",
+        "cat_regex":"Data Engineer",
+        "categorie":"Data Analyst",
+        "categorie_alternative":"Data Engineer",
+        "description":"Description de l'entreprise Si pour pérenniser l’activité industrielle et le développement des territoires, nous maîtrisons durablement le risque déchet, c'est aussi grâce à vous ! Leader mondial des services à l’environnement, Veolia est présent sur les 5 continents avec près de 218 000 salariés. Expert dans les métiers de l’eau, l’énergie et les déchets, le Groupe conçoit et met en œuvre des solutions innovantes de décarbonation, de dépollution et de régénération des ressources pour accompagner les collectivités et les industriels dans leur transformation écologique. Au sein de Veolia, nos activités sont dédiées au traitement et à la valorisation des déchets dangereux et des sites pollués. Nous comptons plus de 110 sites en Europe et nous appuyons sur un réseau d’outils et de services qui intègre l’ensemble de la chaîne de traitement et de valorisation jusqu’au stockage des résidus ultimes. Notre expertise et nos savoir-faire reposent sur des convictions environnementales fortes, le sens des responsabilités, la recherche permanente de la performance, l’esprit d’entreprendre et la bienveillance. Si vous aussi vous vous sentez concerné.es par la préservation de l'environnement pour les générations d'aujourd'hui et de demain, rejoignez-nous sur notre site de Limay (78) et devenez notre nouveau.velle: Apprenti.e Data Analyst F\/H ! Description du poste Contexte : L’équipe Data est en charge de la maintenance de la solution de Data Visualisation et de l’intégration des projets Data (technique, fonctionnelle \/ besoins métier, gouvernance \/ respects standards et processus, architecture) au sein du périmètre Hazardous Waste Europe, BU en charge du traitement et de la valorisation des déchets dangereux en Europe Missions : Construire et maintenir les Dashboards au niveau central Avoir une vision globale, recenser les besoins et travailler à l’homogénéisation des reports au sein des BUs Travailler en étroite collaboration avec les Data Owner pour remonter les besoins en terme d’indicateurs Travailler en collaboration avec les Data Analyst des BUs pour partager les bonnes pratiques Contribuer à des projets de Data Engineering (conception et maintenance de pipelines ETL, orchestration des flux de données, optimisation des performances des requêtes, modélisation et architecture des données) Qualifications Formation : Vous préparez un Master en analyse de données, statistiques, data science ou équivalent. Compétences souhaitées : Connaissance des outils de la Google Cloud Platform (BigQuery, Looker Studio) Maîtrise de SQL, GSheets, outils de visualisation (Looker Studio, Power BI), connaissances en Python (apprécié), bases de données relationnelles Compétences comportementales : Capacité de communication, d’écoute, d’analyse et de synthèse. Aptitude à travailler en équipe. Langues : Français et Anglais Informations supplémentaires Notre processus de recrutement se déroule en plusieurs étapes : 1. Un échange téléphonique pour un premier contact 2. Si tout va bien, un entretien physique avec notre Chargée de recrutement et le manager 3. Éventuellement, quelques tests complémentaires pour mieux vous connaître Vous serez tenu(e) informé(e) de votre progression à chaque étape. En tant qu'entreprise inclusive, Veolia s’engage pour la diversité et accorde la même considération à toutes les candidatures, sans discrimination.",
+        "missions_relevees":[
+            "Construire et maintenir des dashboards au niveau central",
+            "Recenser les besoins et travailler à l’homogénéisation des reports au sein des BUs",
+            "Collaborer avec les Data Owner pour remonter les besoins en termes d’indicateurs",
+            "Partager les bonnes pratiques avec les Data Analyst des BUs",
+            "Contribuer à des projets de Data Engineering (ETL, orchestration des flux, optimisation des requêtes, modélisation des données)"
+        ],
+        "stack_requise":[
+            "SQL",
+            "Google Cloud Platform (BigQuery, Looker Studio)",
+            "GSheets",
+            "Power BI"
+        ],
+        "stack_souhaitee":[
+            "Python"
+        ],
+        "competences_requises":[
+            "Capacité de communication, d’écoute, d’analyse et de synthèse",
+            "Aptitude à travailler en équipe"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre mentionne à la fois Data Analyst et Data Engineer, mais les missions principales portent sur la création et la maintenance de dashboards, la collaboration avec les Data Owner, et la contribution à des projets de Data Engineering. Cela correspond à un profil de Data Analyst avec des éléments de Data Engineering. Le titre a permis de promouvoir Data Analyst comme catégorie principale."
+    },
+    {
+        "poste":"Consultant Confirmé Data Engineer - CDI (H\/F)",
+        "cat_regex":"Consultant Data \/ IA",
+        "categorie":"Data Engineer",
+        "categorie_alternative":"Consultant Data \/ IA",
+        "description":"Description Fondé en 2006, Nexialog Consulting est devenu l’un des acteurs majeurs du conseil spécialisé en banque et en assurance, et emploie aujourd’hui 200 collaborateurs dans nos bureaux parisiens. Nexialog Consulting accompagne ses clients à travers sept lignes métiers : Actuarial Services Risk Strategy Risk Models Financial Markets & Investments Financial Control & Compliance Data & IA Sustainability Mission En rejoignant notre cabinet, vous prendrez part au développement de notre activité Data : 2) En interne : Chez nos clients du secteur bancaire et assurantiel : Vous implémenterez des solutions de valorisation de la donnée : base de données, outils d’aide à la décision, de visualisation, solutions de reporting. Vous cadrerez et piloterez des projets d’industrialisation ou de transformation data. Vous déploierez des pipelines de données, des solutions DataOps. Vous automatiserez des outils d’accès aux données et de traitement des données et migrerez des systèmes de données. Vous participer à la consolidation de l'offre d'expertise data, aux travaux de l’équipe et au recrutement. Vous participerez à des études de Recherche & Développement en lien avec les problématiques data et aux actions de rayonnement de l’équipe. Vous participerez au développement commercial de l’équipe data. de nouveaux collaborateurs. Vous contribuerez à l'organisation d'événements par le cabinet (conférences, webinars) et à la production de livrables R&D. ProfilVous Avez Le Profil Recherché Si Vous êtes diplômé(e) d'une école d'ingénieur ou d'une formation universitaire de niveau bac +5 en informatique, data science, mathématiques ou statistiques et justifiez d'une expérience significative de 2 ans au minimum en ingénierie de données acquise au sein d'un cabinet de conseil, d'une banque, d'une société de gestion ou d'un assureur. Vous maîtrisez les technologies de manipulation de données, notamment Big Data (SQL, Spark \/ PySpark, Hadoop) et disposez de solides connaissances sur les plateformes cloud (AWS, Azure, GCP). Vous maîtrisez un outil de data management (Dataiku, Talend, Alteryx,...), et de data visualisation (PowerBI, Qlik, Tableau,...). Vous êtes familier avec la mise en place de data pipelines. Vous êtes familier avec les processus et outils de développement modernes (DataOps, DevOps, CI\/CD, Git, Docker, Kubernetes…). Vous avez de l’expérience sur différents types de base de données (Relationnelle, NoSQL) et sur différents types d’environnement (Cloud, Datalake, Datamart, Data Wharehouse) Vous avez une bonne connaissance et expérience dans l'utilisation des outils informatiques de modélisation et d'analyse de données (Python, R) et de leurs librairies associées pour traiter efficacement de la donnée volumineuse. Processus de recrutement Le processus de recrutement pour ce poste se décline en quatre phases : Un entretien téléphonique avec un(e) Chargé de Recrutement. Un entretien de recrutement avec un Account Manager et un(e) Chargé de Recrutement. Un entretien technique avec un Manager (ou un(e) Consultant(e) Senior). Un entretien de motivation avec le Directeur de la Business Unit. Rémunération : Selon profil Début : Dès que possible Pourquoi nous rejoindre ? ✨ Un cabinet à taille humaine ayant pour valeurs la bienveillance, l’audace et la transparence. 🤝 Un management horizontal et de proximité pour un suivi adapté à chaque collaborateur. 🌍 Un cabinet engagé en RSE (Label Ecovadis, Label Global Compact, missions RSE). ☀️ Un cabinet reconnu pour le bien-être de ses collaborateurs au travail (Baromètre social, charte de télétravail, primes de performance, prime de participation et d'intéressement). 💯 Une vie interne très riche (after work, team building, kick-off, formations internes et externes). 📍 32 rue de Trévise, 75009 PARIS 🌐 https:\/\/www.nexialog.com\/ Convaincus que la richesse d’une équipe repose sur sa diversité, nous encourageons chacun(e) à postuler, indépendamment de son origine, genre, handicap, âge ou parcours professionnel. … plus",
+        "missions_relevees":[
+            "Implémenter des solutions de valorisation de la donnée (bases de données, outils d’aide à la décision, visualisation, reporting)",
+            "Cadrer et piloter des projets d’industrialisation ou de transformation data",
+            "Déployer des pipelines de données et des solutions DataOps",
+            "Automatiser des outils d’accès et de traitement des données et migrer des systèmes de données",
+            "Contribuer à la consolidation de l'offre d'expertise data et participer à des études de Recherche & Développement",
+            "Développer commercialement l’activité data et organiser des événements (conférences, webinars)"
+        ],
+        "stack_requise":[
+            "SQL",
+            "Spark \/ PySpark",
+            "Hadoop",
+            "AWS",
+            "Azure",
+            "GCP",
+            "Dataiku",
+            "Talend",
+            "Alteryx",
+            "PowerBI",
+            "Qlik",
+            "Tableau",
+            "Python",
+            "R",
+            "DataOps",
+            "DevOps",
+            "CI\/CD",
+            "Git",
+            "Docker",
+            "Kubernetes",
+            "Bases de données relationnelles",
+            "Bases de données NoSQL",
+            "Cloud",
+            "Datalake",
+            "Datamart",
+            "Data Wharehouse"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Maîtrise des technologies de manipulation de données (Big Data)",
+            "Connaissances solides des plateformes cloud",
+            "Expérience dans la mise en place de data pipelines",
+            "Connaissance des processus et outils de développement modernes (DataOps, DevOps, CI\/CD)",
+            "Expérience sur différents types de base de données et environnements (Cloud, Datalake, Datamart, Data Wharehouse)",
+            "Expérience dans l'utilisation des outils de modélisation et d'analyse de données (Python, R)"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre mentionne explicitement « Consultant Confirmé Data Engineer », ce qui suggère un rôle de conseil en ingénierie data. Cependant, les missions décrivent principalement des tâches techniques liées à la conception, au déploiement et à la gestion de pipelines de données, ce qui correspond davantage à un Data Engineer. Le titre a donc conduit à promouvoir la catégorie alternative (Data Engineer) comme principale."
+    },
+    {
+        "poste":"ML\/Data Engineer H\/F",
+        "cat_regex":"Data Engineer",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Aucune",
+        "description":"💡 OVENTI Consulting, cabinet de conseil en Data et Intelligence Artificielle qui allie expertise technique de pointe, vision stratégique et accompagnement sur mesure . Nous couvrons tout le cycle de vie des projets Data\/IA, de la stratégie à l'implémentation de solutions personnalisées (ML, BI, automatisation intelligente). Nos équipes, issues des meilleures écoles , s'intègrent chez nos clients ou opèrent depuis notre LAB interne, véritable foyer d’innovation . Chez Oventi, nous privilégions le \"sur mesure\" et l'innovation concrète. Chaque collaborateur est accompagné, formé et suivi pour garantir une culture d'excellence et un impact réel. 🧑 💻 Pourquoi ce rôle est clé ? En tant que ML\/Data Engineer H\/F , vous intervenez dans la construction et l’industrialisation des solutions d’Intelligence Artificielle et de Machine Learning sur des problématiques stratégiques de forecasting et de prédiction appliquées à la Supply Chain et à la Value Chain. Vous contribuez directement au développement de produits data à forte valeur ajoutée en concevant des solutions robustes, performantes et déployables en production. 🎯 Vos missions au quotidien : Conception et Modélisation : Mener l'élaboration de modèles de Machine Learning avancés dédiés au forecasting et aux prédictions Supply Chain. Industrialiser et opérer les modèles en production : Assurer le delivery, le versionning et le déploiement des modèles dans les pipelines CI\/CD de la plateforme IA. Exposer, monitorer et superviser les modèles en production pour garantir leur performance et leur fiabilité. Apporter un support technique aux équipes de recette et d’homologation. Fiabilisation des données : Maîtriser les enjeux de refining des modèles et des pipelines pour garantir la qualité, l'intégrité et la performance des données utilisées en entrée et en sortie. Monitoring et Performance : Assurer l'observabilité continue des modèles déployés, et piloter les itérations d'amélioration en production. Expertise : Contribuer activement aux choix d'architecture technique et à l'évangélisation des bonnes pratiques MLOps au sein des équipes. 🧩 Stack technique : Langages : Python, SQL, Shell Cloud : AWS Orchestration : Apache Airflow Conteneurisation : ECR et utilisation des EKS Versioning & CI\/CD : GitHub 🧩 Vous êtes la personne idéale si : 7 ans d'expérience en Data \/ Machine Learning Engineer. Diplômé d'un master ou d'une école d'ingénieur avec une spécialisation en Data Engineering, intelligence artificielle ou data science. Expérience en développement et industrialisation de solutions IA\/ ML, avec une bonne connaissance des problématiques de déploiement. Maîtrise des outils de Data Engineering, de gestion de pipelines et des environnements AWS. Aisance relationnelle, esprit collaboratif et appétence pour l'amélioration continue. 🌟 Pourquoi rejoindre OVENTI ? Rejoindre Oventi, c'est choisir une aventure professionnelle unique : ✔️ Une structure à taille humaine : Favorisant l'échange, l'autonomie et l'innovation, où votre impact est direct et visible. ✔️ Des missions à forte valeur ajoutée : Dans des secteurs variés, avec une approche \"sur mesure\" où nos solutions ont des impacts importants chez nos clients. ✔️ Une culture d’excellence technique : Avec un réel accompagnement de carrière et un suivi personnalisé. ✔️ Une équipe passionnée et engagée : Des ingénieurs recrutés avec soin, formés en continu, et investis sur le long terme. ✔️ L’agilité d’une startup, la rigueur d’un cabinet expert : Le meilleur des deux mondes pour une expérience enrichissante. ✔️ Des missions à impact, visibles et valorisantes : Où vous aurez un impact réel sur les décisions métiers et la valeur business générée. 📍 Localisation : Paris (75) avec 2 jours de télétravail hebdomadaire 💶 Rémunération : A discuter selon vos prétentions 🗓️ Démarrage : ASAP … plus",
+        "missions_relevees":[
+            "Concevoir et modéliser des modèles de Machine Learning avancés dédiés au forecasting et aux prédictions Supply Chain.",
+            "Industrialiser et opérer les modèles en production, en assurant le delivery, le versionning et le déploiement dans les pipelines CI\/CD.",
+            "Exposer, monitorer et superviser les modèles en production pour garantir leur performance et leur fiabilité.",
+            "Apporter un support technique aux équipes de recette et d’homologation.",
+            "Fiabiliser les données en maîtrisant les enjeux de refining des modèles et des pipelines.",
+            "Assurer l'observabilité continue des modèles déployés et piloter les itérations d'amélioration en production."
+        ],
+        "stack_requise":[
+            "Python",
+            "SQL",
+            "Shell",
+            "AWS",
+            "Apache Airflow",
+            "ECR",
+            "EKS",
+            "GitHub"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Développement et industrialisation de solutions IA\/ML",
+            "Connaissance des problématiques de déploiement",
+            "Maîtrise des outils de Data Engineering et de gestion de pipelines",
+            "Expérience en environnements AWS",
+            "Aisance relationnelle et esprit collaboratif"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre mentionne explicitement « ML\/Data Engineer », et les missions décrivent clairement des responsabilités liées à la conception, au déploiement et à la surveillance de modèles en production, ce qui correspond au rôle de ML \/ IA Engineer."
+    },
+    {
+        "poste":"Ingénieur(e) R&D (F\/H) - Modélisation statistique & Analyse de données",
+        "cat_regex":"Data Analyst",
+        "categorie":"Data Scientist",
+        "categorie_alternative":"Aucune",
+        "description":"À propos Mews Labs est une filiale de Mews Partners* spécialisée dans les domaines de la modélisation , de la simulation physique , de l’ optimisation et du calcul scientifique pour la résolution de problèmes complexes rencontrés dans l’industrie . En lien étroit avec Mews Partners, Mews Labs exploite la donnée industrielle pour en extraire de la valeur dans des domaines variés : optimisation des processus, supply chain, manufacturing, énergie, aéronautique, logistique, et transport . Nos interventions combinent rigueur mathématique, data science, et compréhension métier pour répondre à des problématiques concrètes à fort enjeu. Dans le cadre de sa croissance , Mews Labs recherche un(e) Ingénieur(e) R&D en Modélisation statistique & Analyse de données pour renforcer son pôle Data Science. Rattaché(e) à la direction technique , vous serez au cœur de la chaîne de valeur de la donnée : de son exploration à sa modélisation, en passant par son enrichissement et sa restitution auprès de nos clients industriels. Mews Partners est un cabinet de conseil expert en R&D et Opérations, de plus de 300 collaborateurs. Spécialisé dans la conduite de projets de stratégie opérationnelle auprès de clients phares de l’industrie, le cabinet connait une forte croissance depuis plusieurs années. Descriptif du poste Vous rejoindrez une équipe pluridisciplinaire (ingénieurs R&D, développeurs, consultants) et interviendrez sur des projets où la compréhension fine des données et la rigueur mathématique sont essentielles. Votre rôle sera de donner du sens aux données, de les challenger et de concevoir les modèles qui en extraient la valeur. Dans ce cadre, vos missions principales seront : S’approprier et comprendre les données : explorer, auditer et diagnostiquer des jeux de données complexes, souvent incomplets ou hétérogènes, issus de contextes industriels variés ; Challenger et enrichir les données : identifier les biais, les lacunes et les incohérences, proposer des stratégies de complétion, de nettoyage et d’enrichissement ; Concevoir et implémenter des modèles statistiques innovants (régressions, séries temporelles, modèles bayésiens, apprentissage statistique, etc) adaptés aux problématiques métiers ; Traiter de gros volumes de données : mettre en œuvre des approches performantes et scalables pour l’analyse et la modélisation sur des données massives ; Développer en Python : implémenter les méthodes dans un code robuste, maintenable et documenté, en s’intégrant dans des bases de code existantes ; Restituer et vulgariser les résultats : rédiger des rapports d’analyse clairs, présenter les résultats et les recommandations aux clients et aux équipes internes avec pédagogie ; Collaborer avec des équipes pluridisciplinaires : travailler en étroite interaction avec les Consultant(e)s de Mews Partners, les ingénieurs développement et les interlocuteurs métiers côté client ; Assurer une veille scientifique sur les méthodes statistiques, le machine learning et les approches innovantes en analyse de données ; Contribuer à la montée en compétences de l’équipe par le partage de connaissances et les formations internes. Profil recherché Notre futur talent : est issu(e) d’une formation d’excellence (école d’ingénieurs ou cursus universitaire de premier plan - Bac+5) avec une spécialisation en mathématiques appliquées , statistiques, science des données ou domaine connexe ; dispose de 3 à 5 ans d’expérience en modélisation statistique et analyse de données dans un contexte professionnel ; possède une maîtrise approfondie des concepts mathématiques et statistiques : probabilités, inférence, tests d’hypothèses, modèles de régression, séries temporelles, méthodes bayésiennes, apprentissage statistique ; maitrise le langage Python et son écosystème data\/scientifique (NumPy, pandas, scikit-learn, statsmodels, matplotlib\/seaborn) ; est capable de s’immerger rapidement dans un code existant , de le comprendre, de le faire évoluer et de s’y intégrer ; a une forte affinité avec la manipulation de gros volumes de données et sait adapter ses méthodes en conséquence ; possède un esprit critique et analytique aiguisé : capacité à challenger les données, identifier les anomalies, formuler et tester des hypothèses ; excelle dans la vulgarisation et la pédagogie : capacité à expliquer des concepts complexes de manière claire et accessible, tant à l’écrit qu’à l’oral ; possède une expression orale et écrite irréprochable , indispensable pour les présentations clients, les rapports d’analyse et les interactions avec des équipes pluridisciplinaires ; possède un bon relationnel , un esprit d’équipe , et une capacité à communiquer efficacement avec des interlocuteurs de profils variés (ingénieurs, consultants, décideurs métiers) ; fait preuve de curiosité intellectuelle et d’une capacité à s’approprier rapidement de nouveaux domaines métiers. Informations complémentaires : Rémunération négociable selon profil\/expérience (Fixe + Variable). Interaction avec des clients industriels de premier plan et des partenaires académiques. Environnement stimulant mêlant recherche appliquée, développement logiciel et compréhension métier. Projets variés où chaque jeu de données raconte une histoire différente à décrypter. Si vous êtes prêt(e) à relever des défis stimulants et à développer vos compétences au sein d’une équipe de passionnés, nous vous attendons avec impatience ! Process de recrutement Entretien RH Entretien technique (avec notre Directeur technique) Entretien avec le Managing Partner de Mews Labs Informations complémentaires Type de contrat : CDI Lieu : Cachan Niveau d'études : Bac +5 \/ Master Expérience : > 3 ans Télétravail partiel possible",
+        "missions_relevees":[
+            "Explorer, auditer et diagnostiquer des jeux de données complexes, souvent incomplets ou hétérogènes",
+            "Identifier les biais, les lacunes et les incohérences dans les données et proposer des stratégies de complétion, de nettoyage et d’enrichissement",
+            "Concevoir et implémenter des modèles statistiques innovants (régressions, séries temporelles, modèles bayésiens, apprentissage statistique, etc.)",
+            "Traiter de gros volumes de données en mettant en œuvre des approches performantes et scalables",
+            "Implémenter les méthodes dans un code robuste, maintenable et documenté en Python",
+            "Rédiger des rapports d’analyse clairs et présenter les résultats et les recommandations aux clients et aux équipes internes"
+        ],
+        "stack_requise":[
+            "Python",
+            "NumPy",
+            "pandas",
+            "scikit-learn",
+            "statsmodels",
+            "matplotlib",
+            "seaborn"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Maîtrise approfondie des concepts mathématiques et statistiques (probabilités, inférence, tests d’hypothèses, modèles de régression, séries temporelles, méthodes bayésiennes, apprentissage statistique)",
+            "Capacité à s’immerger rapidement dans un code existant, le comprendre, le faire évoluer et s’y intégrer",
+            "Compétence en manipulation de gros volumes de données",
+            "Esprit critique et analytique aiguisé : capacité à challenger les données, identifier les anomalies, formuler et tester des hypothèses",
+            "Excellence dans la vulgarisation et la pédagogie : capacité à expliquer des concepts complexes de manière claire et accessible",
+            "Expression orale et écrite irréprochable",
+            "Bon relationnel, esprit d’équipe et capacité à communiquer efficacement avec des interlocuteurs de profils variés",
+            "Curiosité intellectuelle et capacité à s’approprier rapidement de nouveaux domaines métiers"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre « Ingénieur(e) R&D (F\/H) - Modélisation statistique & Analyse de données » et les missions principales, notamment la conception de modèles statistiques, l’exploration de données et la vulgarisation des résultats, correspondent à un Data Scientist. Le titre n’indique pas de catégorie alternative qui soit compatible avec les missions."
+    },
+    {
+        "poste":"Contrôleur de gestion sociale F\/H",
+        "cat_regex":"Autre",
+        "categorie":"Data Analyst",
+        "categorie_alternative":"Aucune",
+        "description":"L'AP-HP est un centre hospitalier universitaire à dimension européenne mondialement reconnu. \nSes 39 hôpitaux accueillent chaque année 8 millions de personnes malades : en consultation, en urgence, lors d'hospitalisations programmées ou en hospitalisation à domicile.\n\nElle assure un service public de santé pour tous, 24h\/24, et c'est pour elle à la fois un devoir et une fierté. \nL'AP-HP est le premier employeur d'Ile de-France : 95 000 personnes - médecins, chercheurs, paramédicaux, personnels administratifs et ouvriers - y travaillent. http:\/\/www.aphp.fr\n\t\n\tVous contribuez à structurer l'un des plus grands écosystèmes de données RH du secteur public en France et à faire de la donnée un levier central de décision, d'anticipation et de transformation, dans un environnement multi sources, alimenté par un entrepôt de données RH.\n1. Pilotage de la performance RH et du cycle budgétaire\nActeur clé du pilotage social, vous intervenez sur la préparation et la sécurisation des conférences budgétaires pour votre portefeuille de GHU. Le suivi de l'exécution budgétaire : analyse des trajectoires, identification des écarts, rôle d'alerte\nL'évaluation des impacts financiers des décisions RH (mesures salariales, promotions, dispositifs catégoriels, attractivité, fidélisation)\nLa réalisation d'études prospectives et de simulations d'effectifs et de masse salariale.\n2. Structurer le socle des indicateurs RH diffusés par la DRH AP-HP\nVous concevez et sécurisez les indicateurs qui structurent le pilotage RH institutionnel. Déploiement d'un reporting mensuel (effectifs, flux, présentéisme, moyens de remplacement). Production d'analyses régulières;\nÉlaboration de notes d'analyse sur les dynamiques RH. Garantie de la qualité, cohérence et traçabilité des données issues de sources multiples\nContribution à l'amélioration continue de la qualité des données et au contrôle interne.\n3. Développement des outils d'aide à la décision\nVous participez à la modernisation de pilotage RH.\n4. Diffuser une culture de la donnée.\nVous travaillez avec les contrôleurs locaux et la direction des finances afin d'enrichir l'analyse institutionnelle. \n\t\n\tVous aimez transformer des données complexes en outils utiles à la décision. Vous considérez la donnée RH non comme un reporting administratif mais comme un levier stratégique d'aide au pilotage.\n \nFormation et expérience :\nDiplômé d'un master en analyse de données, statistiques, contrôle de gestion, ou MIAGE. \nExpérience significative sur un poste similaire (contrôle de gestion sociale, data RH). idéalement au sein d'une organisation de taille importante.\nUne connaissance du secteur hospitalier ou public constitue un atout. \n\tRef 28997812 … plus",
+        "missions_relevees":[
+            "Piloter la performance RH et le cycle budgétaire, notamment via l'analyse des trajectoires budgétaires et l'identification des écarts.",
+            "Concevoir et sécuriser les indicateurs RH diffusés par la DRH AP-HP, notamment via le déploiement d'un reporting mensuel.",
+            "Élaborer des notes d'analyse sur les dynamiques RH et garantir la qualité, la cohérence et la traçabilité des données.",
+            "Contribuer à l'amélioration continue de la qualité des données et au contrôle interne.",
+            "Participer à la modernisation du pilotage RH et au développement des outils d'aide à la décision.",
+            "Diffuser une culture de la donnée en travaillant avec les contrôleurs locaux et la direction des finances."
+        ],
+        "stack_requise":[
+            "Power BI",
+            "SQL"
+        ],
+        "stack_souhaitee":[
+            "Python"
+        ],
+        "competences_requises":[
+            "Analyse de données",
+            "Connaissance des indicateurs RH",
+            "Suivi budgétaire",
+            "Gestion des écarts budgétaires",
+            "Conception de reporting",
+            "Traçabilité des données",
+            "Qualité des données",
+            "Contrôle interne",
+            "Pilotage RH"
+        ],
+        "competences_souhaitees":[
+            "Analyse statistique avancée",
+            "Utilisation de Python pour l'analyse de données"
+        ],
+        "justification":"Le titre « Contrôleur de gestion sociale » et les missions centrées sur le pilotage RH, la conception de reporting, l'analyse des écarts budgétaires et la traçabilité des données indiquent un rôle de Data Analyst, même si le poste porte le mot « Contrôleur ». La gestion des indicateurs RH et la production d'analyses régulières sont des missions typiques d'un Data Analyst."
+    },
+    {
+        "poste":"Data scientist\/IA Engineer Sénior (H\/F\/NB)",
+        "cat_regex":"Data Scientist",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Data Scientist",
+        "description":"Qui sommes-nous ? Une success story dans la Data et le Digital ! Notre Mission Concevoir et déployer des projets à forte valeur ajoutée afin d’améliorer la performance et la compétitivité des entreprises, tout en facilitant et accélérant leur transformation. Notre expertise depuis plus de 25 ans Le conseil et l’intégration de solutions innovantes autour de trois piliers majeurs : Intelligence des données Business Intelligence, Big Data & Analytics, Intelligence Artificielle Expérience numérique Conseil, Stratégie & Performance Digitales Conseil en management & transformation, stratégie & innovation, pilotage de la performance et accompagnement des projets Aujourd’hui, nous sommes plus de 3 000 talents , répartis dans plus de 20 pays sur 4 continents . Notre ADN ? Innover, entreprendre et créer de la valeur durable . Pourquoi vous ? Passionné(e) par la Data et l’innovation, vous souhaitez évoluer au sein d’une équipe d’experts exigeants, créatifs et résolument #InnovationCentric ? Alors cette opportunité est faite pour vous ! Votre profil Vous justifiez d’au moins 6 ans d’expérience en tant que Data Scientist. Vous disposez d’une solide maîtrise du Machine Learning et du Deep Learning. Vous parlez anglais couramment, vous permettant de collaborer efficacement dans un contexte international. Vous savez traduire des besoins métiers en problématiques Data Science claires, pertinentes et actionnables. Vous avez une expérience significative dans l’exploration et l’analyse de grands volumes de données hétérogènes. Vous êtes capable de concevoir, développer et industrialiser des modèles de Machine Learning \/ Deep Learning pour des cas d’usage variés (fraude, maintenance prédictive, recommandation, etc.). Curieux(se) et orienté(e) R&D, vous aimez partager vos connaissances (articles, conférences, communautés, retours d’expérience). Une première expérience sur des projets d’IA générative serait un réel plus. Vos missions En tant que Data Scientist , vous interviendrez sur des projets stratégiques et innovants : Proposer de nouvelles approches méthodologiques et réaliser des POC (Proof of Concept) pour en valider la faisabilité. Identifier et promouvoir de nouveaux cas d’usage Data Science auprès de nos clients. Accompagner les clients dans la formalisation de leurs besoins métiers en problématiques Data Science concrètes. Explorer et analyser des données complexes et volumineuses afin d’en extraire des insights à forte valeur ajoutée. Concevoir et déployer des modèles avancés de Machine Learning et Deep Learning. Collaborer étroitement avec les Data Engineers pour l’industrialisation et la mise en production des modèles et pipelines. Contribuer aux activités R&D en Intelligence Artificielle (blogs, articles techniques, conférences, projets internes). Assurer une veille technologique active et participer à l’animation de la communauté IA. Pourquoi nous rejoindre ? Intégrer une communauté d’experts passionnés, curieux et bienveillants. Évoluer dans un environnement multiculturel, stimulant et formateur. Bénéficier d’opportunités de mobilité internationale et d’évolution de carrière. Travailler sur des projets innovants à fort impact business. Parce que vous êtes #DataGeek, #DigitalAddict, #InnovationLover 🚀 … plus",
+        "missions_relevees":[
+            "Proposer de nouvelles approches méthodologiques et réaliser des POC pour valider la faisabilité",
+            "Identifier et promouvoir de nouveaux cas d’usage Data Science auprès des clients",
+            "Accompagner les clients dans la formalisation de besoins métiers en problématiques Data Science concrètes",
+            "Explorer et analyser des données complexes et volumineuses pour en extraire des insights à forte valeur ajoutée",
+            "Concevoir et déployer des modèles avancés de Machine Learning et Deep Learning",
+            "Collaborer avec les Data Engineers pour l’industrialisation et la mise en production des modèles et pipelines"
+        ],
+        "stack_requise":[
+            "Machine Learning",
+            "Deep Learning",
+            "Python",
+            "Anglais couramment"
+        ],
+        "stack_souhaitee":[
+            "IA générative"
+        ],
+        "competences_requises":[
+            "Traduire des besoins métiers en problématiques Data Science claires et actionnables",
+            "Explorer et analyser des données complexes et volumineuses",
+            "Concevoir, développer et industrialiser des modèles de Machine Learning \/ Deep Learning",
+            "Collaborer avec les Data Engineers pour l’industrialisation des modèles"
+        ],
+        "competences_souhaitees":[
+            "Partager des connaissances via des articles, conférences, communautés"
+        ],
+        "justification":"Le titre mentionne à la fois « Data Scientist » et « IA Engineer », mais les missions principales portent sur la conception, le développement et le déploiement de modèles de Machine Learning et Deep Learning, ce qui correspond davantage au rôle de Data Scientist. Cependant, le titre a permis de promouvoir la catégorie alternative ML \/ IA Engineer, qui est compatible avec les missions."
+    },
+    {
+        "poste":"Consultant MLOps \/ IA Engineer (F\/H)",
+        "cat_regex":"Consultant Data \/ IA",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Aucune",
+        "description":"Paris - CDI Tirer le meilleur parti de l’analyse de données et adopter une posture conseil dans l’utilisation des résultats de ces traitements. Depuis 2019, HeadMind Partners AI accompagne les entreprises Grands Comptes (CAC40 & SBF120) à renforcer l’efficacité opérationnelle de leurs experts métiers par l’IA. Cette activité connait une croissance constante (+5M€ CA en 2024 – +50% de croissance en 2025). Elle réunit à ce jour +70 ingénieurs qui ont développé une expertise forte sur toute la chaîne de valeur de l’IA : détection, prédiction, anticipation, protection… Vos missions En tant que Consultant Data Scientist \/ MLOps , vous serez en charge de l’architecture et de l’implémentation des pipelines de déploiement ML, ainsi que de l’industrialisation des solutions IA pour répondre aux besoins clients. Vous serez en particulier responsable de la mise en place des infrastructures de production, du monitoring des modèles, et de l’optimisation continue des performances. Vous pourrez travailler en parallèle à l’industrialisation de solutions à l’état de l’art dont certaines déployées chez nos clients. A titre d’exemple : Genius.Cyber , un assistant conversationnel dédié à la cybersécurité ; MindHead.Conformité , une solution multi-modèle d’aide à la mise en conformité réglementaire des organisations (CSRD, NIS2, Homologation, Contrat, PSR…) ; Visual Search , un moteur de recherche ultra-puissant basé sur de la correspondance d’images ; TalentMind , un outil de rétention RH ; etc. Vous travaillerez étroitement avec les équipes data science pour assurer une transition fluide entre développement et production, en implémentant les meilleures pratiques DevOps adaptées au contexte ML. Votre profil Diplômé(e) d’une Grande Ecole d’ingénieurs (CentraleSupélec, ENSAE, X, SUPAERO, ENSTA…), d’un double-diplôme Ecoles Ingénieurs\/Commerce ou titulaire d’un PhD en sciences quantitatives ou Intelligence Artificielle. Vous avez entre 0 et 3 ans d’expérience Connaissances solides en Data Science acquises lors de votre cursus et de vos expériences, une appétence pour l’industrialisation et la mise en production de modèles ML. Intérêt pour l’IA générative, mais pas que… Maîtrise de Python et des librairies associées. Maîtrise des déploiements de modèles dans le cloud (AWS\/Azure\/GCP) ainsi que des compétences en containerisation (Docker\/Kubernetes) et orchestration de pipelines ML. Technologies : Cloud (AWS, GCP, Azure, Outscale) Docker\/Kubernetes AirFlow CI\/CD … Vous travaillez de manière autonome tout en ayant un fort esprit d’équipe, et vous savez communiquer et vulgariser des concepts complexes. Le processus de recrutement Le processus de recrutement chez HeadMind Partners AI & Blockchain est labellisé Happy Candidates et se déroule en 3 étapes : Entretien de connaissance avec un recruteur : qualification de votre recherche, évaluation de votre intérêt et adéquation pour le conseil, identification de vos hard & soft skills, etc. Débriefing. Test technique avec un expert métier pour évaluer vos connaissances techniques. Débriefing. Entretien de validation avec un manager recrutement pour confirmer l’intérêt mutuel et valider votre candidature. Votre futur environnement de travail Equipe jeune de 70 consultants Promotion de l’intelligence collective assurée par des moments dédiés au travaux de groupe Des moyens matériels puissants (+20 GPU NVIDIA H100, H200) Des synergies entre les expertises IA et Cyber Des équipes portées par 3 engagements forts : un encadrement bienveillant, un apprentissage permanent, une évolution professionnelle Informations complémentaires HeadMind Partners est un employeur inclusif qui s'engage pour l'égalité des chances. Dans le cadre de sa politique de diversité et inclusion, HeadMind Partners accompagne les personnes en situation de handicap et\/ou nécessitant un aménagement durant leur process de recrutement et lors de leur prise de poste. Si c’est votre cas, parlez-en sereinement à nos recruteurs. HeadMind Partners est un leader du conseil et créateur de solutions en Intelligence Artificielle et en Cybersécurité basé en France et en Belgique. Fondé en 2000, HeadMind Partners accompagne aujourd’hui plus de 160 grands comptes (CAC40, SBF 120 et Administrations) dans leur transition numérique en s’appuyant sur des équipes pluridisciplinaires.",
+        "missions_relevees":[
+            "Architecturer et implémenter des pipelines de déploiement ML",
+            "Industrialiser des solutions IA pour répondre aux besoins clients",
+            "Mettre en place des infrastructures de production et surveiller les modèles",
+            "Optimiser continuellement les performances des modèles",
+            "Travailler en étroite collaboration avec les équipes data science pour assurer une transition fluide entre développement et production",
+            "Implémenter des pratiques DevOps adaptées au contexte ML"
+        ],
+        "stack_requise":[
+            "Python",
+            "AWS",
+            "GCP",
+            "Azure",
+            "Docker",
+            "Kubernetes",
+            "AirFlow",
+            "CI\/CD"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Maîtrise des déploiements de modèles dans le cloud",
+            "Compétences en containerisation (Docker\/Kubernetes)",
+            "Orchestration de pipelines ML",
+            "Connaissances solides en Data Science",
+            "Appétence pour l’industrialisation et la mise en production de modèles ML",
+            "Intérêt pour l’IA générative",
+            "Capacité à vulgariser des concepts complexes",
+            "Travail en équipe et autonomie"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre mentionne explicitement « MLOps \/ IA Engineer », et les missions décrivent clairement des responsabilités liées à l’industrialisation, au déploiement et à la surveillance des modèles d’IA en production, ce qui correspond au rôle de ML \/ IA Engineer."
+    },
+    {
+        "poste":"Senior Digital Web-App Analyst",
+        "cat_regex":"Autre",
+        "categorie":"Data Analyst",
+        "categorie_alternative":"Consultant Data \/ IA",
+        "description":"Job ID: 2026-18363 Career Area: ICT, Digital & Data Compensation: Cadre Position Type: CDI Location: Poissy, Île-de-France , FR Date Posted: February 9, 2026 Au sein de l’équipe AIDA, vous jouez un rôle stratégique dans la construction d’une vision data-driven avancée au service du Software Group de Stellantis. Rattaché(e) au Digital Analytics Manager (ou en interaction directe avec les équipes leadership selon l’organisation), vous êtes responsable de la performance analytique des applications et sites web des marques du groupe. En tant que Senior Digital Analyst, vous dépassez le cadre du web analytics traditionnel pour construire une analyse 360° omnicanale, en exploitant pleinement BigQuery comme socle data central, et en connectant les données digitales, CRM, produit, média et comportementales afin d’éclairer la prise de décision stratégique. Vous agissez comme un référent analytique transverse, partenaire clé des équipes Produit, Software, Marketing et Business. 1. Monitoring & Data Leadership Définir et piloter un framework de performance avancé couvrant web, app et écosystème omnicanal. Concevoir une architecture de reporting robuste, scalable et multi-marques basée sur BigQuery comme source de vérité centralisée. Industrialiser et automatiser les dashboards multi-sources (BigQuery, GA4\/Firebase, Adobe Analytics, CRM, media data, backend product data) via Power BI. Mettre en place des systèmes d’alerting intelligents et des KPIs prédictifs. Briser les silos entre marques, pays et produits en centralisant la donnée et les insights. Élever le niveau de maturité data des équipes via évangélisation, pédagogie et accompagnement stratégique. 2. Advanced Analytics & 360° Customer Insights Construire des analyses cross-data complexes via SQL avancé dans BigQuery. Créer une vision unifiée du parcours client intégrant données : – Web & App comportementales – CRM \/ lifecycle – Media & acquisition – Produit & usage – Données techniques applicatives Identifier des opportunités de croissance et d’optimisation via : – Funnel analysis avancée – Cohorte & retention analysis – Segmentation comportementale – Contribution analysis multi-touch Piloter et analyser des dispositifs d’A\/B testing et d’expérimentation à l’échelle. Formuler des recommandations business impactantes et mesurables. Anticiper les besoins analytiques et proposer des use cases innovants. 3. Data Architecture & Tracking Excellence Être garant(e) de la qualité et de la fiabilité des données collectées. Concevoir et challenger les plans de marquage dans une logique produit & data layer avancée. Superviser l’implémentation via GTM \/ Adobe Launch. Mettre en place des processus de validation, recette et monitoring data quality. Collaborer étroitement avec les équipes software pour intégrer la data dès la conception produit (data by design). EOE\/Disability\/Veteran At Stellantis, we assess candidates based on qualifications, merit and business needs. We welcome applications from people of all gender identities, age, ethnicity, nationality, religion, sexual orientation and disability. Diverse teams will allow us to better meet the evolving needs of our customers and care for our future. Our benefits reflects the STELLANTIS commitment to helping you reach your personal and professional goals. In addition to an environment that promotes career development, we offer benefits for a healthy lifestyle and a rewarding future, designed to take care of you and your family, in various stages of life. As a global company, our employee packages will vary by country, customary norms and the legal entity into which you are hired. We care about your privacy. For more information on how your personal data is processed, please read the specific Privacy Statement provided by the respective entities whose job offer you have selected.",
+        "missions_relevees":[
+            "Définir et piloter un framework de performance avancé couvrant web, app et écosystème omnicanal.",
+            "Concevoir une architecture de reporting robuste, scalable et multi-marques basée sur BigQuery.",
+            "Industrialiser et automatiser les dashboards multi-sources via Power BI.",
+            "Créer une vision unifiée du parcours client en intégrant des données comportementales, CRM, media, produit et techniques.",
+            "Concevoir et challenger les plans de marquage dans une logique produit & data layer avancée.",
+            "Superviser l’implémentation via GTM \/ Adobe Launch."
+        ],
+        "stack_requise":[
+            "BigQuery",
+            "Power BI",
+            "GA4",
+            "Firebase",
+            "Adobe Analytics",
+            "CRM",
+            "media data",
+            "backend product data",
+            "SQL",
+            "GTM",
+            "Adobe Launch"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Conception d'architectures de reporting",
+            "Automatisation de dashboards",
+            "Analyse cross-data complexe",
+            "Segmentation comportementale",
+            "Conception de plans de marquage avancés",
+            "Gestion de la qualité des données",
+            "Expérience en A\/B testing",
+            "Conception de KPIs prédictifs"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre « Senior Digital Web-App Analyst » et les missions centrées sur la conception d'architectures de reporting, l'analyse cross-data, la gestion de la qualité des données et la conception de KPIs prédictifs indiquent un rôle de Data Analyst. Bien que le titre mentionne « Analyst », les missions dépassent le cadre traditionnel du web analytics pour inclure des aspects de gouvernance et d'architecture data, ce qui pourrait suggérer un Consultant Data \/ IA, mais la responsabilité principale reste l'analyse et la production d'insights."
+    },
+    {
+        "poste":"Lead Data Engineer \/ ML H\/F",
+        "cat_regex":"Data Engineer",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Data Engineer",
+        "description":"Description de l'entreprise Qui sommes-nous ? Rejoindre NEXTON, c'est intégrer une entreprise où convergent l'esprit d'un cabinet de conseil, la créativité d'une Factory et la dynamique d'une ESN ! Grâce à notre expertise, nous accompagnons des clients grands comptes et des pure players tels que SNCF, Orange, et BNP Paribas dans leurs stratégies d'évolution et d'innovation digitale. Fondée en 2011, NEXTON réunit aujourd'hui une équipe de plus de 450 experts spécialisés dans le digital, le design, l'agilité, le produit et le développement. Ensemble, ils créent un écosystème riche en connaissances et en compétences diversifiées. Description du poste NEXTON recrute un Lead Data Engineer \/ ML , en CDI , à Paris ! Ton futur environnement de travail : Tu intégreras l'équipe Discovery (basée majoritairement à Berlin). Ta mission sera d'optimiser les moteurs de recherche, de ranking (modèles Learning to Rank) et de recommandation. Dans une phase stratégique de transformation \"Buy vs Build\", tu feras le pont entre la Data Science pure et le Machine Learning Engineering pour garantir le déploiement opérationnel des modèles. Tes missions : Conception & Optimisation : Construire des pipelines ML end-to-end pour la recherche sémantique, la personnalisation et le ranking produit. Industrialisation & MLOps : Collaborer avec les ingénieurs backend pour déployer des solutions en production. Contribuer à l'architecture du Feature Store et automatiser le ré-entraînement des modèles (CI\/CD for ML). Stratégie & R&D : Prendre le leadership sur les choix techniques (algorithmes, transformations de données) et participer activement aux évaluations \"sandbox\" pour définir le futur technologique de la recherche. Expertise Data : Maîtriser l'ingestion et le calcul de features via Snowflake et dbt. Tes livrables : Modèles de ranking et recommandation optimisés. Pipelines de monitoring et rapports de tests A\/B. Documentation technique des choix d'architecture et des POC réalisés. Qualifications Ton expérience : Tu as un solide historique de projets ML mis en production avec un impact mesurable. Tu es à l'aise dans ce rôle hybride entre Data Scientist et ML Engineer. Tes Hard Skills : Maîtrise de Python, SQL et Statistiques . Expertise sur les frameworks PyTorch ou TensorFlow et les outils d'orchestration ( AWS SageMaker, Airflow, FastAPI ). Une maîtrise de dbt, Snowflake, Docker et Kubernetes est indispensable. Ton état d’esprit : Excellente communication pour naviguer dans des discussions architecturales complexes et changeantes. Tu es orienté \"produit\" et impact business. Informations supplémentaires Pourquoi choisir NEXTON ? Nous te proposons des avantages et des opportunités pour enrichir ton expérience professionnelle et personnelle tout au long de l'année : Des communautés dynamiques pour t'accompagner dans ton parcours. Des Meet Up pour développer tes compétences. Des formations pour te réinventer et progresser. Des événements sportifs et festifs pour t'épanouir. Un forfait mobilité durable pour faciliter ton quotidien et encourager la mobilité douce. Un téléphone de dernière génération pour rester connecté. Prêt à nous rejoindre ? Rencontrons-nous ! NEXTON",
+        "missions_relevees":[
+            "Construire des pipelines ML end-to-end pour la recherche sémantique, la personnalisation et le ranking produit.",
+            "Collaborer avec les ingénieurs backend pour déployer des solutions en production.",
+            "Contribuer à l'architecture du Feature Store et automatiser le ré-entraînement des modèles (CI\/CD for ML).",
+            "Prendre le leadership sur les choix techniques (algorithmes, transformations de données).",
+            "Maîtriser l'ingestion et le calcul de features via Snowflake et dbt."
+        ],
+        "stack_requise":[
+            "Python",
+            "SQL",
+            "PyTorch",
+            "TensorFlow",
+            "AWS SageMaker",
+            "Airflow",
+            "FastAPI",
+            "dbt",
+            "Snowflake",
+            "Docker",
+            "Kubernetes"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Maîtrise des statistiques",
+            "Conception et optimisation de pipelines ML",
+            "Industrialisation et MLOps",
+            "Gestion de l'architecture du Feature Store",
+            "Automatisation du ré-entraînement des modèles",
+            "Leadership technique",
+            "Expertise en transformations de données"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre mentionne explicitement « ML Engineer », et les missions décrivent clairement des responsabilités liées à la conception, à l'industrialisation et au déploiement de modèles en production, ce qui correspond au rôle de ML \/ IA Engineer."
+    },
+    {
+        "poste":"Forward Deployed Data Scientist, AI Deployment",
+        "cat_regex":"Data Scientist",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Data Scientist",
+        "description":"At Braze, we have found our people. We’re a genuinely approachable, exceptionally kind, and intensely passionate crew. We seek to ignite that passion by setting high standards, championing teamwork, and creating work-life harmony as we collectively navigate rapid growth on a global scale while striving for greater equity and opportunity – inside and outside our organization. To flourish here, you must be prepared to set a high bar for yourself and those around you. There is always a way to contribute: Acting with autonomy, having accountability and being open to new perspectives are essential to our continued success. Our deep curiosity to learn and our eagerness to share diverse passions with others gives us balance and injects a one-of-a-kind vibrancy into our culture. If you are driven to solve exhilarating challenges and have a bias toward action in the face of change, you will be empowered to make a real impact here, with a sharp and passionate team at your back. If Braze sounds like a place where you can thrive, we can’t wait to meet you. What You'll Do As our customer base continues to grow with the excitement around BrazeAI, we’re expanding our team! Join our Field Data Scientist group of creative technical experts who partner with customers to ensure their success. In this role, you will: Collaborate with customer Analytics\/BI teams and Braze colleagues on implementations, including use case definition, data integration, pipeline setup, and ML model configuration Extend product capabilities by improving architecture and developing reusable data pipelines, APIs, and components Work closely with the RL pipeline development team to refine and advance our reinforcement learning (self-learning) algorithms Contribute to shaping Braze's product strategy and roadmap through customer-facing insights and technical expertise Provide ongoing technical expertise to ensure successful adoption, measurable outcomes, and long-term customer success Who You Are Education: Bachelor’s degree in Computer Science, Data Science, Mathematics, Engineering, or a related field required; Master’s or PhD in a relevant technical discipline preferred Experience: 3–5+ years of hands-on experience as a Data Scientist, Machine Learning Engineer, or similar role working with large-scale data and production environments. Experience in customer-facing or consulting roles is strongly preferred Strong technical expertise: Proficient in Python (Pandas) and core ML libraries (TensorFlow, Keras, scikit-learn, CatBoost, XGBoost). Skilled in SQL for querying\/manipulating datasets, with experience in machine learning pipelines and model deployment Engineering best practices: You write well-structured, modular, documented code; follow strong development practices (Git, CI\/CD, testing frameworks, type-hinting, code reviews); and can build scalable, maintainable solutions Nice-to-have skills: Experience with DevOps tools (Airflow, Kubernetes, Terraform, GCP), data integration\/ETL and pipeline optimization, or reinforcement learning algorithms Customer collaborator: Comfortable working directly with clients and cross-functional teams, aligning stakeholders, and translating technical concepts into clear business value Entrepreneurial problem-solver: You identify opportunities and risks early, troubleshoot obstacles, and drive creative solutions Continuous learner: You stay current with industry trends, explore new tools\/technologies, and thrive in environments that push you to grow Clear communicator: Able to explain complex technical ideas persuasively to both technical and non-technical audiences What We Offer Braze benefits vary by location, and we encourage you to review our specific benefits offerings for each country here . More details on benefits plans will be provided if you receive an offer of employment. Benefits From offering comprehensive benefits to fostering hybrid ways of working, we’ve got you covered so you can prioritize work-life harmony. Braze offers benefits such as: Competitive compensation that may include equity Retirement and Employee Stock Purchase Plans Flexible paid time off Comprehensive benefit plans covering medical, dental, vision, life, and disability Family services that include fertility benefits and equal paid parental leave Professional development supported by formal career pathing, learning platforms, and a yearly learning stipend A curated in-office employee experience, designed to foster community, team connections, and innovation Opportunities to give back to your community, including an annual company-wide Volunteer Week and donation matching Employee Resource Groups that provide supportive communities within Braze Collaborative, transparent, and fun culture recognized as a Great Place to Work® About Braze Braze is the leading customer engagement platform that empowers brands to Be Absolutely Engaging.™ Braze helps brands deliver great customer experiences that drive value both for consumers and for their businesses. Built on a foundation of composable intelligence, BrazeAI™ allows marketers to combine and activate AI agents, models, and features at every touchpoint throughout the Braze Customer Engagement Platform for smarter, faster, and more meaningful customer engagement. From cross-channel messaging and journey orchestration to Al-powered decisioning and optimization, Braze enables companies to turn action into interaction through autonomous, 1:1 personalized experiences. The company has repeatedly been recognized as a Leader in marketing technology by industry analysts, and was voted a G2 “Best of Marketing and Digital Advertising Software Product” in 2025. Braze was also named a 2025 Best Companies To Work For by U.S. News & World Report, a 2025 America’s Greatest Companies by Newsweek, and a 2025 Fortune Best Workplace in Technology™ by Great Place To Work®, among other accolades. Braze is also proudly certified as a Great Place to Work® in the U.S., the UK, Australia, and Singapore. The company is headquartered in New York with offices in Austin, Berlin, Bucharest, Chicago, Dubai, Jakarta, London, Paris, San Francisco, São Paulo, Singapore, Seoul, Sydney and Tokyo. BRAZE IS AN EQUAL OPPORTUNITY EMPLOYER At Braze, we strive to create equitable growth and opportunities inside and outside the organization. Building meaningful connections is at the heart of everything we do, and that includes our recruiting practices. We're committed to offering all candidates a fair, accessible, and inclusive experience – regardless of age, color, disability, gender identity, marital status, maternity, national origin, pregnancy, race, religion, sex, sexual orientation, or status as a protected veteran. When applying and interviewing with Braze, we want you to feel comfortable showcasing what makes you you . We know that sometimes different circumstances can lead talented people to hesitate to apply for a role unless they meet 100% of the criteria. If this sounds familiar, we encourage you to apply, as we’d love to meet you. Please see our Candidate Privacy Policy for more information on how Braze processes your personal information during the recruitment process and, if applicable based on your location, how you can exercise any privacy rights. … plus",
+        "missions_relevees":[
+            "Collaborer avec les équipes Analytics\/BI des clients et les collègues Braze pour des implementations, y compris la définition des cas d'usage, l'intégration des données, la mise en place des pipelines et la configuration des modèles ML",
+            "Améliorer l'architecture et développer des pipelines de données réutilisables, des APIs et des composants",
+            "Travailler en étroite collaboration avec l'équipe de développement du pipeline RL pour affiner et avancer nos algorithmes de reinforcement learning (auto-apprenant)",
+            "Contribuer à la définition de la stratégie et de la roadmap de produit de Braze grâce aux insights clients et à l'expertise technique",
+            "Fournir une expertise technique continue pour assurer une adoption réussie, des résultats mesurables et une réussite à long terme des clients"
+        ],
+        "stack_requise":[
+            "Python",
+            "Pandas",
+            "TensorFlow",
+            "Keras",
+            "scikit-learn",
+            "CatBoost",
+            "XGBoost",
+            "SQL"
+        ],
+        "stack_souhaitee":[
+            "Airflow",
+            "Kubernetes",
+            "Terraform",
+            "GCP",
+            "ETL",
+            "reinforcement learning"
+        ],
+        "competences_requises":[
+            "Expérience en tant que Data Scientist ou Machine Learning Engineer",
+            "Expérience en environnements de production à grande échelle",
+            "Expérience en rôles clients ou de conseil",
+            "Connaissance des bonnes pratiques d'ingénierie logicielle (Git, CI\/CD, tests, code reviews)",
+            "Capacité à construire des solutions scalables et maintenables"
+        ],
+        "competences_souhaitees":[
+            "Compétences en DevOps",
+            "Expérience en optimisation de pipelines de données",
+            "Compétences en intégration de données (ETL)",
+            "Connaissance des algorithmes de reinforcement learning"
+        ],
+        "justification":"Le titre « Forward Deployed Data Scientist, AI Deployment » et les missions détaillées, notamment la conception de pipelines, la configuration de modèles ML, et la collaboration avec des équipes clients, indiquent un rôle centré sur la mise en œuvre technique de modèles d'IA en production, ce qui correspond à ML \/ IA Engineer. Le titre a permis d'inverser la catégorie principale, car les missions sont compatibles avec cette catégorie."
+    },
+    {
+        "poste":"Lead IA & Agentic Senior H\/F",
+        "cat_regex":"Autre",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Aucune",
+        "description":"LEAD IA & AGENTIC (SENIOR) Rejoignez Devoteam GCloud pour construire l'IA qui agit, décide et transforme Chez Devoteam GCloud, nous passons un cap stratégique majeur : faire de l'IA Agentique un pilier central de nos offres, de nos projets et de notre ADN tech. Pour cela, nous recherchons une tête de pont, un leader technique senior, capable de porter cette ambition et d'en faire une réalité concrète chez nos clients. Votre rôle : Lead IA & Agentic : Vous n'êtes pas là pour faire de la veille. Vous êtes là pour construire, guider et incarner. Vos missions clés : - Porter l'expertise IA Agentique (LLM, agents autonomes, orchestrations, tool use, reasoning, workflows complexes) - Leader techniquement les projets IA à forte valeur (architecture, choix technos, bonnes pratiques) - Être référent et moteur auprès des équipes, des clients et de la direction - Contribuer à la structuration des offres IA \/ Agentic sur Google Cloud - Challenger les cas d'usage pour aller au-delà du POC : industrialisation, impact business, scalabilité Ce que vous trouverez ici :` - Des défis techniques stimulants - De la confiance, de l'autonomie, du terrain - Une équipe qui veut faire sérieusement de l'IA qui agit Le Groupe Devoteam oeuvre pour l'égalité des chances, pour la promotion de ses collaboratrices et de ses collaborateurs au mérite et lutte activement contre toute forme de discrimination. Nous sommes persuadés que la diversité contribue à la créativité, au dynamisme et à l'excellence de notre organisation. Tous nos postes sont ouverts aux personnes en situation de handicap Voir plus",
+        "missions_relevees":[
+            "Porter l'expertise IA Agentique (LLM, agents autonomes, orchestrations, tool use, reasoning, workflows complexes)",
+            "Leader techniquement les projets IA à forte valeur (architecture, choix technos, bonnes pratiques)",
+            "Être référent et moteur auprès des équipes, des clients et de la direction",
+            "Contribuer à la structuration des offres IA \/ Agentic sur Google Cloud",
+            "Challenger les cas d'usage pour aller au-delà du POC : industrialisation, impact business, scalabilité"
+        ],
+        "stack_requise":[
+            "Google Cloud",
+            "Vertex AI",
+            "MLOps"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Expérience réelle et concrète en IA Agentique (agents, LLMs, frameworks, implémentations en production)",
+            "Solide culture Cloud",
+            "Capacité à prendre le lead, à décider, à structurer",
+            "À l'aise avec l'incertitude, les sujets émergents et les environnements exigeants"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre et les missions décrivent un rôle de leadership technique en IA Agentique, avec une responsabilité de structuration et de pilotage de projets, ce qui correspond à la catégorie ML \/ IA Engineer. Le titre a permis de confirmer cette classification."
+    },
+    {
+        "poste":"Consultant(e) Talend DI Senior  + ESB (H\/F\/NB)",
+        "cat_regex":"Consultant Data \/ IA",
+        "categorie":"Data Engineer",
+        "categorie_alternative":"Consultant Data \/ IA",
+        "description":"Fondée en 2005, TRIMANE est un cabinet de conseil et une société de service spécialisée en Data Intelligence (BI et Big Data), notre mission est de créer de la valeur à partir des données disponibles dans les entreprises, en s'appuyant sur des approches algorithmiques innovantes, des méthodologies spécifiques et de nombreuses technologies. En tant que spécialiste Data, nous sommes reconnus pour le très haut niveau d'expertise de nos consultants et de notre retour d'expérience en la matière. Nous accompagnons nos clients du secteur public ou privé sur des prestations de Conseil, MOA et MOE, autour du traitement et l'analyse des data, quel que soit l'environnement technique (BI, Big Data, Cloud, Machine Learning, Deep Learning, NLP, etc.) ou sur les aspects méthodologiques (Gestion de projet, Agile, DataOps, stratégie Data Gouvernance, organisation Data Driven…). Société à taille humaine, nous recrutons, avant tout, des personnes passionnées désirant intégrer une vraie communauté et construire ensemble une relation durable et de confiance. Rejoindre Trimane C'est > Un triple suivi de carrière avec vos référents technique, RH et commercial, > Un accès en illimité à nos plateformes de formations, des certifications, des formations en interne autour en BI, Big Data, Machine Learning, Blockchain, développement web et logiciels software, > Des ateliers de veilles technologiques sur des sujets innovants, > Un CSE avec des afterworks, des escapes games, et autres activités d'équipe, > Participer à l'aventure The Blockchain Group, un groupe d'entrepreneurs, composé de différentes entités proposant des offres de services complémentaires (digital, blockchain, Data...) et des projets communs. POSTE \/ MISSIONS Nous recherchons pour renforcer nos projets en cours un(e) consultant(e) Fullstack Talend (DI\/ESB) sénior avec sensibilité PO\/CP. Au-delà D'avoir Une Forte Aisance Technique Pour Une Très Bonne Autonomie Et Très Bonne Capacité De Conseil (préconisations Techniques), Vous Devez Être Capable De Gérer des situations multi-projets ; Challenger les métiers et leurs spécifications fonctionnelles ; Chiffrer et planifier vos projets ; Assurer une parfaite communication avec l'ensemble des parties prenantes : Métiers, PO, équipes de développeurs, infra... Vous serez intégré(e) sur l'écosystème Talend pour prendre en main les sujets suivants : Gestion des flux via Talend, incluant l'orchestration des services au sein d'une architecture ESB. Vos missions concerneront la création, la maintenance, les évolutions et livraisons de flux d'intégration (y compris des routes ESB), ainsi que le suivi de la production. Traitement de fichiers aux formats variés (xlsx, xml, json, csv). Mise en œuvre et consommation de WebServices (SOAP, REST), en particulier via Talend ESB pour les échanges synchrones\/asynchrones. Administration de la Talend Administration Console (TAC) : gestion des traitements, des utilisateurs, des projets, et supervision des routes ESB. Rédaction de la documentation projet (STD, document d'exploitation, spécifications techniques liées aux flux ESB, etc.). Le projet repose sur l'environnement technique suivant : Talend 7.3 DI et ESB, Langages (SQL, Java, GraphQL), ainsi que des bases de données variées : Oracle, postgres, mySql, sybase ASE, … Vous êtes rigoureux(se), motivé(e), curieux(se), passionné(e) par la Data. Le contexte mission exige une bonne maîtrise du Français oral et écrit du fait : de relations régulières avec les métiers et des PO de la rédaction de nombreuses documentations : spécifications, rapports, comptes-rendus, ... De bonnes notions en anglais seraient un réel plus : Projets d'harmonisation européenne ! PROFIL RECHERCHÉ Formation ingénieur ou universitaire de niveau Bac+5 ou plus à dominante informatique et mathématiques 5 ans d'expérience professionnelle en Business Intelligence avec un niveau en SQL avancé Bonnes connaissances en modélisation décisionnelle (Flocon, étoile…) Forte expertise sur la solution Talend Domiciliation Ile de France obligatoire Votre sens du service et du travail en équipe, votre adaptabilité, vos bonnes qualités de communication, votre aisance relationnelle et votre réactivité sont des atouts indispensables pour réussir sur le poste. Vous serez intégré(e) au sein d'une équipe projet et à ce titre, doté d'un état d'esprit d'équipe irréprochable. TRIMANE Est Un Pure Player Data Aussi La Connaissance D'un Ou Plusieurs Outils Décisionnels Est Très Appréciée D'autres ETL type Talend, SSIS, Datastage, ODI, … D'autres outils de reporting ou de Dataviz type Power BI, Tableau, Microstrategy, … Sensibilité au Big Data et solutions Cloud AVANTAGES Selon profil … plus",
+        "missions_relevees":[
+            "Gestion des flux via Talend, incluant l'orchestration des services au sein d'une architecture ESB",
+            "Création, maintenance et évolution des flux d'intégration (y compris des routes ESB)",
+            "Mise en œuvre et consommation de WebServices (SOAP, REST) via Talend ESB",
+            "Administration de la Talend Administration Console (TAC)",
+            "Rédaction de la documentation projet (STD, document d'exploitation, spécifications techniques liées aux flux ESB)"
+        ],
+        "stack_requise":[
+            "Talend 7.3 DI",
+            "Talend ESB",
+            "SQL",
+            "Java",
+            "GraphQL",
+            "Oracle",
+            "PostgreSQL",
+            "MySQL",
+            "Sybase ASE"
+        ],
+        "stack_souhaitee":[
+            "Power BI",
+            "Tableau",
+            "Microstrategy",
+            "SSIS",
+            "Datastage",
+            "ODI"
+        ],
+        "competences_requises":[
+            "Maîtrise du français oral et écrit",
+            "Bonnes connaissances en modélisation décisionnelle (Flocon, étoile…)",
+            "Expérience en Business Intelligence",
+            "Compétences en SQL avancé",
+            "Expertise en Talend",
+            "Capacité à gérer des situations multi-projets",
+            "Capacité à challenger les métiers et leurs spécifications fonctionnelles",
+            "Compétences en gestion de projet",
+            "Compétences en communication et en travail d'équipe"
+        ],
+        "competences_souhaitees":[
+            "Notions en anglais",
+            "Sensibilité au Big Data et solutions Cloud"
+        ],
+        "justification":"Le titre mentionne 'Consultant(e) Talend DI Senior + ESB', ce qui suggère un rôle de conseil technique. Cependant, les missions principales portent sur la gestion des flux, la maintenance des intégrations et l'administration de Talend, ce qui correspond davantage à un Data Engineer. Le titre a donc conduit à promouvoir la catégorie alternative."
+    },
+    {
+        "poste":"Chef de projet IA F\/H - Système, réseaux, données (H\/F)",
+        "cat_regex":"Autre",
+        "categorie":"Consultant Data \/ IA",
+        "categorie_alternative":"Data Scientist",
+        "description":"Descriptif du poste:\n\nVos missions principales seront :\n* Définition et cadrage : Collaborer étroitement avec les métiers (marché particuliers, professionnels., Distribution, Conformité, Back Office .) pour formaliser les besoins des cas d'usage priorisés.\n* Management de projets : Coordonner les équipes pluridisciplinaires (IA, Métiers ainsi que les équipes de la DSI en charge des solutions existantes impactées). Participer\/animer les comités de projet et la gestion au quotidien des tâches à réaliser par l'équipe pour produire la solution (notamment la Recette fonctionnelle : plan de recette et exécution)\n* Maîtrise des risques : Contribuer à identifier, évaluer et mitiger les risques inhérents aux projets IA, notamment en matière de sécurité et de conformité réglementaire (RGPD, IA Act .)\n* Acculturation et adoption : Participer à l'acculturation des collaborateurs LCL aux enjeux de l'IA, en favorisant l'adoption des solutions déployées.Suivi Opérationnel et Performance (RUN) : En collaboration avec les métiers, vous monitorerez les solutions IA en production, en analysant les KPIs et le suivi de l'usage.\n\nProfil recherché:\n\nFormation :\n* Vous êtes titulaire d'un diplôme Bac +5 \/ M2 (Grande École d'ingénieur ou Master universitaire équivalent) avec une spécialisation en Data Science, Intelligence Artificielle, Mathématiques Appliquées ou Statistiques.\nExpérience :\n* Vous justifiez d'une première expérience réussie en data science, idéalement en tant que Data Scientist ou Chef de projet IA.\n* Vous avez une expérience concrète du développement et de l'industrialisation de solutions IA\/Machine Learning dans un contexte d'entreprise.\n* Une connaissance des métiers de la banque ou de l'assurance est un atout majeur pour comprendre rapidement nos enjeux.\nCompétences et Qualités :\n* Double Compétence : Vous êtes aussi à l'aise dans la manipulation de données et la modélisation que dans le dialogue avec des interlocuteurs non-techniques.\n* Excellente communication : Votre capacité d'écoute, de synthèse et de vulgarisation vous permet de faire le lien entre la technologie et le business.\n* Rigueur et sens de l'analyse : Vous savez aborder un problème de manière structurée et méthodique.\n* Esprit d'équipe : Vous aimez travailler en mode collaboratif et partager vos connaissances.\n* Langues : Un niveau d'anglais professionnel est requis pour évoluer dans un environnement technologique international.",
+        "missions_relevees":[
+            "Collaborer avec les métiers pour formaliser les besoins des cas d'usage priorisés",
+            "Coordonner les équipes pluridisciplinaires et animer les comités de projet",
+            "Identifier, évaluer et mitiger les risques liés aux projets IA, notamment en matière de conformité",
+            "Participer à l'acculturation des collaborateurs aux enjeux de l'IA et favoriser l'adoption des solutions déployées",
+            "Monitorer les solutions IA en production et analyser les KPIs et le suivi de l'usage"
+        ],
+        "stack_requise":[
+            "RGPD",
+            "IA Act"
+        ],
+        "stack_souhaitee":[
+            "Python",
+            "Machine Learning"
+        ],
+        "competences_requises":[
+            "Gestion de projet",
+            "Connaissance des enjeux de l'IA",
+            "Communication interne et externe",
+            "Analyse de risques",
+            "Conformité réglementaire",
+            "Collaboration interdisciplinaire"
+        ],
+        "competences_souhaitees":[
+            "Connaissance des métiers de la banque ou de l'assurance",
+            "Anglais professionnel"
+        ],
+        "justification":"Le titre mentionne 'Chef de projet IA' et les missions incluent le cadrage de projets, la gestion de risques, la coordination d'équipes et la conformité réglementaire, ce qui correspond au rôle de Consultant Data \/ IA. Le titre a permis de promouvoir cette catégorie par rapport à une possible alternative."
+    },
+    {
+        "poste":"Ingénieur Data & IA F\/H",
+        "cat_regex":"Data Engineer",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Data Engineer",
+        "description":"Chez Atos, nous contribuons à façonner un avenir numérique enrichi par l’intelligence artificielle. Notre mission : réunir les meilleurs talents, technologies et partenaires, pour faire progresser la transformation digitale au quotidien. Des environnements critiques aux services cloud et de cybersécurité, nous guidons nos clients pour les amener là où ils ont besoin d’aller. Nos technologies sont fluides, sécurisées et conçues pour être responsables. Avec l’innovation intégrée dans tout ce que nous faisons, nous réinventons l’avenir pour nos clients, nos collaborateurs et la société dans son ensemble. Dans un contexte de croissance des projets data-driven et d’intégration de l’intelligence artificielle dans les processus métiers, nous recherchons un(e) Ingénieur(e) Data & IA pour renforcer nos équipes. Vous interviendrez sur des projets stratégiques allant de la gestion des données à la mise en œuvre de modèles d’IA. Vous rejoindrez une équipe pluridisciplinaire composée de Data Engineers, Data Scientists et experts IT, dans un environnement stimulant, orienté innovation et valorisation des données. Ce poste est ouvert pour accompagner le développement de nos activités autour de la data et de l’IA. Vos missions à nos côtés Concevoir et développer des pipelines de traitement de données (collecte, transformation, stockage). Développer et intégrer des modèles d’IA et de machine learning dans des applications métiers. Participer à l’industrialisation des solutions data et IA (mise en production, monitoring, maintenance). Collaborer avec les équipes métiers pour comprendre les besoins et proposer des solutions adaptées. Mettre en place des bonnes pratiques en matière de qualité des données, gouvernance et performance. Les atouts pour réussir Vous avez minimum 3 années d’expérience sur un poste similaire Maîtrise de Python et des outils de traitement de données (Pandas, Spark, etc.) Bonne compréhension des concepts de intelligence artificielle et de machine learning Expérience avec des bases de données SQL et NoSQL Connaissance des architectures data (data lake, data warehouse, ETL\/ELT) Compétences appréciées : Expérience avec des outils de data engineering (Airflow, dbt, Kafka) Connaissance des environnements cloud : Amazon Web Services, Microsoft Azure ou Google Cloud Platform Expérience en MLOps et déploiement de modèles Notions en visualisation de données (Power BI, Tableau) Connaissance des enjeux de gouvernance et de qualité des données En savoir plus La diversité est un moteur au service de la créativité de nos clients, et nous nous efforçons chaque jour de créer un environnement où chacun se sent soutenu et encouragé. La « Tech for Good » s'inscrit au cœur de notre mission, que ce soit en matière de lutte contre le changement climatique, pour promouvoir l'inclusion numérique ou garantir la confiance dans la gestion des données. Nous sommes fiers des nombreuses reconnaissances mondiales pour nos pratiques environnementales, sociales et de gouvernance, et nous nous engageons à construire un avenir meilleur pour tous en exploitant le pouvoir de la technologie.",
+        "missions_relevees":[
+            "Concevoir et développer des pipelines de traitement de données (collecte, transformation, stockage)",
+            "Développer et intégrer des modèles d’IA et de machine learning dans des applications métiers",
+            "Participer à l’industrialisation des solutions data et IA (mise en production, monitoring, maintenance)",
+            "Collaborer avec les équipes métiers pour comprendre les besoins et proposer des solutions adaptées",
+            "Mettre en place des bonnes pratiques en matière de qualité des données, gouvernance et performance"
+        ],
+        "stack_requise":[
+            "Python",
+            "Pandas",
+            "Spark",
+            "SQL",
+            "NoSQL",
+            "ETL\/ELT"
+        ],
+        "stack_souhaitee":[
+            "Airflow",
+            "dbt",
+            "Kafka",
+            "Amazon Web Services",
+            "Microsoft Azure",
+            "Google Cloud Platform",
+            "Power BI",
+            "Tableau"
+        ],
+        "competences_requises":[
+            "Maîtrise des concepts de traitement de données",
+            "Connaissance des bases de données SQL et NoSQL",
+            "Compréhension des architectures data (data lake, data warehouse)",
+            "Expérience en intelligence artificielle et machine learning"
+        ],
+        "competences_souhaitees":[
+            "Notions en visualisation de données",
+            "Connaissance des enjeux de gouvernance et de qualité des données",
+            "Expérience en MLOps et déploiement de modèles"
+        ],
+        "justification":"Le titre « Ingénieur Data & IA » et les missions liées au développement de pipelines de données, à l’intégration de modèles d’IA et à l’industrialisation des solutions data et IA indiquent un rôle de ML \/ IA Engineer. Le titre a permis de promouvoir cette catégorie par rapport à Data Engineer, qui serait une alternative plausible."
+    },
+    {
+        "poste":"Product Manager-Services Connectés H\/F",
+        "cat_regex":"Autre",
+        "categorie":"Consultant Data \/ IA",
+        "categorie_alternative":"Aucune",
+        "description":"Le Product Manager - Smart Maintenance sera responsable de la stratégie, du développement et du déploiement de produits de maintenance prédictive pour les batteries 12V et Haut Voltage (HV), le suivi d'usure des freins et des pneus, ainsi que d'autres composants liés à l'état de santé du véhicule. Vous évoluerez à l'intersection de l'Unité Logicielle (Software Business Unit), de l'organisation AprèsVente et des équipes d'ingénierie IA\/ML afin de construire des solutions centrées client et basées sur la donnée, capables d'anticiper les défaillances, réduire les immobilisations et améliorer le coût total de possession. Le rôle implique également une collaboration étroite avec d'autres entités software sur l'ensemble de la chaîne E2E afin que les informations soient mises à disposition des clients finaux - particuliers comme flottes - via des points de contact tels que l'application mobile, l'unité centrale du véhicule (Head Unit) et le portail de services pour flottes. Ce poste nécessite un mix solide de vision produit, de connaissances du domaine automobile, de profondeur technique et de leadership transversal pour lancer sur le marché des fonctionnalités innovantes de Maintenance Intelligente destinées aux véhicules connectés, électrifiés et définis par logiciel. Responsabilités clés Stratégie & Vision Produit : Définir et piloter la feuille de route produit pour les fonctionnalités de Maintenance Intelligente couvrant plusieurs composants du véhicule (initialement batteries 12V\/HV, usure des freins et usure des pneus), avec une extension prévue à d'autres systèmes (ex. : chaîne de traction, refroidissement, capteurs ADAS, certificats véhicule). Conduire les analyses de marché, études des besoins clients, benchmarks concurrentiels et élaboration de business cases afin de prioriser les fonctionnalités en coordination avec la Software BU. Aligner les parties prenantes - Software BU, AprèsVente, SWE, Engineering Véhicule - pour garantir la cohérence du produit et son évolutivité à long terme. Leadership Transversal : Travailler étroitement avec les ingénieurs IA\/ML pour transformer les capacités algorithmiques en valeur réelle pour le client, en définissant les besoins en données, les métriques de précision et les critères de validation. Collaborer avec les départements AprèsVente et Services pour convertir les insights prédictifs en recommandations de maintenance actionnables et opportunités de revenus. Travailler avec les équipes UX\/UI afin de concevoir des interfaces intuitives pour les conducteurs comme pour les ateliers. Coordonner avec les équipes Connectivité, Cloud Backend et Données de télémétrie pour garantir des flux robustes d'ingestion et de traitement de données. Impact Client & Business Collaborer avec l'AprèsVente afin d'activer de nouveaux modèles économiques . Surveiller les performances en conditions réelles des fonctionnalités prédictives et piloter l'amélioration continue via des insights analytiques. Voir plus",
+        "missions_relevees":[
+            "Définir et piloter la feuille de route produit pour les fonctionnalités de Maintenance Intelligente",
+            "Conduire des analyses de marché, études des besoins clients et benchmarks concurrentiels",
+            "Travailler avec les ingénieurs IA\/ML pour transformer les capacités algorithmiques en valeur client",
+            "Collaborer avec les départements AprèsVente et Services pour convertir les insights prédictifs en recommandations de maintenance",
+            "Concevoir des interfaces intuitives avec les équipes UX\/UI",
+            "Garantir des flux robustes d'ingestion et de traitement de données avec les équipes Connectivité, Cloud Backend et Données de télémétrie"
+        ],
+        "stack_requise":[
+            "ISO 26262",
+            "SOTIF",
+            "cybersécurité",
+            "plateformes électriques",
+            "gestion de santé des batteries HV",
+            "systèmes de diagnostic embarqués",
+            "analyses prédictives",
+            "architectures de pipelines de données"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "vision produit",
+            "pensée stratégique",
+            "profondeur technique",
+            "pensée systémique",
+            "orientation client",
+            "prise de décision basée sur les données",
+            "communication",
+            "alignement des parties prenantes",
+            "gestion de backlog",
+            "méthodologies agiles",
+            "gestion de projet transversal"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre indique un Product Manager, mais les missions principales portent sur la définition de la feuille de route produit, la coordination transversale et la transformation de capacités algorithmiques en valeur client, ce qui correspond à un Consultant Data \/ IA. Le titre n'a pas suffisamment de poids pour inverser la catégorie, car les missions ne correspondent pas à un Data Analyst."
+    },
+    {
+        "poste":"Artificial Intelligence Engineer",
+        "cat_regex":"Autre",
+        "categorie":"ML \/ IA Engineer",
+        "categorie_alternative":"Aucune",
+        "description":"Hi Folks, Hope you are doing great. Please take a look at the below role and let me know your interest. Role- AI Native Software Lead Engagement model (Contract vs FTE) - CTH Duration – 6+ months Location and work setup (remote\/hybrid\/on-site) – Remote with travel Overview Seeking a hands-on AI Native Software Led to design, build, and deploy production-grade AI-driven systems within enterprise environments. The role focuses on implementing agent-based workflows, integrating AI platforms, and delivering scalable cloud-native solutions. Responsibilities AI Agent Engineering Design and implement AI agents, including Retrieval (RAG) Orchestration workflows Tool\/function invocation Policy-based routing Build evaluation frameworks for accuracy, latency, and reliability Implement observability and monitoring for agent lifecycle AI Platform Integration Integrate with AI providers (e.g., OpenAI, Anthropic, Google Vertex, open-source models) Build abstraction layers to support multi-model and multi-provider architectures Optimize model usage for performance, cost, and latency Cloud-Native Development Develop scalable services using: Microservices architecture Containers (Docker, Kubernetes) Serverless and event-driven patterns Implement CI\/CD pipelines and infrastructure as code (e.g., Terraform, Helm) Ensure production readiness, logging, monitoring, and fault tolerance Application Development Build and deploy AI-powered applications aligned to business workflows Integrate AI systems into existing enterprise platforms and APIs Develop backend services and APIs supporting agent workflows Testing & Performance Define and execute test strategies for AI systems Measure system performance (latency, throughput, accuracy, cost) Debug and optimize production systems Required Skills & Experience 8–10+ years of software engineering experience Strong experience with cloud-native systems (APIs, microservices, containers, serverless) Experience building and deploying AI\/LLM-based systems in production (agents, RAG, orchestration) Proficiency in Python, Java, or similar backend languages Experience with: CI\/CD pipelines Infrastructure as code Monitoring and observability tools Hands-on experience with AI platforms (OpenAI, Claude, Vertex AI, or similar) Preferred Experience Experience with agent frameworks (e.g., LangGraph, AutoGen, CrewAI) Experience designing multi-agent or distributed AI systems Familiarity with enterprise-scale system integration Experience optimizing AI workloads for cost and performance Scope & Expectations (Contractor-Specific) 100% hands-on engineering role (no people management) Deliver production-quality code and deployments Work within existing architecture and engineering standards Collaborate with client and internal engineering teams as needed Participate in technical design discussions (implementation-focused) … plus",
+        "missions_relevees":[
+            "Design and implement AI agents, including Retrieval (RAG) Orchestration workflows",
+            "Build evaluation frameworks for accuracy, latency, and reliability",
+            "Implement observability and monitoring for agent lifecycle",
+            "Integrate with AI providers (e.g., OpenAI, Anthropic, Google Vertex, open-source models)",
+            "Develop scalable services using microservices architecture, containers, serverless, and event-driven patterns",
+            "Implement CI\/CD pipelines and infrastructure as code (e.g., Terraform, Helm)",
+            "Build and deploy AI-powered applications aligned to business workflows",
+            "Integrate AI systems into existing enterprise platforms and APIs",
+            "Define and execute test strategies for AI systems",
+            "Debug and optimize production systems"
+        ],
+        "stack_requise":[
+            "Python",
+            "Java",
+            "CI\/CD pipelines",
+            "Infrastructure as code",
+            "Monitoring and observability tools",
+            "OpenAI",
+            "Anthropic",
+            "Google Vertex",
+            "Docker",
+            "Kubernetes",
+            "Terraform",
+            "Helm"
+        ],
+        "stack_souhaitee":[
+            "LangGraph",
+            "AutoGen",
+            "CrewAI"
+        ],
+        "competences_requises":[
+            "Strong experience with cloud-native systems (APIs, microservices, containers, serverless)",
+            "Experience building and deploying AI\/LLM-based systems in production (agents, RAG, orchestration)",
+            "Proficiency in backend development",
+            "Experience with CI\/CD pipelines",
+            "Experience with infrastructure as code",
+            "Experience with monitoring and observability tools",
+            "Hands-on experience with AI platforms (OpenAI, Claude, Vertex AI, or similar)"
+        ],
+        "competences_souhaitees":[
+            "Experience designing multi-agent or distributed AI systems",
+            "Familiarity with enterprise-scale system integration",
+            "Experience optimizing AI workloads for cost and performance"
+        ],
+        "justification":"Le titre 'Artificial Intelligence Engineer' et les missions liées à la conception, l'intégration et le déploiement de systèmes d'IA en production, notamment les agents, les RAG, et les architectures cloud-native, correspondent clairement au rôle de ML \/ IA Engineer."
+    },
+    {
+        "poste":"Manager Data & AI - F\/H",
+        "cat_regex":"Autre",
+        "categorie":"Consultant Data \/ IA",
+        "categorie_alternative":"Aucune",
+        "description":"A propos de Bull Bull c’est une histoire. Un siècle d’innovation Européenne et un environnement de travail où des experts conçoivent des solutions numériques puissantes, durables et souveraines, permettant aux États et aux industries de garder la pleine maîtrise de leurs données et de leur IA. Bull c’est aussi des milliers d’ingénieurs, de chercheurs, de passionnés de tech, façonnant l’avenir du calcul de haute performance, de l’IA et des technologies quantiques. Chaque jour, nos équipes repoussent les limites du possible - des architectures HPC de nouvelle génération aux supercalculateurs exascale - soutenues par une R&D de rang mondial, plus de 1 600 brevets et des capacités de bout en bout uniques, couvrant la conception matérielle, l’ingénierie logicielle, la data science et la recherche quantique. Centrés sur l’humain et portés par l’innovation, où la collaboration s’étend à l’Europe, aux Amériques et à l’Inde, nous partageons cette même vision d’une innovation responsable et durable, avec un impact concret pour nos clients. Qui sommes-nous ? Pure player français de l’intelligence artificielle, nous disposons de vastes capacités de déploiement et figurons parmi les leaders européens des supercalculateurs et des IA Factories. Nous créons aujourd’hui un pôle de conseil dédié afin de faire le pont entre notre expertise technique de pointe et les enjeux stratégiques des directions générales. Dans ce cadre, nous recherchons un Manager pour structurer cette activité. Votre mission Allier rigueur d’exécution et ambition de déploiement à grande échelle , tout en pilotant le recrutement et le développement de nos futurs talents. Il s’agit d’un rôle clé, au carrefour du conseil stratégique et de l’expertise technologique souveraine , permettant de piloter des projets IA d'envergure pour des industries stratégiques et des acteurs majeurs du secteur public. Le poste implique la conception de solutions IA de confiance , la structuration d’IA Factories , et le développement d’une équipe de conseil . Responsabilités principales Vous êtes le consultant qui traduit les enjeux complexes des directions générales en leviers de performance technologique. Votre valeur ajoutée réside dans votre capacité à ancrer une vision conseil de haut niveau dans une réalité technique souveraine. 1. IA Souveraine et Infrastructures Critiques Souveraineté et Résilience : Vous aidez les décideurs à décrypter les risques (techniques, de dépendance, économiques) et structurez leurs stratégies de mitigation par l'adoption de briques technologiques autonomes. IA Factories : Vous accompagnez les grandes organisations et les institutions publiques dans la création d'IA Factories. Vous intervenez sur la définition de la gouvernance, des modèles de delivery et des stratégies de résilience pour bâtir une infrastructure IA robuste. 2. Pilotage de la Transformation et Expertise Conseil Identification & Valeur : Vous menez des missions de cadrage auprès des instances dirigeantes (Comex, DirData) pour identifier les gisements de ROI. Trait d’union Business & Tech : Vous orchestrez le dialogue entre les besoins métier et nos experts Data Science. Vous traduisez les problématiques stratégiques en feuilles de route opérationnelles. Gouvernance et Industrialisation : Vous veillez à ce que chaque déploiement s’inscrive dans une architecture sécurisée et conforme aux plus hautes exigences de conformité. 3. Développement d'Équipe et Croissance Rayonnement commercial : Vous pilotez le développement de la practice et les réponses aux appels d’offres complexes. Construction du cabinet : Vous participez activement au recrutement, au coaching et à la structuration de notre équipe de conseil. Compétences et qualifications requises Formation et expérience Diplôme Master ou Ingénieur (Bac+5), idéalement en Data Science, IA, Informatique ou Mathématiques appliquées. 5 à 8 ans d’expérience en conseil Data \/ AI ou stratégie, avec une première expérience réussie en gestion d’équipe. Maîtrise des enjeux technologiques et de la conduite de projets de transformation à l'échelle. Expérience dans le secteur public, l'industrie lourde ou le consulting de direction générale. Anglais courant obligatoire. Compétences techniques & Soft Skills Maîtrise des concepts Data & AI et expérience en delivery de projets. Excellente capacité de synthèse et aisance dans la production de supports de haut niveau (slideware). Nice-to-have : Python, frameworks ML, certifications Cloud (Azure, AWS, GCP), connaissance des problématiques de cybersécurité. Environnement et enjeux Poste structurant pour le lancement d’une Consulting Practice IA . Déplacements ponctuels nationaux et internationaux. Rémunération : 75-85k€ . Pourquoi postuler ? Ce poste s’adresse à un profil souhaitant allier stratégie, expertise technologique et impact opérationnel , tout en participant à la création d'une équipe. Vous interviendrez sur des projets critiques pour l’indépendance numérique, avec une forte visibilité auprès de clients de premier plan. Pourquoi ne pas postuler ? Si vous recherchez un poste purement technique sans dimension stratégique, ou si vous préférez les environnements très stables sans l'agilité liée au lancement d'une nouvelle activité, ce rôle ne correspondra pas à vos attentes. Rejoignez notre communauté! Ici, vos idées, votre curiosité et votre excellence technique contribuent directement à façonner la prochaine ère du calcul avancé - en créant de la valeur pour les entreprises, en accélérant le progrès scientifique et en générant un impact positif pour la société.",
+        "missions_relevees":[
+            "Traduire les enjeux complexes des directions générales en leviers de performance technologique",
+            "Structurer des IA Factories et concevoir des solutions IA de confiance",
+            "Identifier les gisements de ROI et mener des missions de cadrage auprès des instances dirigeantes",
+            "Orchestrer le dialogue entre les besoins métier et les experts Data Science",
+            "Piloter le développement de la practice et les réponses aux appels d’offres complexes",
+            "Recruter, coacher et structurer une équipe de conseil"
+        ],
+        "stack_requise":[
+            "Python",
+            "frameworks ML",
+            "certifications Cloud (Azure, AWS, GCP)",
+            "cybersécurité"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Maîtrise des concepts Data & AI",
+            "Expérience en delivery de projets",
+            "Excellente capacité de synthèse",
+            "Aisance dans la production de supports de haut niveau (slideware)",
+            "Connaissance des enjeux technologiques et de la conduite de projets de transformation à l'échelle"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre « Manager Data & AI » et les missions principales, telles que la structuration d’IA Factories, la gouvernance, la définition de stratégies et le pilotage de projets IA, indiquent clairement un rôle de Consultant Data \/ IA. Bien que le titre mentionne « Manager », les responsabilités principales portent sur le conseil stratégique, la gouvernance et la transformation, ce qui correspond à la catégorie Consultant Data \/ IA."
+    },
+    {
+        "poste":"Site Reliability Engineer - AI",
+        "cat_regex":"ML \/ IA Engineer",
+        "categorie":"Autre",
+        "categorie_alternative":"Aucune",
+        "description":"OUR STORY: 🇪🇺 Join Scaleway and shape the sovereign cloud of tomorrow ! Since 1999, we have been designing secure, sustainable infrastructures aimed at supporting the most ambitious companies. Historically known for our dedicated servers (Dedibox), we made a strategic shift to cloud computing in 2015. Staying true to our principles of simplicity, flexibility, and technical excellence, we have become one of the leading players in Europe in the sector. With the rise of artificial intelligence, we have strengthened our commitment, supported by the Iliad Group, which is investing €3 billion to develop a serious, sovereign AI alternative to American and Asian giants. Every day, thanks to our fast-growing portfolio of cloud and AI products (bare metal, containerization, serverless, AI, etc.), Scaleway proudly serves thousands of customer across the private and public sector, from corporations like France Télévisions or Hachette Livre, to fast-growing startups like Photoroom and Biolevate, to institutions like the City of Copenhagen. 📍 Our offices are located in Paris, Lille, Toulouse, Rennes, Rouen, Bordeaux and Lyon. OUR STORY 🇪🇺 Join Scaleway and shape the sovereign cloud of tomorrow! Since 1999, we have been designing secure, sustainable infrastructures aimed at supporting the most ambitious companies. Historically known for our dedicated servers (Dedibox), we made a strategic shift to cloud computing in 2015. Staying true to our principles of simplicity, flexibility, and technical excellence, we have become one of the leading players in Europe in the sector. With the rise of artificial intelligence, we have strengthened our commitment, supported by the Iliad Group, which is currently investing €3 billion to develop a serious, sovereign AI alternative to American and Asian giants. Every day, thanks to our fast-growing portfolio of cloud and AI products (bare metal, containerization, serverless, AI, etc.), Scaleway proudly serves thousands of customer across the private and public sector, from corporations like France Télévisions or Hachette Livre, to fast-growing startups like Photoroom and Biolevate, to institutions like the City of Copenhagen. 📍Our offices are located in Paris, Lille, Toulouse, Rennes, Rouen, Bordeaux, and Lyon. WHY WE NEED YOU? Our growth is driving us to strengthen our Platform SRE team to build, standardize, and reliable the infrastructure hosting Scaleway's products. Your mission will be to ensure the operational readiness of our infrastructures and the onboarding of product teams in order to maintain high-performance standards, ensure continuous improvement, and support the deployment of product stacks across new regions. YOUR FUTURE TEAM We work in a collaborative and international environment where the diversity of Scalers, combined with a spirit of sharing, helps bring new projects to life every day, advancing our ambitions together. You will be part of a team of 5 people, including your manager. The team operates in a stabilized environment with a fresh dynamic, focusing on onboarding multiple products and uniformizing engineering practices. We use a mix of Scrum and Kanban methodologies and rotate product referents to keep the work engaging and mitigate \"bus factor\" risks. YOUR DAILY ROUTINE Tasks Build, standardize, and enhance the reliability of the platform infrastructure Onboard product teams and facilitate the deployment of product stacks in new regions Implement and manage observability tools (Grafana, Thanos, Alertmanager) Automate infrastructure deployment and management using Gitops processes Ensure configuration consistency through tools like Ansible or Salt Manage operational maintenance (MCO) and handle production incidents Define and monitor reliability metrics such as SLAs and SLOs Maintain clear and accurate technical documentation Manage security components and secrets (e.g., HashiCorp Vault) Participate in a weekly on-call rotation (approximately one week per month) About You HARDSKILLS: Senior-level experience in Linux system administration and infrastructure management Proficiency with Kubernetes (K8S) and Gitops workflows (Argocd, Fluxcd) Strong mastery of Infrastructure as Code (IaC) and automation (Ansible, Salt) Solid understanding of Networking fundamentals and security protocols Experience managing Secrets (e.g., Vault) and Observability stacks (Thanos, Grafana) Proficiency in scripting and automation for high-availability environments SOFT SKILLS: Pragmatic approach to problem-solving Strong listening skills and ability to collaborate across teams High level of precision and attention to detail Curiosity and a continuous improvement mindset Open-mindedness and a collaborative spirit WHAT YOU WILL FIND AT SCALEWAY ++++ Hybrid work: We offer up to 3 days of remote work per week. Offices: Our offices are spacious, dynamic workspaces with bold design, conveniently located near public transport. Most of our offices feature outdoor spaces (terraces) and bike parking facilities. Dining: Our chef provides a healthy meal service at the headquarters, and breakfast is available across all our sites year-round. Scalers working from regional sites enjoy a Swile card for lunches. Well-being commitments: Whether it’s access to a gym, daycare places, or discounted services for caring services, Scaleway is committed to supporting Scalers in maintaining a balanced life. International environment: With dozens of nationalities, Scaleway offers a stimulating environment where English is as widely spoken as French. Career & Mobility: Our managers value internal mobility, and opportunities to transition to other entities within the Iliad Group are accessible to all Scalers. 🚀 Why join the Scaleway adventure? ✔ A rich and diverse product offering: Scaleway offers over 100 public cloud products in IaaS, PaaS, and AI. ✔ A cutting-edge technical environment: Scaleway provides modern infrastructures, including high-performance bare metal servers, to tackle exciting technical challenges. ✔ Commitment to responsible cloud: Scaleway is dedicated to a more responsible cloud, with data centers powered solely by renewable energy since 2017, minimizing our ecological footprint and holding top-level certification. 🔜 THE NEXT STEPS … Discovery call with a recruiter (30 min) Manager interview to understand your technical skills and approach to the role (45 min) Technical interview and Use Case with the team to validate your expertise (1h) Deep dive interview to deepen discussions and assess your fit with the team (45 min) Final validation with the Head of Tribe and office tour to meet your future colleagues Version française : ici At Scaleway, we are committed to building an inclusive and respectful workplace where everyone has a fair opportunity to thrive. All applications are considered with care, regardless of age, gender, sexual orientation, ethnic or social background, religion, disability, or any other characteristic. We believe great ideas come from everywhere, and everyone which is why you should definitely apply. … plus",
+        "missions_relevees":[
+            "Build, standardize, and enhance the reliability of the platform infrastructure",
+            "Onboard product teams and facilitate the deployment of product stacks in new regions",
+            "Implement and manage observability tools (Grafana, Thanos, Alertmanager)",
+            "Automate infrastructure deployment and management using Gitops processes",
+            "Ensure configuration consistency through tools like Ansible or Salt",
+            "Define and monitor reliability metrics such as SLAs and SLOs"
+        ],
+        "stack_requise":[
+            "Linux",
+            "Kubernetes (K8S)",
+            "Gitops (Argocd, Fluxcd)",
+            "Infrastructure as Code (IaC)",
+            "Ansible",
+            "Salt",
+            "Networking fundamentals",
+            "HashiCorp Vault",
+            "Grafana",
+            "Thanos",
+            "Alertmanager"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Senior-level experience in Linux system administration and infrastructure management",
+            "Strong mastery of Infrastructure as Code (IaC) and automation",
+            "Solid understanding of Networking fundamentals and security protocols",
+            "Experience managing Secrets (e.g., Vault) and Observability stacks",
+            "Proficiency in scripting and automation for high-availability environments"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre « Site Reliability Engineer - AI » indique un rôle technique centré sur la fiabilité des infrastructures, et les missions décrivent clairement des responsabilités liées à la gestion et à l'automatisation des infrastructures cloud, ce qui relève de la catégorie « Autre » car il ne correspond pas à un métier data ou IA."
+    },
+    {
+        "poste":"Product Analyst",
+        "cat_regex":"Autre",
+        "categorie":"Data Analyst",
+        "categorie_alternative":"Aucune",
+        "description":"About Air Apps At Air Apps, we believe in thinking bigger—and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live. Born in Lisbon, Portugal, in 2018—and now with offices in both Lisbon and San Francisco—we’ve remained self-funded while reaching over 100 million downloads worldwide. Our long-term focus drives us to challenge the status quo every day, pushing the boundaries of AI-driven solutions that truly make a difference. Here, you’ll be a creative force, shaping products that empower people across the globe. Join us on this journey to redefine resource management—and change lives along the way. The Role As a Product Analyst at Air Apps, you will analyze both internal and external products to identify potential new functionalities, uncover bottlenecks, and provide data-driven insights to enhance user experience. You will collaborate with cross-functional teams to interpret product performance, optimize features, and support strategic decision-making through actionable recommendations. This is a fully onsite position , based at our office in Lisbon, where you will collaborate closely with cross-functional teams in person and contribute to a dynamic and fast-paced environment. We are open to support with relocation efforts. Responsibilities Analyze product usage data to identify trends, friction points, and opportunities for improvement. Evaluate competitor products to benchmark functionalities and propose innovative solutions. Develop reports and dashboards to track key performance metrics. Collaborate with product managers, designers, and engineers to enhance product features based on data insights. Conduct A\/B testing and experimentation to validate new functionalities and improve user engagement. Provide actionable insights to support product roadmap decisions. Identify and address bottlenecks in user flows and product performance. Requirements Around 3+ years of experience in product analytics, business intelligence, or a related field. Strong analytical skills with experience in SQL, Python, or R for data analysis. Proficiency with analytics tools (e.g., Google Analytics, Mixpanel, Amplitude). Understanding of A\/B testing methodologies and statistical analysis. Experience with data visualization tools (e.g., Tableau, Looker, Power BI). Strong communication skills to present insights clearly to technical and non-technical stakeholders. Ability to work in a fast-paced, data-driven environment. What benefits are we offering? Apple hardware ecosystem for work. Annual Bonus Top-tier Health and Life Insurance for peace of mind. Transportation Budget to support your commute needs. Coverflex benefits package for meal allowances, well-being, and more. Childcare support. Air Conference - an opportunity to meet the team, collaborate, and grow together. Pension Fund to support your long-term financial planning. Urban Sports Club membership to keep you active. Meals 100% free at the hub. Diversity & Inclusion At Air Apps, we are committed to fostering a diverse, inclusive, and equitable workplace. We enthusiastically welcome applicants from all backgrounds, experiences, and perspectives. We celebrate diversity in all its forms and believe that varied voices and experiences make us stronger. Application Disclaimer At Air Apps, we value transparency and integrity in our hiring process. Applicants must submit their own work without any AI-generated assistance. Any use of AI in application materials, assessments, or interviews will result in disqualification. Compensation Range: €36K - €46K",
+        "missions_relevees":[
+            "Analyser les données d'utilisation des produits pour identifier des tendances, des points de friction et des opportunités d'amélioration.",
+            "Évaluer les produits concurrents pour comparer les fonctionnalités et proposer des solutions innovantes.",
+            "Développer des rapports et des tableaux de bord pour suivre les métriques clés de performance.",
+            "Collaborer avec les gestionnaires de produit, les designers et les ingénieurs pour améliorer les fonctionnalités du produit grâce aux insights des données.",
+            "Mener des tests A\/B et des expérimentations pour valider de nouvelles fonctionnalités et améliorer l'engagement des utilisateurs.",
+            "Fournir des recommandations concrètes pour soutenir les décisions stratégiques liées au roadmap du produit."
+        ],
+        "stack_requise":[
+            "SQL",
+            "Python",
+            "R",
+            "Google Analytics",
+            "Mixpanel",
+            "Amplitude",
+            "Tableau",
+            "Looker",
+            "Power BI"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Compétences analytiques avancées",
+            "Connaissance des méthodologies de tests A\/B",
+            "Compétences en analyse statistique",
+            "Compétences en visualisation de données",
+            "Capacité à communiquer clairement des insights à des parties prenantes techniques et non techniques"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre 'Product Analyst' et les missions centrées sur l'analyse des produits, l'identification d'opportunités d'amélioration et la production de tableaux de bord et de rapports indiquent clairement un rôle de Data Analyst."
+    },
+    {
+        "poste":"Consultant Senior Azure Data Engineer - H\/F (CDI)",
+        "cat_regex":"Consultant Data \/ IA",
+        "categorie":"Data Engineer",
+        "categorie_alternative":"Consultant Data \/ IA",
+        "description":"Fondé en France, Talan est aujourd’hui un groupe international qui accompagne ses clients dans leur transformation Data & IA, de bout en bout, en combinant conseil en management et expertise technologique. Avec plus de 6000 collaborateurs sur 5 continents, nous accélérons les transformations de nos clients à travers des partenariats de long terme, en créant un impact mesurable et durable. Notre proposition de valeur repose sur un écosystème d’innovation structuré : 2 500 experts Data & IA, des solutions propriétaires construites sur des modèles avancés et un laboratoire de recherche appliquée, de développement expérimental et d’innovation. Nous traduisons l’innovation technologique en avantage concurrentiel depuis plus de 20 ans dans des secteurs stratégiques : banques et services financiers, énergie, transport et mobilité, luxe et distribution, santé. Porté par sa promesse de Positive Innovation, Talan s’impose comme un acteur de référence pour répondre à la complexité croissante des environnements économiques, technologiques et réglementaires. www.talan.com About Talan: Founded in France, Talan has grown into an international group that supports our clients in their end-to-end Data & AI transformation by combining management consulting with technological expertise. With over 6,000 employees across five continents, we accelerate our clients' transformations through long-term partnerships, creating measurable and sustainable impact. Our value proposition is built on a structured innovation ecosystem: 2,500 Data & AI experts, proprietary solutions built on advanced models, and an applied research, experimental development, and innovation laboratory. For more than 20 years, we have been translating technological innovation into competitive advantages across vital sectors: banking and financial services, energy, transport and mobility, luxury and retail, and healthcare. Driven by our promise of \"Positive Innovation,\" we have established ourselves as a leading player in addressing the growing complexity of economic, technological, and regulatory environments. www.talan.com Retrouvez nos engagements RSE ici et nos actions en faveur de la diversité ici #TalanFrance Description du poste Nous recrutons un(e) Data Analytics Engineer expérimenté(e) pour rejoindre notre équipe à Paris. Vous serez en charge de concevoir et déployer des solutions d’analyse de données performantes, en exploitant les technologies Azure et Microsoft Fabric . VOTRE ROLE SUR NOS PROJETS : Vous interviendrez sur des projets de : Mise en place de Modern Data Platform Interconnexion d’applications opérationnelles en temps réel Au sein d’équipes projet, votre rôle sera de : Développer et mettre en œuvre des solutions d’analyse de données de bout en bout en utilisant Azure et Microsoft Fabric Concevoir et optimiser des modèles de données, des processus ETL et des pipelines de données pour un traitement efficace Collaborer avec des équipes pluridisciplinaires pour comprendre les besoins métier et les traduire en solutions techniques Mettre en œuvre des mesures de gouvernance et de sécurité des données pour garantir la conformité aux normes du secteur Développer et maintenir des entrepôts de données et des data lakes avec les technologies Azure Créer et optimiser des requêtes SQL complexes et des procédures stockées pour l’analyse de données Utiliser Microsoft Fabric pour créer et déployer des rapports et tableaux de bord Power BI Surveiller et optimiser en continu les processus d’analyse de données pour améliorer les performances et l’efficacité VOTRE ROLE CHEZ TALAN : Au sein du pôle Tech For Data, vous contribuerez à la croissance et la prospérité de la communauté au travers des activités suivantes : Benchmark de solutions et conseil auprès de nos clients sur les solutions technologiques à adopter, en lien avec leurs besoins Réalisation de POC (Proof Of Concept) Partage de connaissances et formations internes Passage de certifications Veille technologique Participation à la rédaction de réponse à appel d’offre Qualifications Vous êtes diplômé(e) d’un Bac+5 en informatique, Data ou équivalent, vous justifiez d’au moins 5 ans d’expérience sur des problématiques d’intégration, de traitement et de qualité des données. Vous avez mis en œuvre des flux de données complexes sur Microsoft Azure , et idéalement, vous maîtrisez également d’autres solutions de traitement de données. Vous avez déjà évolué dans des environnements intégrant Microsoft Fabric et les services Azure Data , notamment : Azure Data Factory Azure SQL Azure Synapse (SQL pool, Spark pool) Azure Blob Storage Azure Data Lake Vous maîtrisez les principes de modélisation de données et les architectures data telles que Data Lake , Data Warehouse et Datamarts . Une connaissance du modèle Data Vault serait un atout supplémentaire. Vous êtes à l’aise dans des environnements avec des modèles de données complexes et évolutifs , et vous savez adapter vos solutions aux besoins métiers. Doté(e) d’un excellent relationnel, vous êtes reconnu(e) pour votre capacité à collaborer efficacement avec des interlocuteurs techniques comme non techniques. Vous êtes force de proposition , capable de mobiliser autour de vos idées et de vos projets. Enfin, vous évoluez aisément dans un contexte DataOps , avec une bonne connaissance des chaînes CI\/CD (GitLab, Azure DevOps, etc.). La maîtrise de la méthodologie Agile est un plus. VOTRE SOUHAIT D’EVOLUTION: Si vous êtes animé(e) par l’innovation, curieux(se) de repousser les limites techniques dans le domaine de la data, et souhaitez évoluer vers des fonctions de pilotage de projets , de management d’équipe , ou encore contribuer au développement commercial et organisationnel , alors cette opportunité est faite pour vous. Chez nous, vos initiatives sont valorisées , vos idées trouvent leur place, et vous aurez l’espace nécessaire pour explorer de nouveaux terrains de jeu , développer vos compétences et avoir un réel impact. … plus",
+        "missions_relevees":[
+            "Concevoir et déployer des solutions d’analyse de données performantes en utilisant Azure et Microsoft Fabric",
+            "Optimiser des modèles de données, des processus ETL et des pipelines de données",
+            "Collaborer avec des équipes pluridisciplinaires pour traduire les besoins métier en solutions techniques",
+            "Mettre en œuvre des mesures de gouvernance et de sécurité des données",
+            "Développer et maintenir des entrepôts de données et des data lakes avec les technologies Azure",
+            "Créer et optimiser des requêtes SQL complexes et des procédures stockées pour l’analyse de données"
+        ],
+        "stack_requise":[
+            "Azure",
+            "Microsoft Fabric",
+            "Azure Data Factory",
+            "Azure SQL",
+            "Azure Synapse (SQL pool, Spark pool)",
+            "Azure Blob Storage",
+            "Azure Data Lake",
+            "SQL",
+            "Power BI"
+        ],
+        "stack_souhaitee":[
+            "Data Vault"
+        ],
+        "competences_requises":[
+            "Modélisation de données",
+            "Conception d'architectures data (Data Lake, Data Warehouse, Datamarts)",
+            "Conception et optimisation de processus ETL",
+            "Gouvernance et sécurité des données",
+            "Conception et maintenance d'entrepôts de données et de data lakes",
+            "Développement de requêtes SQL complexes",
+            "Utilisation de Power BI pour la création de rapports et tableaux de bord",
+            "Expérience dans la mise en œuvre de flux de données complexes sur Microsoft Azure"
+        ],
+        "competences_souhaitees":[
+            "Connaissance du modèle Data Vault"
+        ],
+        "justification":"Le titre mentionne explicitement « Data Engineer », mais les missions incluent des aspects de conception, de gouvernance et de cadrage de solutions data, ce qui suggère un rôle de Consultant Data \/ IA. Cependant, les missions principales portent sur la conception et le déploiement de solutions techniques, ce qui correspond davantage à un Data Engineer. Le titre a donc été pris en compte pour promouvoir la catégorie principale."
+    },
+    {
+        "poste":"Consultant Senior - Data Architect Expert Microsoft Msbi - Fabric H\/F",
+        "cat_regex":"Consultant Data \/ IA",
+        "categorie":"Data Engineer",
+        "categorie_alternative":"Consultant Data \/ IA",
+        "description":"Vous intégrerez le conseil de spécialité Cloud, Architecture & IT Advisory, et plus précisément la Tribu Microsoft, organisée autour des expertises suivantes : Microsoft 365 & Modern Workplace Applications & DevOps Data \/ Analytics \/ IA Cybersécurité Generative AI, Copilot & Microsoft Fabric La mission de la Tribu Microsoft est double : Accompagner nos clients dans leurs transformations Data & Analytics autour des plateformes Microsoft Structurer et renforcer l'expertise Microsoft Data au sein du Pôle France et des Business Units Vous rejoignez une équipe experte, en relation étroite avec Microsoft, et intervenez sur des programmes Data stratégiques à forte visibilité (grands comptes, architectures Data complexes, modernisation BI). Vos missions Conseil et accompagnement des transformations Data Microsoft Vous intervenez sur des missions de conseil à forte valeur ajoutée, incluant : Cadrage et analyse des besoins métiers en Business Intelligence, reporting, pilotage de la performance Définition de trajectoires BI & Analytics basées sur Power BI, Microsoft Fabric et Azure Data Platform Accompagnement des clients dans la migration et la modernisation de leurs plateformes décisionnelles (ex. Tableau  Power BI) Construction de feuilles de route Data & BI intégrant gouvernance, sécurité et adoption utilisateurs Contribution aux phases d'avantvente : cadrage, chiffrage, choix d'architecture, démonstrations Power BI \/ Fabric Architecture Data & expertise Power BI \/ Microsoft Fabric En tant qu'expert senior, vous : Concevez des architectures Data de bout en bout sur Microsoft Fabric (Lakehouse, Data Warehouse, Dataflows Gen2, OneLake) Définissez et optimisez des modèles sémantiques Power BI (performance, sécurité, DAX avancé) Intervenez sur les enjeux de gouvernance Power BI (workspaces, sécurité, modèles de déploiement, passerelles) Pilotez la mise en place ou la modernisation de Data Lakes et Data Warehouses Azure Apportez une expertise avancée sur Power Query, DAX, SQL, modélisation dimensionnelle Intégrez les usages Analytics avancés, IA et Copilot dans les solutions décisionnelles Delivery et intégration Vous jouez un rôle clé dans les projets Data : Possible rôle de référent technique Power BI \/ Fabric sur les projets Pilotage ou participation active à la mise en oeuvre des plateformes Data & BI Encadrement et accompagnement technique d'équipes (internes et clients) Garantie des bonnes pratiques Microsoft, de la qualité, de la performance et de la sécurité Contribution à la résolution de problématiques complexes (volumétrie, performance, sécurité, gouvernance, adoption) Contribution interne Sopra Steria Next En tant que consultant senior \/ expert Data : Contribution à la structuration et au développement de l'expertise Power BI & Fabric au sein du Pôle France Animation de communautés Data & Analytics (retours d'expérience, partage de bonnes pratiques) Participation au recrutement et à la montée en compétence des consultants Data Production de contenus de référence : articles, assets d'offres, démonstrateurs Power BI \/ Fabric Contribution au partenariat Microsoft (événements, POCs, coconstruction d'offres Data & Analytics) Voir plus",
+        "missions_relevees":[
+            "Cadrage et analyse des besoins métiers en Business Intelligence, reporting, pilotage de la performance",
+            "Définition de trajectoires BI & Analytics basées sur Power BI, Microsoft Fabric et Azure Data Platform",
+            "Accompagnement des clients dans la migration et la modernisation de leurs plateformes décisionnelles",
+            "Conception d'architectures Data de bout en bout sur Microsoft Fabric (Lakehouse, Data Warehouse, Dataflows Gen2, OneLake)",
+            "Définition et optimisation de modèles sémantiques Power BI (performance, sécurité, DAX avancé)",
+            "Pilotage ou participation active à la mise en œuvre des plateformes Data & BI"
+        ],
+        "stack_requise":[
+            "Power BI (Service & Desktop, DAX, modèles sémantiques, performance)",
+            "Microsoft Fabric",
+            "Azure Data Platform (Data Factory, Azure SQL, Synapse)",
+            "Data Lake \/ Data Warehouse",
+            "Azure DevOps",
+            "Power Query",
+            "SQL",
+            "modélisation dimensionnelle"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Expertise avancée en Power BI",
+            "Maîtrise de Microsoft Fabric",
+            "Connaissance approfondie de Azure Data Platform",
+            "Expérience sur des architectures Data Lake \/ Data Warehouse",
+            "Sensibilité aux enjeux de gouvernance BI, sécurité et adoption utilisateurs",
+            "Connaissance des pratiques DevOps Data (CI\/CD)",
+            "Capacité à comprendre et formaliser les enjeux métiers",
+            "Capacité à traduire des besoins business en solutions Data performantes et pérennes",
+            "Leadership technique et capacité à coacher les équipes"
+        ],
+        "competences_souhaitees":[
+
+        ],
+        "justification":"Le titre mentionne explicitement « Consultant Senior - Data Architect Expert Microsoft Msbi - Fabric H\/F », ce qui suggère un rôle de Consultant Data \/ IA. Cependant, les missions décrivent clairement des responsabilités techniques liées à la conception d'architectures Data, à la modernisation des plateformes BI et à la mise en œuvre de solutions Microsoft Fabric, ce qui correspond davantage à un Data Engineer. Le titre a donc conduit à promouvoir la catégorie principale à partir de la mission."
+    },
+    {
+        "poste":"VIE – Data & Project Coordinator – Stockholm",
+        "cat_regex":"Autre",
+        "categorie":"Data Analyst",
+        "categorie_alternative":"Aucune",
+        "description":"Do you want to start your career at the intersection of engineering, data, and project delivery? At ALTEN Sweden, Technical Direction is responsible for delivering complex engineering projects across multiple industries. We are now looking for a VIE profile with a strong data focus to support project delivery through data analysis, reporting, and operational coordination. Your role You will be part of a delivery team, working closely with Project Directors and Project Leaders. Your role combines project coordination with data analysis, where you will support decision-making through structured data, reporting, and insights. Your responsibilities You will support ongoing projects by: Assisting in project planning, coordination, and follow-up Analyzing project data to track performance, risks, and progress Building and maintaining dashboards (Power BI) to support decision-making Manipulating and structuring data to generate clear insights Supporting Project Leaders in tracking deliverables, timelines, and quality Contributing to resource planning and workload analysis Supporting preparation of technical proposals and project estimations Who you are We are looking for someone with a strong analytical mindset and interest in data-driven project management. You are: Analytical and structured, with strong data handling capabilities Comfortable working with large datasets and translating them into insights Curious about how data can improve project performance A team player with strong communication skills Motivated to grow into a future Project Leader or Technical Manager Your background Master’s degree in Engineering, Data Science, or a related field Data science background Strong knowledge of Power BI Ability to manipulate, structure, and summarize data into insights Previous experience in project management, consulting, or engineering is a plus Eligible for the VIE program (mandatory) About ALTEN Sweden ALTEN is one of Europe’s leading engineering and IT consulting companies, with over 57,000 employees in more than 30 countries. In Sweden, ALTEN delivers engineering expertise across multiple industries, combining technical excellence with a collaborative and international environment. Practical information Location: Stockholm, Sweden (on-site) Start date: Flexible (Q3) Contract: VIE (Business France regulations apply) … plus",
+        "missions_relevees":[
+            "Assister à la planification, à la coordination et au suivi des projets",
+            "Analyser les données de projet pour suivre les performances, les risques et l'avancement",
+            "Créer et maintenir des tableaux de bord (Power BI) pour soutenir la prise de décision",
+            "Manipuler et structurer les données pour générer des insights clairs",
+            "Aider les chefs de projet à suivre les livrables, les délais et la qualité",
+            "Contribuer à la planification des ressources et à l'analyse de la charge de travail"
+        ],
+        "stack_requise":[
+            "Power BI"
+        ],
+        "stack_souhaitee":[
+
+        ],
+        "competences_requises":[
+            "Manipulation et structuration de données",
+            "Création de tableaux de bord",
+            "Analyse de données pour la prise de décision",
+            "Gestion de projet",
+            "Communication claire et structurée"
+        ],
+        "competences_souhaitees":[
+            "Expérience préalable en gestion de projet, conseil ou ingénierie"
+        ],
+        "justification":"Le titre mentionne un rôle de coordination de projet avec une forte composante data, et les missions principales portent sur l'analyse de données, la création de tableaux de bord et le suivi de projets, ce qui correspond à un Data Analyst. Le titre ne nomme pas explicitement un autre métier data, donc la catégorie principale reste Data Analyst."
+    },
+    {
+        "poste":"Big Data Analyst - 6 month internship, Paris",
+        "cat_regex":"Data Engineer",
+        "categorie":"Data Scientist",
+        "categorie_alternative":"Data Analyst",
+        "description":"The TP ICAP Group is a world leading provider of market infrastructure. Our purpose is to provide clients with access to global financial and commodities markets, improving price discovery, liquidity, and distribution of data, through responsible and innovative solutions. Through our people and technology, we connect clients to superior liquidity and data solutions. The Group is home to a stable of premium brands. Collectively, TP ICAP is the largest interdealer broker in the world by revenue, the number one Energy & Commodities broker in the world, the world’s leading provider of OTC data, and an award winning all-to-all trading platform. Founded in London in 1866, the Group operates from more than 60 offices in 27 countries. We are 5,200 people strong. We work as one to achieve our vision of being the world’s most trusted, innovative, liquidity and data solutions specialist. About Louis Capital Markets Louis Capital Markets (LCM) is a global financial broker offering services in Cash Equities, Equity Derivatives, Corporate Finance and Fixed-income for institutional clients. For each of these asset classes, we offer a host of services including macro research, stock picking strategies, value-added sales & trading, corporate access and electronic broking & liquidity providing. Customers include hedge funds, asset managers and the largest investment banks for which we are positioned as an execution\/liquidity supplier or an investment solution provider. LCM was established in New York in 1999 and presently has offices in Hong Kong, London, New York and Paris. Role Overview Our Equity Research team specializes in the financial analysis of European small and mid-cap companies. We have developed an innovative Big Data product that generates macroeconomic prediction indicators for listed stocks, tailored for our institutional clients. This internship offers a unique opportunity to work at the intersection of finance, data science, and AI, contributing to cutting-edge research and product development. The preferred profile is a student or recent graduate holding a Master’s degree (Bac+5) in Engineering and\/or Finance. Above all, we value curiosity, strong analytical skills, and the ability to generate ideas that contribute to product development. You should be comfortable working independently and taking initiative. You have solid proficiency in Python and SQL (knowledge of R and VBA is a plus). Ideally, you bring initial experience in data analysis, with exposure to Machine Learning concepts. Previous experience in a financial environment would be an advantage. Key Responsibilities Design and refine micro- and macroeconomic prediction models to support investment decisions. Conduct in-depth analysis of industry trends and economic indicators. Track and interpret market news to identify potential impacts on listed companies. Participate in meetings presenting company results and contribute to research discussions. Explore new indicators and assist in enhancing our Big Data product. Implement AI tools to optimize research processes and stay ahead of technological advancements. Maintain and improve large-scale financial and economic databases. Experience \/ Competencies Essential Currently pursuing or recently graduated with a Master’s degree (Bac+5) in Engineering, Data Science, or Finance. French and English language skills, both written and verbal. Machine Learning & Predictive Modeling experience. Advanced proficiency in Python and solid foundation in SQL Ability to synthesize complex information into actionable insights Comfortable working independently and in a collaborative team environment. Desired Knowledge of R and VBA is a plus. Initial experience in Data Analysis or Machine Learning preferred; exposure to finance is an advantage. Curiosity, autonomy, and a passion for innovation Band & Level Support \/ 1 #LCM #LI-INT #LI-Onsite Not The Perfect Fit? Concerned that you may not meet the criteria precisely? At TP ICAP, we wholeheartedly believe in fostering inclusivity and cultivating a work environment where everyone can flourish, regardless of your personal or professional background. If you are enthusiastic about this role but find that your experience doesn't align perfectly with every aspect of the job description, we strongly encourage you to apply. You may be the ideal candidate for this position or another opportunity within our organisation. Our dedicated Talent Acquisition team is here to assist you in recognising how your unique skills and abilities can be a valuable contribution. Don't hesitate to take the leap and explore the possibilities. Your potential is what truly matters to us. Company Statement We know that the best innovation happens when diverse people with different perspectives and skills work together in an inclusive atmosphere. That's why we're building a culture where everyone plays a part in making people feel welcome, ready and willing to contribute. TP ICAP Accord - our Employee Network - is a central to this. As well as representing specific groups, TP ICAP Accord helps increase awareness, collaboration, shares best practice, and holds our firm to account for driving continuous cultural improvement. Location France - Rue Washington - Paris",
+        "missions_relevees":[
+            "Concevoir et affiner des modèles macroéconomiques et microéconomiques pour soutenir les décisions d'investissement",
+            "Analyser les tendances sectorielles et les indicateurs économiques",
+            "Suivre et interpréter les actualités du marché pour identifier les impacts potentiels sur les entreprises cotées",
+            "Participer à des réunions de présentation des résultats d'entreprise et contribuer aux discussions de recherche",
+            "Explorer de nouveaux indicateurs et aider à améliorer le produit Big Data",
+            "Implémenter des outils d'IA pour optimiser les processus de recherche et rester à la pointe des avancées technologiques",
+            "Maintenir et améliorer des bases de données financières et économiques à grande échelle"
+        ],
+        "stack_requise":[
+            "Python",
+            "SQL"
+        ],
+        "stack_souhaitee":[
+            "R",
+            "VBA"
+        ],
+        "competences_requises":[
+            "Machine Learning & Modélisation prédictive",
+            "Analyse de données",
+            "Synthèse d'informations complexes en insights actionnables",
+            "Travail indépendant et en équipe"
+        ],
+        "competences_souhaitees":[
+            "Expérience initiale en analyse de données ou en Machine Learning",
+            "Exposition au secteur financier"
+        ],
+        "justification":"Le titre « Big Data Analyst » et les missions centrées sur la conception de modèles prédictifs, l'analyse de données et l'utilisation d'outils d'IA orientent vers la catégorie Data Scientist. Le titre a également permis de promouvoir cette catégorie par rapport à une possible alternative comme Data Analyst, car les missions incluent des éléments de modélisation et de Machine Learning."
+    },
+    {
+        "poste":"Data Analyst Confirmé (H\/F) – Power BI \/ Snowflake - Freelance",
+        "cat_regex":"Data Engineer",
+        "categorie":"Data Analyst",
+        "categorie_alternative":"Aucune",
+        "description":"Description du poste Dans le cadre d’une transformation BI, notre client souhaite structurer et fiabiliser l’ensemble de ses données afin d’améliorer ses outils de pilotage. Aujourd’hui, les enjeux sont clairs : harmoniser des données issues de multiples sources améliorer leur qualité et leur fiabilité automatiser les reportings existants mettre en place des dashboards performants et exploitables L’objectif : construire une data propre, centralisée et orientée décisionnel Votre mission Intégré(e) à une squad Data déjà en place, vous interviendrez sur des sujets à fort impact : Concevoir et structurer des datamarts à partir de données complexes Migrer les datasets et dataflows vers des modèles plus robustes Maintenir des dashboards sous Power BI Industrialiser et automatiser les reportings existants Améliorer la qualité et la cohérence des données (nettoyage, normalisation) Environnement technique SQL \/ Snowflake Power BI (dataviz + modélisation) CRM (type Salesforce) Profil recherché Expérience significative en tant que Data Analyst Très bon niveau en SQL, Snowflake Maîtrise de Power BI Expérience en modélisation de données Sensibilité forte à la qualité de données Une expérience sur des environnements CRM est un plus.",
+        "missions_relevees":[
+            "Concevoir et structurer des datamarts à partir de données complexes",
+            "Migrer les datasets et dataflows vers des modèles plus robustes",
+            "Maintenir des dashboards sous Power BI",
+            "Industrialiser et automatiser les reportings existants",
+            "Améliorer la qualité et la cohérence des données (nettoyage, normalisation)"
+        ],
+        "stack_requise":[
+            "SQL",
+            "Snowflake",
+            "Power BI"
+        ],
+        "stack_souhaitee":[
+            "CRM (type Salesforce)"
+        ],
+        "competences_requises":[
+            "Expérience significative en tant que Data Analyst",
+            "Très bon niveau en SQL, Snowflake",
+            "Maîtrise de Power BI",
+            "Expérience en modélisation de données",
+            "Sensibilité forte à la qualité de données"
+        ],
+        "competences_souhaitees":[
+            "Expérience sur des environnements CRM"
+        ],
+        "justification":"Le titre et les missions décrivent clairement un Data Analyst, avec des responsabilités centrées sur la modélisation de données, la création de tableaux de bord et l'amélioration de la qualité des données."
+    }
+]
