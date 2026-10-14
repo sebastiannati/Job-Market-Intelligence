@@ -49,20 +49,6 @@ def categorize(titre):
             return label
     return "Autre"
 
-# --- Colonne optionnelle : type de contrat ---
-def contrat(titre):
-    t = norm(titre)
-    if re.search(r"alternan|apprenti|apprentissage|apprenticeship", t): return "Alternance"
-    if re.search(r"\bstage|stagiaire|\bintern\b|internship|\bpfe\b", t): return "Stage"
-    if "freelance" in t: return "Freelance"
-    return "CDI / autre"
-
-# --- Application ---
-counts = df["poste"].value_counts().rename_axis("poste").reset_index(name="n")
-counts["categorie"] = counts["poste"].apply(categorize)
-counts["contrat"]   = counts["poste"].apply(contrat)
-
-print(counts.groupby("categorie")["n"].sum().sort_values(ascending=False))
 # --------------------------------------------------------------------------- #
 # 1. Pré-classification par regex
 # --------------------------------------------------------------------------- #
