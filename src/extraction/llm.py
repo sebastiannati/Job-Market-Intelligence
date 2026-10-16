@@ -53,12 +53,24 @@ class LLM_Extractor:
         
         return instructions
     
-    def _set_prompt(self, entity_to_extract):
-        """Sélectionne l'entité et charge la configuration du LLM."""
+    def _set_prompt(self, entity_to_extract, version="active_version"):
+        """Sélectionne l'entité et charge sa configuration LLM."""
+
+        if entity_to_extract not in self.instructions:
+            raise ValueError(f"Entité inconnue : {entity_to_extract}")
+
+        self.extraction_entity = self.instructions[entity_to_extract]
 
         def _load_classifier():
-            """Met à jour la configuration selon la version active."""
-            self.active_version = self.extraction_entity["active_version"]
+            self.active_version = (
+                self.extraction_entity["active_version"]
+                if version == "active_version"
+                else version
+            )
+
+            if self.active_version not in self.extraction_entity:
+                raise ValueError(f"Version inconnue : {self.active_version}")
+
             self.version = self.extraction_entity[self.active_version]
 
             self.model = self.version["model"]
@@ -66,10 +78,6 @@ class LLM_Extractor:
             self.prompt = self.version["system_prompt"]
             self.schema = self.version["schema"]
 
-        if entity_to_extract not in self.instructions:
-            raise ValueError(f"Entité inconnue : {entity_to_extract}")
-
-        self.extraction_entity = self.instructions[entity_to_extract]
         _load_classifier()
 
     def _load_data(self):
@@ -79,21 +87,22 @@ class LLM_Extractor:
         self.X_val = pd.read_excel(val_path).reset_index(drop=True)
         self.X_test = pd.read_excel(test_path).reset_index(drop=True)
         
-    def extract(self,mode: str,data:pd.DataFrame):
+    def extract(self,mode: str,data:pd.DataFrame, version = "active_version"):
         """Fonction qui utilise le prompt général capable d'extraire la seniorité, le nom du job et la stack.
         Sinon elle traite chaque version
         """
 
         prompts = {
-            "Seniority": "seniority_classifier",
+            "Seniority": "seniority_classifier_prompt",
             "Job": "job_classifier_prompt",
             "Stack": "stack_extraction_prompt",
+            "Global": "global_extraction_prompt",
         }
 
         if mode not in prompts:
             raise ValueError(f"Mode inconnu : {mode}")
 
-        self._set_prompt(prompts[mode])
+        self._set_prompt(prompts[mode],version=version)
 
         data = data.copy()
 
@@ -145,89 +154,228 @@ class LLM_Extractor:
 
         return pd.concat([data.reset_index(drop=True), pd.DataFrame(results)],axis=1)
 
-    def evaluate(self, mode: str, dataset: str = "val"):
-        """Évalue les prédictions du LLM sur un jeu de données annoté."""
+    def _compute_seniority(self, df: pd.DataFrame) -> pd.Series:
+        """Calcule la séniorité maximale à partir des trois niveaux prédits pour les prompts v1 à v3 de classification de séniorité"""
+
+        seniority_order = {
+            "Stage/Alternance": 0,
+            "Junior": 1,
+            "Intermédiaire": 2,
+            "Senior": 3,
+        }
+
+        columns = ["level_title", "level_experience", "level_description"]
+
+        return df[columns].apply(
+            lambda row: max(
+                (level for level in row if level in seniority_order),
+                key=seniority_order.get,
+                default=None
+            ),
+            axis=1
+        )
+        
+    def evaluate(self, mode: str, dataset: str = "val", version: str = "active_version"):
+        """Évalue les prédictions du LLM selon le mode sélectionné."""
 
         datasets = {
             "val": self.X_val,
-            "test": self.X_test
+            "test": self.X_test,
         }
-        
+
         if dataset not in datasets:
             raise ValueError(f"Dataset inconnu : {dataset}")
 
-        if mode not in ["Job", "Seniority", "Stack"]:
+        if mode not in ["Job", "Seniority", "Stack", "Global"]:
             raise ValueError(f"Mode inconnu : {mode}")
 
         data = datasets[dataset].reset_index(drop=True).copy()
 
-        # Ne pas transmettre les annotations manuelles au LLM
         X = data.drop(
             columns=["Job_cat", "Seniority", "Stack required", "Stack desired"],
             errors="ignore"
         )
 
-        # Inférence
-        res = self.extract(mode, X).reset_index(drop=True)
+        # Une seule inférence, même en mode Global
+        res = self.extract(mode, X, version=version).reset_index(drop=True)
 
-        if mode in ["Job", "Seniority"]:
+        scores = {}
 
-            columns = {
-                "Job": ("Job_cat", "categorie"),
-                "Seniority": ("Seniority", "seniority_llm"),
-            }
+        # --------------------------------------------------
+        # 1. Classification Job et Seniority
+        # --------------------------------------------------
 
-            true_col, pred_col = columns[mode]
+        classifications = {
+            "Job": ("Job_cat", "job_predicted"),
+            "Seniority": ("Seniority", "seniority_llm"),
+        }
+
+        for task, (true_col, pred_col) in classifications.items():
+            
+            if mode not in [task, "Global"]:
+                continue
+
+            # Compatibilité Seniority v1-v3
+            if task == "Seniority" and pred_col not in res.columns:
+                res[pred_col] = self._compute_seniority(res)
 
             y_true = data[true_col].astype(str).str.strip()
             y_pred = res[pred_col].fillna("ERREUR").astype(str).str.strip()
 
-            scores = {
-                "accuracy": accuracy_score(y_true, y_pred),
-                "macro_f1": f1_score(
-                    y_true,
-                    y_pred,
-                    labels=y_true.unique(),
-                    average="macro",
-                    zero_division=0
-                ),
-                "nb_erreurs": int((y_true != y_pred).sum())
-            }
+            # Préfixes seulement pour le mode Global
+            prefix = f"{task.lower()}_" if mode == "Global" else ""
 
+            scores[f"{prefix}accuracy"] = accuracy_score(y_true, y_pred)
+
+            scores[f"{prefix}macro_f1"] = f1_score(
+                y_true,
+                y_pred,
+                labels=y_true.unique(),
+                average="macro",
+                zero_division=0
+            )
+
+            scores[f"{prefix}nb_erreurs"] = int((y_true != y_pred).sum())
+
+            # Colonnes pour analyser les erreurs
             res[f"{true_col}_vrai"] = y_true
-            res["correct"] = y_true == y_pred
 
-        else:
+            correct_col = (
+                f"{task.lower()}_correct"
+                if mode == "Global"
+                else "correct"
+            )
+
+            res[correct_col] = y_true == y_pred
+
+        # Stacks
+        if mode in ["Stack", "Global"]:
 
             y_req = data["Stack required"].apply(to_set).apply(clean_stack)
             y_des = data["Stack desired"].apply(to_set).apply(clean_stack)
+            y_global = [required | desired for required, desired in zip(y_req,y_des)]
+            
+            pred_req = res["stack_required"].apply(to_set).apply(clean_stack)
+            pred_des = res["stack_desired"].apply(to_set).apply(clean_stack)
+            pred_global = [required | desired for required, desired in zip(pred_req,pred_des)]
+            
+            scores.update({
+                "required": eval_stack(y_req, pred_req),
+                "desired": eval_stack(y_des, pred_des),
+                "globale": eval_stack(y_global,pred_global)
+                })
 
-            pred_req = res["stack_requise_extraite"].apply(to_set).apply(clean_stack)
-            pred_des = res["stack_souhaitee_extraite"].apply(to_set).apply(clean_stack)
+            # Vérité terrain
+            res["Stack required_vrai"] = data["Stack required"]
+            res["Stack desired_vrai"] = data["Stack desired"]
 
-            scores = {
-                "requise": eval_stack(y_req, pred_req),
-                "souhaitee": eval_stack(y_des, pred_des),
-                "globale": eval_stack(
-                    [r | s for r, s in zip(y_req, y_des)],
-                    [r | s for r, s in zip(pred_req, pred_des)]
-                )
-            }
-
-            res["requis_manquants"] = [
-                sorted(v - p) for v, p in zip(y_req, pred_req)
-            ]
-            res["requis_en_trop"] = [
-                sorted(p - v) for v, p in zip(y_req, pred_req)
-            ]
-            res["souhaites_manquants"] = [
-                sorted(v - p) for v, p in zip(y_des, pred_des)
-            ]
-            res["souhaites_en_trop"] = [
-                sorted(p - v) for v, p in zip(y_des, pred_des)
-            ]
+            # Analyse des erreurs
+            res["required_missing"] = [sorted(true - pred) for true, pred in zip(y_req, pred_req)]
+            res["required_extra"] = [sorted(pred - true) for true, pred in zip(y_req, pred_req)]
+            res["desired_missing"] = [sorted(true - pred) for true, pred in zip(y_des, pred_des)]
+            res["desired_extra"] = [sorted(pred - true) for true, pred in zip(y_des, pred_des)]
 
         return scores, res
+
+    
+    def evaluate_all(self, mode: str = "All"):
+        """Évalue les versions des prompts et sauvegarde scores et prédictions."""
+
+        modes = {
+            "Job": "job_classifier_prompt",
+            "Seniority": "seniority_classifier",
+            "Stack": "stack_extraction_prompt",
+            "Global": "global_extraction_prompt",
+        }
+
+        if mode != "All" and mode not in modes:
+            raise ValueError(f"Mode inconnu : {mode}")
+
+        # Tous les modes ou un seul
+        selected_modes = modes if mode == "All" else {mode: modes[mode]}
+
+        output_dir = Path("src/extraction/evaluation_llm")
+
+        # Colonnes de vérité terrain à conserver avec les prédictions
+        truth_columns = {
+            "Job": ["Job_cat"],
+            "Seniority": ["Seniority"],
+            "Stack": ["Stack required", "Stack desired"],
+            "Global": ["Job_cat","Seniority","Stack required","Stack desired"]
+        }
+
+        all_results = []
+
+        for current_mode, entity in selected_modes.items():
+
+            results = []
+
+            versions = [
+                key for key in self.instructions[entity]
+                if key.startswith("v") and key[1:].isdigit()
+            ]
+
+            for version in sorted(versions, key=lambda v: int(v[1:])):
+
+                print(f"\nÉvaluation : {current_mode} - {version}")
+
+                result = {
+                    "mode": current_mode,
+                    "version": version,
+                }
+
+                try:
+                    scores, predictions = self.evaluate(
+                        mode=current_mode,
+                        dataset="val",
+                        version=version
+                    )
+
+                    # Conserver la vérité terrain avec les prédictions
+                    predictions = predictions.reset_index(drop=True).copy()
+                    validation = self.X_val.reset_index(drop=True)
+
+                    for col in truth_columns[current_mode]:
+                        predictions[f"{col}_true"] = validation[col]
+
+                    # Sauvegarder les prédictions de cette version
+                    predictions_path = output_dir / (
+                        f"predictions_{current_mode.lower()}_{version}.parquet"
+                    )
+
+                    predictions.to_parquet(
+                        predictions_path,
+                        index=False
+                    )
+
+                    # Ajouter les métriques
+                    result.update(
+                        pd.json_normalize(scores, sep="_").iloc[0].to_dict()
+                    )
+
+                    result["status"] = "OK"
+
+                except Exception as error:
+                    result["status"] = "ERREUR"
+                    result["erreur"] = str(error)
+
+                    print(f"Erreur : {error}")
+
+                results.append(result)
+                all_results.append(result)
+
+                # Sauvegarder les métriques du mode après chaque version
+                scores_path = output_dir / (
+                    f"results_val_{current_mode.lower()}.csv"
+                )
+
+                pd.DataFrame(results).to_csv(
+                    scores_path,
+                    index=False
+                )
+
+        return pd.DataFrame(all_results)
+        
 
     def print(self):
         print("="*30,"LLM Extractor", "="*30)
@@ -241,8 +389,4 @@ class LLM_Extractor:
 if __name__ == "__main__":
 
     llm = LLM_Extractor()
-
-    scores_job, res_job = llm.evaluate("Job", dataset="val")
-
-    print(scores_job)
-    print(res_job.head())
+    llm.evaluate_all(mode = "Global")
