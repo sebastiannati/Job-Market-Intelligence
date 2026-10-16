@@ -201,10 +201,6 @@ class LLM_Extractor:
 
         scores = {}
 
-        # --------------------------------------------------
-        # 1. Classification Job et Seniority
-        # --------------------------------------------------
-
         classifications = {
             "Job": ("Job_cat", "job_predicted"),
             "Seniority": ("Seniority", "seniority_llm"),
@@ -278,12 +274,12 @@ class LLM_Extractor:
         return scores, res
 
     
-    def evaluate_all(self, mode: str = "All"):
+    def evaluate_all(self, mode: str = "All", versions: list|None = None):
         """Évalue les versions des prompts et sauvegarde scores et prédictions."""
 
         modes = {
             "Job": "job_classifier_prompt",
-            "Seniority": "seniority_classifier",
+            "Seniority": "seniority_classifier_prompt",
             "Stack": "stack_extraction_prompt",
             "Global": "global_extraction_prompt",
         }
@@ -310,10 +306,9 @@ class LLM_Extractor:
 
             results = []
 
-            versions = [
-                key for key in self.instructions[entity]
-                if key.startswith("v") and key[1:].isdigit()
-            ]
+            if not versions :
+                versions = [key for key in self.instructions[entity] 
+                            if key.startswith("v") and key[1:].isdigit()]
 
             for version in sorted(versions, key=lambda v: int(v[1:])):
 
@@ -361,18 +356,34 @@ class LLM_Extractor:
 
                     print(f"Erreur : {error}")
 
-                results.append(result)
-                all_results.append(result)
-
-                # Sauvegarder les métriques du mode après chaque version
+                # Charger les résultats déjà enregistrés
                 scores_path = output_dir / (
                     f"results_val_{current_mode.lower()}.csv"
                 )
 
-                pd.DataFrame(results).to_csv(
-                    scores_path,
-                    index=False
+                if scores_path.exists():
+                    results = pd.read_csv(scores_path)
+                    results = results[
+                        results["version"] != version
+                    ]
+                else:
+                    results = pd.DataFrame()
+
+                results = pd.concat(
+                    [results, pd.DataFrame([result])],
+                    ignore_index=True
                 )
+
+                # Trier les versions
+                results = results.sort_values(
+                    "version",
+                    key=lambda s: s.str.extract(r"v(\d+)")[0].astype(int)
+                )
+
+                # Sauvegarder sans perdre les autres versions
+                results.to_csv(scores_path, index=False)
+
+                all_results.append(result)
 
         return pd.DataFrame(all_results)
         
@@ -389,4 +400,4 @@ class LLM_Extractor:
 if __name__ == "__main__":
 
     llm = LLM_Extractor()
-    llm.evaluate_all(mode = "Global")
+    llm.evaluate_all(mode = "Global",versions=["v5"])
