@@ -1,89 +1,151 @@
+"""Classification d'offres d'emploi par expressions régulières.
+
+Deux approches indépendantes :
+- Métier : classement à partir du titre uniquement.
+- Séniorité : stage/alternance, années d'expérience explicites puis titre.
+
+Ce module est conservé comme trace d'une approche déterministe exploratoire.
+Il n'est pas utilisé pour les inférences finales du pipeline, j'ai privilégié le LLM.
+
+Limites : les regex ne comprennent ni le sens des missions, ni les nuances des
+critères d'expérience. Elles peuvent produire des faux positifs et des faux
+négatifs. Les sorties ne doivent pas être interprétées comme une vérité terrain.
+"""
+
+from __future__ import annotations
 import re
+import unicodedata
+from collections.abc import Callable
 
-import re, unicodedata
-import pandas as pd
 
-def norm(s):
-    # NFKD : retire les accents et convertit les caractères "gras" Unicode
-    s = unicodedata.normalize("NFKD", str(s))
-    return "".join(c for c in s if not unicodedata.combining(c)).lower()
+# -----------------------------------------------------------------------------
+# 1. Classification du métier à partir du titre
+# -----------------------------------------------------------------------------
 
-# --- Briques réutilisables ---
-DATA = (r"data|donnee|\bia\b|\bai\b|\bbi\b|analytics|power ?bi|talend|dataiku|teradata|"
-        r"snowflake|machine learning|\bml\b|genai|llm")
-ENG  = r"engineer|ingenieur|developpeu|research|scientist|\bops\b|mlops"
 
-# --- Règles, par ordre de priorité ---
-RULES = [
-    # 1. Consultant : prioritaire, à condition d'avoir un mot data/IA/ML dans le titre
-    ("Consultant Data / IA",
-     lambda t: re.search(r"consult|conseil|advisor|advisory", t) and re.search(DATA, t)),
+def normalize_title(value: object) -> str:
+    """Normalise un titre pour faciliter les correspondances regex."""
+    text = unicodedata.normalize("NFKD", str(value or ""))
+    return "".join(char for char in text if not unicodedata.combining(char)).lower()
 
-    # 2. Data Science
-    ("Data Science",
-     lambda t: re.search(r"data ?scien|datascien|statisticien", t)),
 
-    # 3. Data Engineer
-    ("Data Engineer",
-     lambda t: re.search(
-         r"data engineer|data ingenieur|ingenieur (de )?(donnees|data)|big data|analytics engineer|"
-         r"data platform|databricks|snowflake|dataops|\betl\b|talend|data architect|architecte data|"
-         r"bi engineer|developpeu\w* (bi|data|talend|databricks)", t)),
+DATA_TERMS = (
+    r"data|donnee|\bia\b|\bai\b|\bbi\b|analytics|power ?bi|talend|"
+    r"dataiku|teradata|snowflake|machine learning|\bml\b|genai|llm"
+)
+ENGINEERING_TERMS = r"engineer|ingenieur|developpeu|research|scientist|\bops\b|mlops"
 
-    # 4. ML / IA Engineer (il faut un mot "engineer/ingénieur/..." pour éviter AI Trainer, AI Product Manager...)
-    ("ML / IA Engineer",
-     lambda t: re.search(
-         r"machine learning|\bml\b|mlops|ml ops|\bai\b|\bia\b|genai|llm|intelligence artificielle|"
-         r"agentic|agentique|deep learning|computer vision", t) and re.search(ENG, t)),
-
-    # 5. Data Analyst / BI
-    ("Data Analyst",
-     lambda t: re.search(
-         r"data.*analy|analy.*(data|donnees)|power ?bi|\bbi\b|business intelligence|web ?analy|reporting", t)),
+# Ordre de priorité conservé : Consultant > Data Science > Data Engineer >
+# ML / IA Engineer > Data Analyst > Autre.
+JOB_RULES: list[tuple[str, Callable[[str], bool]]] = [
+    (
+        "Consultant Data / IA",
+        lambda title: bool(
+            re.search(r"consult|conseil|advisor|advisory", title)
+            and re.search(DATA_TERMS, title)
+        ),
+    ),
+    (
+        "Data Science",  # Libellé historique, différent de "Data Scientist".
+        lambda title: bool(re.search(r"data ?scien|datascien|statisticien", title)),
+    ),
+    (
+        "Data Engineer",
+        lambda title: bool(
+            re.search(
+                r"data engineer|data ingenieur|ingenieur (de )?(donnees|data)|"
+                r"big data|analytics engineer|data platform|databricks|snowflake|"
+                r"dataops|\betl\b|talend|data architect|architecte data|"
+                r"bi engineer|developpeu\w* (bi|data|talend|databricks)",
+                title,
+            )
+        ),
+    ),
+    (
+        "ML / IA Engineer",
+        lambda title: bool(
+            re.search(
+                r"machine learning|\bml\b|mlops|ml ops|\bai\b|\bia\b|genai|"
+                r"llm|intelligence artificielle|agentic|agentique|deep learning|"
+                r"computer vision",
+                title,
+            )
+            and re.search(ENGINEERING_TERMS, title)
+        ),
+    ),
+    (
+        "Data Analyst",
+        lambda title: bool(
+            re.search(
+                r"data.*analy|analy.*(data|donnees)|power ?bi|\bbi\b|"
+                r"business intelligence|web ?analy|reporting",
+                title,
+            )
+        ),
+    ),
 ]
 
-def categorize(titre):
-    t = norm(titre)
-    for label, test in RULES:
-        if test(t):
+
+def categorize(title: object) -> str:
+    """Classe un titre dans la première catégorie regex correspondante."""
+    normalized = normalize_title(title)
+    for label, matches in JOB_RULES:
+        if matches(normalized):
             return label
     return "Autre"
 
-# --------------------------------------------------------------------------- #
-# 1. Pré-classification par regex
-# --------------------------------------------------------------------------- #
 
-# Stage / alternance : titre uniquement
-INTERN = re.compile(
-    r"\b(stages?|stagiaires?|alternances?|alternants?|apprenti(?:e|es|s)?|apprentissages?|"
-    r"interns?|internships?)\b",
-    re.I,
+# -----------------------------------------------------------------------------
+# 2. Préclassification de la séniorité
+# -----------------------------------------------------------------------------
+
+INTERNSHIP_PATTERN = re.compile(
+    r"\b(stages?|stagiaires?|alternances?|alternants?|"
+    r"apprenti(?:e|es|s)?|apprentissages?|interns?|internships?)\b",
+    re.IGNORECASE,
 )
 
-# "N ans d'expérience" / "N+ years of experience" (chiffres uniquement, contexte obligatoire)
-YEARS = re.compile(
-    r"(?<!\d)(\d{1,2})\s*\+?\s*(?:(?:à|to|-|–)\s*\d{1,2}\s*\+?\s*)?(?:ans?|ann[ée]es?|years?|yrs?)\b"
-    r"(?=[^.\n]{0,30}?exp[ée]rience|[^.\n]{0,12}exp\b)"
-    r"|exp[ée]rience[^.\n]{0,30}?(?<!\d)(\d{1,2})\s*\+?\s*(?:ans?|years?)\b",
-    re.I,
+# Extraction indicative de l'expérience : N années ou N à M années, dans un
+# voisinage immédiat de la notion d'expérience. Les durées sont ambiguës hors
+# contexte (historique d'entreprise, projet, compétence spécifique, etc.).
+YEAR_TOKEN = r"(?<!\d)(\d{1,2})\s*\+?"
+YEAR_UNIT = r"(?:ans?|ann[ée]es?|years?|yrs?)\b"
+EXPERIENCE_PATTERN = re.compile(
+    rf"{YEAR_TOKEN}\s*(?:(?:à|to|-|–)\s*\d{{1,2}}\s*\+?\s*)?{YEAR_UNIT}"
+    rf"(?=[^.\n]{{0,30}}?exp[ée]rience|[^.\n]{{0,12}}?exp\b)"
+    rf"|exp[ée]rience[^.\n]{{0,30}}?{YEAR_TOKEN}\s*{YEAR_UNIT}",
+    re.IGNORECASE,
 )
-SINCE = re.compile(r"(?:depuis|since)\s*$", re.I)
-MAX_YEARS = 15  # au-delà, c'est probablement l'ancienneté de l'entreprise
 
-# Niveau explicite dans le titre
-SENIOR = re.compile(r"\b(senior|sénior|sr\.?|lead|principal|staff|head\s+of)\b", re.I)
-JUNIOR = re.compile(r"\b(junior|jr\.?|graduate|entry[- ]level|débutante?)\b", re.I)
-CHIEF_OF_STAFF = re.compile(r"chief\s+of\s+staff", re.I)
+# Cas courant "N+ years of experience" : la locution 'of experience' constitue
+# une preuve plus directe que l'expression plus générale ci-dessus.
+EXPERIENCE_OF_PATTERN = re.compile(
+    rf"{YEAR_TOKEN}\s*(?:(?:à|to|-|–)\s*\d{{1,2}}\s*\+?\s*)?"
+    rf"(?:years?|yrs?)\s+of\s+experience\b",
+    re.IGNORECASE,
+)
+
+SINCE_PATTERN = re.compile(r"(?:depuis|since)\s*$", re.IGNORECASE)
+MAX_YEARS = 15  # Filtre heuristique historique, non une garantie de pertinence.
+
+SENIOR_PATTERN = re.compile(
+    r"\b(senior|sénior|sr\.?|lead|principal|staff|head\s+of)\b", re.IGNORECASE
+)
+JUNIOR_PATTERN = re.compile(
+    r"\b(junior|jr\.?|graduate|entry[- ]level|débutante?)\b", re.IGNORECASE
+)
+CHIEF_OF_STAFF_PATTERN = re.compile(r"chief\s+of\s+staff", re.IGNORECASE)
 
 
-def _norm(x) -> str:
-    """Normalise une valeur en texte (NaN/None -> chaîne vide)."""
-    if x is None or (isinstance(x, float) and x != x):
+def normalize_text(value: object) -> str:
+    """Convertit les valeurs absentes en texte vide et normalise l'Unicode."""
+    if value is None or (isinstance(value, float) and value != value):
         return ""
-    return unicodedata.normalize("NFKC", str(x)).replace("’", "'")
+    return unicodedata.normalize("NFKC", str(value)).replace("’", "'")
 
 
 def years_to_level(years: int) -> str:
+    """Transforme un indicateur d'années en niveau (règles historiques)."""
     if years <= 2:
         return "Junior"
     if years <= 4:
@@ -91,76 +153,7 @@ def years_to_level(years: int) -> str:
     return "Senior"
 
 
-def classify_regex_row(title, experience_field, description):
-    """Retourne (label, source, evidence).
-
-    source : title_intern | years | title | needs_llm
-    Si aucune règle sûre ne s'applique : (None, "needs_llm", None).
-    """
-    title = _norm(title)
-    text = f"{_norm(experience_field)}\n{_norm(description)}"
-
-    # 1. Stage / alternance (titre uniquement)
-    m = INTERN.search(title)
-    if m:
-        return "Stage/Alternance", "title_intern", m.group(0)
-
-    # 2. Années d'expérience explicites
-    found = []
-    for m in YEARS.finditer(text):
-        if SINCE.search(text[max(0, m.start() - 15):m.start()]):
-            continue
-        years = int(m.group(1) or m.group(2))
-        if years < MAX_YEARS:
-            found.append((years, m.group(0)))
-    if found:
-        years, evidence = max(found)
-        return years_to_level(years), "years", evidence
-
-    # 3. Niveau explicite dans le titre
-    clean_title = CHIEF_OF_STAFF.sub("", title)
-    for rx, label in ((SENIOR, "Senior"), (JUNIOR, "Junior")):
-        m = rx.search(clean_title)
-        if m:
-            return label, "title", m.group(0)
-
-    return None, "needs_llm", None
-
-
-def classify_regex(row):
-    """Version DataFrame : retourne (label, source)."""
-    label, source, _ = classify_regex_row(row["poste"], row["experience"], row["description"])
-    return label, source
-
-# --------------------------------------------------------------------------- #
-# Tests rapides de la partie regex
-# --------------------------------------------------------------------------- #
-REGEX_TESTS = [
-    # (titre, champ expérience, description, label attendu)
-    ("2 Alternances - BI (H/F)", "", "", "Stage/Alternance"),
-    ("Analytics Engineer", "", "3+ years as an Analytics Engineer with experience", None),
-    ("Analytics Engineer", "", "3+ years of experience in analytics", "Intermédiaire"),
-    ("Staff ML Engineer", "", "7+ years of experience in ML", "Senior"),
-    ("Staff Engineer", "", "5 à 7 ans d'expérience en backend", "Senior"),
-    ("Data Engineer", "", "Expérience : 2 ans minimum", "Junior"),
-    ("Consultant", "", "Depuis 20 ans d'expérience, nous... ", None),
-    ("Data Engineer Senior", "", "Spark, Airflow", "Senior"),
-    ("Jr Developer", "", "", "Junior"),
-    ("Chief of Staff", "", "", None),
-    ("Data Engineer", "", "Pipelines Spark", None),
-]
-
-
-def run_regex_tests() -> int:
-    failures = 0
-    for title, field, desc, expected in REGEX_TESTS:
-        got = classify_regex_row(title, field, desc)
-        ok = got[0] == expected
-        failures += not ok
-        print("OK " if ok else "KO ", title, "->", got, "" if ok else f"(attendu {expected})")
-    print("Regex: TOUT OK" if not failures else f"{failures} ECHEC(S)")
-    return failures
-
-
-if __name__ == "__main__":
-    run_regex_tests()
+def classify_regex_row(
+    title: object, experience_field: object, description: object
+) -> tuple[str | None, str, str | None]:
+    """Retourne (niveau, source, indice), ou (None, 'needs_llm', None)."""

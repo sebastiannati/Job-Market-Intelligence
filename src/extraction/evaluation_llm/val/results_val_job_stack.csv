@@ -1,0 +1,2 @@
+mode,version,status,erreur,job_accuracy,job_macro_f1,job_nb_erreurs,required_precision,required_recall,required_f1,desired_precision,desired_recall,desired_f1,globale_precision,globale_recall,globale_f1
+Job_Stack,v1,OK,,0.9523809523809523,0.9228520017993702,2.0,0.759493670886076,0.75,0.7547169811320755,0.6,0.6545454545454545,0.6260869565217392,0.8440366972477065,0.8558139534883721,0.8498845265588916

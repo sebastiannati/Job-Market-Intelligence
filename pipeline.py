@@ -1,6 +1,7 @@
 import pandas as pd
 import glob
-
+from src.extraction.llm import LLMExtractor
+from pathlib import Path
 
 # --------------------------------------------------------------------------- #
 # Loading and merging data files
@@ -15,48 +16,52 @@ def load_data():
 
     for fichier in fichiers_xlsx:
         df_temp = pd.read_excel(fichier)
-
-        # Merge all columns to experience
-        if 'profil_recherche' in df_temp.columns: 
-            df_temp = df_temp.rename(columns={'profil_recherche':'experience'})
+        
+        df_temp = df_temp.rename(columns={'profil_recherche':'experience'})
 
         liste_dataframes.append(df_temp)
+        
+        df_global = pd.concat(liste_dataframes, ignore_index=True)
 
-    df_global = pd.concat(liste_dataframes, ignore_index=True)
+        # Dropping useless data columns
+        df_global = df_global.drop(columns = ["config_name","currency",
+                                            "start_url","start_url_formatted",
+                                            "country", "brand"])
 
-    # Dropping useless data columns
-    df_global = df_global.drop(columns = ["config_name","currency",
-                                          "France","start_url",
-                                          "start_url_formatted","country"])
+    df_global["date"] = pd.to_datetime(df_global["date"]).dt.strftime("%Y-%m")
 
-    df_global.head()
+    before = len(df_global)
+    df_global = df_global.drop_duplicates(subset=["poste","experience","description"],keep="first")
+    print("Nombre de doublons supprimé : ", before - len(df_global))
     
     return df_global
 
-# --------------------------------------------------------------------------- #
-# Pipeline
-# --------------------------------------------------------------------------- #
+def extract_best_models(data: pd.DataFrame,extractor: LLMExtractor) -> pd.DataFrame:
+    """Combine les prédictions des meilleurs prompts sélectionnés."""
 
-def classify_seniority(df: pd.DataFrame) -> pd.DataFrame:
-    """Classe la séniorité : regex d'abord, puis LLM pour les offres restantes.
+    # Job + Stack
+    full_predictions = extractor.extract_entities(mode="Full",data=data,version="v5")
 
-    Ajoute les colonnes `seniority_level`, `needs_llm` et `reason`.
-    """
-    tqdm.pandas(desc="Séniorité (regex)")
-    results = df.progress_apply(classify_regex, axis=1).tolist()
-    df["seniority_level"] = [label for label, _ in results]
-    df["needs_llm"] = [source == "needs_llm" for _, source in results]
+    # Seniority
+    seniority_predictions = extractor.extract_entities(mode="Seniority",data=data,version="v2")
 
-    if "reason" not in df.columns:
-        df["reason"] = None
+    # Compute seniority level of job offer
+    seniority_predictions["seniority_llm"] = (extractor._seniority_from_levels(seniority_predictions))
 
-    llm_mask = df["needs_llm"]
-    if not llm_mask.any():
-        print("Aucune offre à classer avec le LLM")
-        return df
+    # Dropping seniority inferences of Full v5
+    result = full_predictions.drop(columns=["seniority_llm","reason_seniority"],errors="ignore").reset_index(drop=True)
 
-    tqdm.pandas(desc="Séniorité (LLM)")
-    df.loc[llm_mask, ["seniority_level", "reason"]] = df.loc[llm_mask].progress_apply(
-        lambda row: pd.Series(classify_llm(row)), axis=1, result_type="expand"
-    )
-    return df
+    # Replace by Seniority v2 inference
+    result["seniority_llm"] = (seniority_predictions["seniority_llm"].reset_index(drop=True))
+
+    return result
+
+if __name__ == "__main__":
+    
+    data = load_data()
+    
+    llm = LLMExtractor()
+    
+    data = extract_best_models(data=data,extractor=llm)
+    
+    data.to_parquet(Path("data/job_offers.parquet"),index=False)
