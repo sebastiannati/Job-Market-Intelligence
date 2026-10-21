@@ -105,7 +105,7 @@ class LLMExtractor:
         self._configure_model(prompts[mode],version=version)
 
         data = data.copy()
-
+        
         colonnes = ["poste", "experience", "description"]
         data[colonnes] = data[colonnes].fillna("not provided")
 

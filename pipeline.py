@@ -2,49 +2,70 @@ import pandas as pd
 import glob
 from src.extraction.llm import LLMExtractor
 from pathlib import Path
-from MongoDB.mongodb import *
+from src.MongoDB.mongodb import *
 
 # --------------------------------------------------------------------------- #
 # Loading and merging data files
 # --------------------------------------------------------------------------- #
 
 def load_data():
+    """Loads data from MongoDB and normalize it according  
+
+    Returns:
+        pd.DataFrame: Clean dataframe from MongoDB raw data (no duplicates, columns normalized and dropped) 
+    """
+    print("-"*30,"Loading Data","-"*30)
+    try :
+        df = load_data_mongodb()
+    except Exception as e:
+        raise(f"Can't load data from MongoDB : {e}")
     
-    df = load_data_mongodb()
-        
-    df= df.rename(columns={'profil_recherche':'experience'})
+    # Both columns represent the same information and are mutually exclusive.
+    # Merge them by keeping the non-null value.
+    df["experience"] = df["experience"].combine_first(df["profil_recherche"])
+
+    df.drop(columns=["profil_recherche"], inplace=True)
 
     # Dropping useless data columns
     df = df.drop(columns = ["config_name","currency",
-                                        "start_url","start_url_formatted",
-                                        "country", "brand"])
+                            "start_url","start_url_formatted",
+                            "country", "brand"])
 
     df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m")
 
     before = len(df)
     df= df.drop_duplicates(subset=["poste","experience","description"],keep="first")
-    print("Nombre de doublons supprimé : ", before - len(df))
-    
+    print(f"{before} offers imported from MongoDB dropped {before - len(df)} duplicates.")
+    print("-"*74)
     return df
 
-def extract_best_models(data: pd.DataFrame,extractor: LLMExtractor) -> pd.DataFrame:
+def extract_best_models(data: pd.DataFrame,extractor: LLMExtractor,skip=False) -> pd.DataFrame:
     """Combine les prédictions des meilleurs prompts sélectionnés."""
+    print("-"*30,"Infering job offers","-"*30)
+    
+    if skip:
+        print("LLM inference skipped.")
+        print("-"*81)
+        return None
+    
+    # Skip the infering, for testing for exemple
 
-    # Job + Stack
-    full_predictions = extractor.extract_entities(mode="Full",data=data,version="v5")
+    try :
+        # Job + Stack
+        full_predictions = extractor.extract_entities(mode="Full",data=data,version="v5")
 
-    # Seniority
-    seniority_predictions = extractor.extract_entities(mode="Seniority",data=data,version="v2")
+        # Seniority
+        seniority_predictions = extractor.extract_entities(mode="Seniority",data=data,version="v2")
 
-    # Compute seniority level of job offer
-    seniority_predictions["seniority_llm"] = (extractor._seniority_from_levels(seniority_predictions))
+        seniority_predictions["seniority_llm"] = (extractor._seniority_from_levels(seniority_predictions))
 
-    # Dropping seniority inferences of Full v5
-    result = full_predictions.drop(columns=["seniority_llm","reason_seniority"],errors="ignore").reset_index(drop=True)
+        result = full_predictions.drop(columns=["seniority_llm","reason_seniority"],errors="ignore").reset_index(drop=True)
 
-    # Replace by Seniority v2 inference
-    result["seniority_llm"] = (seniority_predictions["seniority_llm"].reset_index(drop=True))
-
+        result["seniority_llm"] = (seniority_predictions["seniority_llm"].reset_index(drop=True))
+        
+    except Exception as e:
+        raise(f"LLM inference failed: {e}") 
+    
     return result
 
 if __name__ == "__main__":
@@ -53,6 +74,6 @@ if __name__ == "__main__":
     
     llm = LLMExtractor()
     
-    data = extract_best_models(data=data,extractor=llm)
+    data = extract_best_models(data=data,extractor=llm,skip=True)
     
     data.to_parquet(Path("data/job_offers.parquet"),index=False)
