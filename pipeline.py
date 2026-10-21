@@ -2,6 +2,7 @@ import pandas as pd
 import glob
 from src.extraction.llm import LLMExtractor
 from pathlib import Path
+from MongoDB.mongodb import *
 
 # --------------------------------------------------------------------------- #
 # Loading and merging data files
@@ -9,32 +10,22 @@ from pathlib import Path
 
 def load_data():
     
-    fichiers_xlsx = glob.glob("scraping_results/*.xlsx")
-
-    liste_dataframes = []
-
-
-    for fichier in fichiers_xlsx:
-        df_temp = pd.read_excel(fichier)
+    df = load_data_mongodb()
         
-        df_temp = df_temp.rename(columns={'profil_recherche':'experience'})
+    df= df.rename(columns={'profil_recherche':'experience'})
 
-        liste_dataframes.append(df_temp)
-        
-        df_global = pd.concat(liste_dataframes, ignore_index=True)
+    # Dropping useless data columns
+    df = df.drop(columns = ["config_name","currency",
+                                        "start_url","start_url_formatted",
+                                        "country", "brand"])
 
-        # Dropping useless data columns
-        df_global = df_global.drop(columns = ["config_name","currency",
-                                            "start_url","start_url_formatted",
-                                            "country", "brand"])
+    df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m")
 
-    df_global["date"] = pd.to_datetime(df_global["date"]).dt.strftime("%Y-%m")
-
-    before = len(df_global)
-    df_global = df_global.drop_duplicates(subset=["poste","experience","description"],keep="first")
-    print("Nombre de doublons supprimé : ", before - len(df_global))
+    before = len(df)
+    df= df.drop_duplicates(subset=["poste","experience","description"],keep="first")
+    print("Nombre de doublons supprimé : ", before - len(df))
     
-    return df_global
+    return df
 
 def extract_best_models(data: pd.DataFrame,extractor: LLMExtractor) -> pd.DataFrame:
     """Combine les prédictions des meilleurs prompts sélectionnés."""
