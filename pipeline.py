@@ -1,7 +1,8 @@
-import pandas as pd
-import glob
-from src.extraction.llm import LLMExtractor
 from pathlib import Path
+
+import pandas as pd
+
+from src.extraction.llm import LLMExtractor
 from src.MongoDB.mongodb import *
 
 # --------------------------------------------------------------------------- #
@@ -34,8 +35,26 @@ def load_data():
     df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m")
 
     before = len(df)
-    df= df.drop_duplicates(subset=["poste","experience","description"],keep="first")
-    print(f"{before} offers imported from MongoDB dropped {before - len(df)} duplicates.")
+    df = df.drop_duplicates(subset=["poste","experience","description"],keep="first")
+    
+    print(f"{before} offers imported from MongoDB, dropped {before - len(df)} duplicates.")
+    
+    # Drop rows with neither a job description nor experience information.
+    # Without either, the LLM and I cannot classify the role neither seniority and extract the stack.
+
+    # Normaliser les valeurs pour la comparaison
+    missing = (df[["description", "experience"]].fillna("")
+        .apply(lambda col: col.str.strip().str.casefold())
+        .isin(["not provided", ""])
+    )
+    
+    before = len(df)
+
+    # Supprimer les offres où les deux informations manquent
+    df = df.loc[~missing.all(axis=1)].copy()  
+    
+    print(f"{before} offers, dropped {before - len(df)} empty rows.")
+    
     print("-"*74)
     return df
 

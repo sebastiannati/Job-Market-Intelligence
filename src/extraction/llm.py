@@ -2,12 +2,12 @@ import json
 
 import ollama
 import pandas as pd
-from config.job_constants import *
 from path import Path
 from sklearn.metrics import accuracy_score, f1_score
 from tqdm import tqdm
 
-from extraction.utils_llm import *
+from .config.job_constants import *
+from .utils_llm import *
 
 """ 
 Ce fichier contient la classe qui permet d'extraire des informations via un model local.
