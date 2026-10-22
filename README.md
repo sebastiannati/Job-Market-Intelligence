@@ -196,6 +196,10 @@ Un dictionnaire d'alias permet d'harmoniser les appellations, tandis qu'une list
 
 Ce traitement facilite notamment le calcul de la fréquence d'apparition des différentes technologies dans les offres.
 
+### 4.6 Fusion des règles en un prompt
+
+Afin de gagner du temps et d'éviter d'envoyer une même offre plusieurs fois pour analyse j'ai pris les meilleurs prompts sur le jeu de validation et j'ai fusionné les tâches dans un seul prompt, de même pour les sorties JSON.
+
 ## 5. Évaluation et optimisation des modèles (À revoir)
 
 La fiabilité des classifications est essentielle, car les résultats alimentent directement les futures analyses du marché de l'emploi.
@@ -234,7 +238,26 @@ Les résultats ont servi à comparer les différentes stratégies d'inférence e
 
 Les prompts retenus ont ensuite été utilisés pour enrichir le jeu de données final.
 
-*Figure à ajouter : tableau ou graphique comparant les F1-scores des différentes configurations, séparément pour la classification des métiers et celle de la séniorité.*
+<p align="center">
+  <img src="src/extraction/evaluation_llm/assets/job_results.png" width="700" alt="Résultats classification métier">
+</p>
+<p align="center">
+  <em>Figure 1 — F1-scores des prompts sur le jeu de test pour la classification des métiers</em>
+</p>
+
+<p align="center">
+  <img src="src/extraction/evaluation_llm/assets/seniortity_results.png" width="700" alt="Résultats classification séniorité">
+</p>
+<p align="center">
+  <em>Figure 2 — F1-scores des prompts sur le jeu de test pour la classification de la séniorité</em>
+</p>
+
+<p align="center">
+  <img src="src/extraction/evaluation_llm/assets/stack_results.png" width="700" alt="Résultats extraction technologies">
+</p>
+<p align="center">
+  <em>Figure 3 — F1-scores des prompts sur le jeu de test pour l'extraction des technologies</em>
+</p>
 
 ## 6. Structuration des données et analyse (À faire)
 
