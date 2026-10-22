@@ -196,9 +196,11 @@ Un dictionnaire d'alias permet d'harmoniser les appellations, tandis qu'une list
 
 Ce traitement facilite notamment le calcul de la fréquence d'apparition des différentes technologies dans les offres.
 
-### 4.6 Fusion des règles en un prompt
+4.6. Fusion des tâches au sein d'un même prompt
 
-Afin de gagner du temps et d'éviter d'envoyer une même offre plusieurs fois pour analyse j'ai pris les meilleurs prompts sur le jeu de validation et j'ai fusionné les tâches dans un seul prompt, de même pour les sorties JSON.
+Afin de réduire le temps d'inférence et d'optimiser les performances, j'ai sélectionné les prompts les plus performants sur le jeu de validation et regroupé leurs instructions au sein d'un prompt unique, évitant ainsi de soumettre plusieurs fois une même offre au LLM.
+
+Les schémas de sortie JSON ont également été fusionnés afin de permettre l'extraction simultanée des différentes informations dans une seule réponse structurée.
 
 ## 5. Évaluation et optimisation des modèles (À revoir)
 
@@ -258,6 +260,20 @@ Les prompts retenus ont ensuite été utilisés pour enrichir le jeu de données
 <p align="center">
   <em>Figure 3 — F1-scores des prompts sur le jeu de test pour l'extraction des technologies</em>
 </p>
+
+### 5.4. Inférence sur les données
+
+Les résultats sur le jeu de test ont montré que les prompts réalisant l'ensemble des tâches d'extraction en un seul passage n'obtenaient pas systématiquement les meilleures performances.
+
+J'ai néanmoins choisi de conserver le prompt Full v5 pour deux tâches :
+
+ - Classification des métiers : Full v5 est le prompt ayant obtenu les meilleures performances.
+
+ - Extraction des technologies : ses performances sont très proches de celles du meilleur prompt spécialisé, avec un F1-score global de 0,76 contre 0,78, en considérant à la fois les technologies requises et souhaitées.
+
+Pour la classification de la séniorité, j'ai retenu le prompt spécialisé Seniority v2, qui a obtenu les meilleurs résultats lors de l'évaluation.
+
+La stratégie finale repose donc sur deux appels au modèle par offre, afin de conserver de bonnes performances tout en optimisant le coût de calcul.
 
 ## 6. Structuration des données et analyse (À faire)
 
