@@ -30,7 +30,7 @@ def load_data():
     # Dropping useless data columns
     df = df.drop(columns = ["config_name","currency",
                             "start_url","start_url_formatted",
-                            "country", "brand"])
+                            "country", "brand","date_de_publication"])
 
     df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m")
 

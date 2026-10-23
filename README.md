@@ -4,20 +4,18 @@
 
 Ce projet vise à analyser les tendances du marché de l'emploi dans les domaines de la **Data et de l'Intelligence Artificielle**, à partir d'offres d'emploi collectées en avril 2026.
 
-L'objectif est d'identifier les métiers les plus recherchés, les niveaux d'expérience demandés et les technologies les plus présentes dans les offres.
-
-Le projet comprend également un second volet consacré au développement d'un **assistant RAG (Retrieval-Augmented Generation)**, alimenté par mes expériences professionnelles, mes projets et mon parcours académique. Cet assistant a vocation à faciliter la rédaction de candidatures personnalisées (CV, lettres de motivation) et à fournir des réponses contextualisées aux questions des recruteurs.
+L'objectif est d'identifier les métiers les plus recherchés, les niveaux d'expérience demandés les technologies les plus présentes dans les offres et de me positionner par rapport à ce marché.
 
 ## 1. Architecture générale
 
 Le projet s'articule autour de plusieurs étapes :
 
-1. **Collecte** des offres d'emploi par web scraping.
-2. **Stockage** des données brutes dans MongoDB Atlas.
-3. **Nettoyage et préparation** des informations collectées.
-4. **Extraction et classification** des informations à l'aide d'un LLM local.
-5. **Évaluation et optimisation** des méthodes d'extraction.
-6. **Normalisation et structuration** des données pour leur exploitation analytique.
+1. **Collecte et Stockage** des offres d'emploi par web scraping et stockage des données brutes dans MongoDB Atlas.
+2. **Nettoyage et préparation** des informations collectées.
+3. **Extraction et classification** des informations à l'aide d'un LLM local.
+4. **Évaluation** des erreurs et **optimisation** des prompts d'extraction et de classification.
+5. **Normalisation** des données produite par le LLM.
+6. **Ingéstion** dans Azure SQL et **Structuration** star schema avec fact table pour leur exploitation analytique
 7. **Analyse et visualisation** des tendances du marché de l'emploi.
 
 *Figure à ajouter : diagramme d'architecture du pipeline, du scraping jusqu'à Power BI.*
