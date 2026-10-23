@@ -30,7 +30,7 @@ def load_data():
     # Dropping useless data columns
     df = df.drop(columns = ["config_name","currency",
                             "start_url","start_url_formatted",
-                            "country", "brand","date_de_publication"])
+                            "country", "brand","date_de_publication","nb_candidats"])
 
     df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m")
 
@@ -87,6 +87,55 @@ def extract_best_models(data: pd.DataFrame,extractor: LLMExtractor,skip=False) -
     
     return result
 
+def clean_df(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+
+    # Entreprises manquantes
+    df["entreprise"] = df["entreprise"].fillna("Non renseignée")
+
+    # Transformer les années d'expérience en catégories string
+    def categorize_exp(x):
+        if pd.isna(x):
+            return "Non renseignée"
+        elif x < 1:
+            return "0"
+        elif x < 2:
+            return "1"
+        elif x < 3:
+            return "2"
+        elif x < 4:
+            return "3"
+        elif x < 5:
+            return "4"
+        elif x < 6:
+            return "5"
+        else:
+            return "5+"
+
+    df["experience_min"] = df["experience_min"].apply(categorize_exp)
+
+    # Drop all columns that serves only to analyse llm's predictions
+    df = df.drop(columns=["experience_max","experience_type","level_title","level_description","is_internship","reason_job"])
+    
+    df = df.rename(columns={
+        "domain": "platform_name",
+        "date": "scraping_month",
+        "url": "offer_url",
+        "entreprise": "company_name",
+        "poste": "job_title",
+        "description": "job_description",
+        "location": "job_location",
+        "experience": "experience_description",
+        "job_predicted": "job_category",
+        "experience_min": "experience_category",
+        "stack_required": "required_technologies",
+        "stack_desired": "desired_technologies",
+        "seniority_llm": "seniority_level",
+        "_id": "offer_id"
+    })
+
+    return df
+
 if __name__ == "__main__":
     
     data = load_data()
@@ -94,5 +143,7 @@ if __name__ == "__main__":
     llm = LLMExtractor()
     
     data = extract_best_models(data=data,extractor=llm,skip=True)
+    
+    data = clean_df(data)
     
     data.to_parquet(Path("data/job_offers.parquet"),index=False)

@@ -154,8 +154,18 @@ class LLMExtractor:
             results.append(res_data)
 
         print("Max tokens :", max(total_tokens))
+        
+        df = pd.concat([data.reset_index(drop=True), pd.DataFrame(results)],axis=1)
+        
+        if {"stack_required", "stack_desired"}.issubset(df.columns): # Clean extracted data after inference and merge them
 
-        return pd.concat([data.reset_index(drop=True), pd.DataFrame(results)],axis=1)
+            df["stack_required"] = df["stack_required"].apply(lambda x: sorted(clean_stack(to_set(x))))
+
+            df["stack_desired"] = df["stack_desired"].apply(lambda x: sorted(clean_stack(to_set(x))))
+
+            df["all_technologies"] = [sorted(set(req) | set(des)) for req, des in zip(df["stack_required"],df["stack_desired"])]
+
+        return df
 
     def _seniority_from_levels(self, df: pd.DataFrame) -> pd.Series:
         """Calcule la séniorité maximale à partir des trois niveaux prédits pour les prompts v1 à v3 de classification de séniorité"""
@@ -256,6 +266,9 @@ class LLMExtractor:
             pred_req = res["stack_required"].apply(to_set).apply(clean_stack)
             pred_des = res["stack_desired"].apply(to_set).apply(clean_stack)
             pred_global = [required | desired for required, desired in zip(pred_req, pred_des)]
+            
+            res["all_technologies"] = [sorted(stack) for stack in pred_global]
+            res["all_technologies"] = res["all_technologies"].apply(to_set).apply(clean_stack)
 
             scores.update({
                 "required": eval_stack(y_req, pred_req),
