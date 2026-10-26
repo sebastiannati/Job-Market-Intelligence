@@ -94,6 +94,7 @@ def clean_df(df: pd.DataFrame) -> pd.DataFrame:
 
     # Entreprises manquantes
     df["entreprise"] = df["entreprise"].fillna("Non renseignée")
+    df["location"] = df["location"].fillna("Non renseignée")
 
     # Transformer les années d'expérience en catégories string
     def categorize_exp(x):
@@ -165,17 +166,7 @@ def save_data(output: str, azure: bool = False,data: pd.DataFrame | None = None,
                 "Un DataFrame est nécessaire pour la sauvegarde locale."
             )
 
-        output_path = Path(output)
-
-        output_path.parent.mkdir(
-            parents=True,
-            exist_ok=True
-        )
-
-        data.to_parquet(
-            output_path,
-            index=False
-        )
+        data.to_parquet(Path(output),index=False)
 
     print(f"Données sauvegardées : {output}")
 
