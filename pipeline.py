@@ -1,6 +1,6 @@
+import argparse
 from pathlib import Path
 
-import argparse
 import pandas as pd
 
 from src.Azure.azuredb import AzureDataLake
