@@ -1,7 +1,9 @@
 from pathlib import Path
 
+import argparse
 import pandas as pd
 
+from src.Azure.azuredb import AzureDataLake
 from src.extraction.llm import LLMExtractor
 from src.MongoDB.mongodb import *
 
@@ -136,14 +138,104 @@ def clean_df(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def save_data(output: str, azure: bool = False,data: pd.DataFrame | None = None,input_file: str | None = None):
+
+    if azure:
+        lake = AzureDataLake()
+
+        if input_file is not None:
+            lake.upload_local_file(
+                local_path=input_file,
+                azure_path=output
+            )
+
+        elif data is not None:
+            lake.upload_dataframe(
+                df=data,
+                azure_path=output,
+                format="parquet"
+            )
+
+        else:
+            raise ValueError("Aucune donnée à envoyer vers Azure.")
+
+    else:
+        if data is None:
+            raise ValueError(
+                "Un DataFrame est nécessaire pour la sauvegarde locale."
+            )
+
+        output_path = Path(output)
+
+        output_path.parent.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
+        data.to_parquet(
+            output_path,
+            index=False
+        )
+
+    print(f"Données sauvegardées : {output}")
+
+def run_pipeline(
+    output: str,
+    azure: bool = False,
+    input_file: str | None = None
+):
+    # Saving data in azure o
+    if input_file is not None:
+        save_data(output=output,azure=azure,input_file=input_file)
+        return
+
+
+    data = load_data()
+
+    llm = LLMExtractor()
+
+    data = extract_best_models(
+        data=data,
+        extractor=llm,
+        skip=True
+    )
+
+    data = clean_df(data)
+
+    # Saving data locally or in cloud 
+    save_data(output=output,azure=azure,data=data)
+
+
 if __name__ == "__main__":
     
-    data = load_data()
+    parser = argparse.ArgumentParser(
+        description="Job Market Intelligence Pipeline"
+    )
+
+    parser.add_argument(
+        "-o", "--output",
+        type=str,
+        required=True,
+        help="Chemin de sortie local ou Azure"
+    )
+
+    parser.add_argument(
+        "-i", "--input-file",
+        type=str,
+        default=None,
+        help="Fichier local à envoyer vers Azure"
+    )
+
+    parser.add_argument(
+        "-a", "--azure",
+        action="store_true",
+        help="Activer la sauvegarde Azure Data Lake"
+    )
+
+    args = parser.parse_args()
     
-    llm = LLMExtractor()
-    
-    data = extract_best_models(data=data,extractor=llm,skip=True)
-    
-    data = clean_df(data)
-    
-    data.to_parquet(Path("data/job_offers.parquet"),index=False)
+    run_pipeline(
+        output=args.output,
+        azure=args.azure,
+        input_file=args.input_file
+    )
