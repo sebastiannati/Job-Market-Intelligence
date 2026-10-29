@@ -6,8 +6,9 @@ from path import Path
 from sklearn.metrics import accuracy_score, f1_score
 from tqdm import tqdm
 
+from pipeline import clean_stack, to_set
+
 from .config.job_constants import *
-from .utils_llm import *
 
 """ 
 Ce fichier contient la classe qui permet d'extraire des informations via un model local.
@@ -100,6 +101,7 @@ class LLMExtractor:
             "Job": "job_classification",
             "Stack": "stack_extraction",
             "Full": "full_extraction",
+            "Company": "company_extraction"
         }
 
         if mode not in prompts:
@@ -109,8 +111,9 @@ class LLMExtractor:
 
         data = data.copy()
         
-        colonnes = ["poste", "experience", "description"]
-        data[colonnes] = data[colonnes].fillna("not provided")
+        if mode != "Company":
+            colonnes = ["poste", "experience", "description"]
+            data[colonnes] = data[colonnes].fillna("not provided")
 
         return self._predict_dataframe(data)
             
@@ -121,12 +124,16 @@ class LLMExtractor:
         total_tokens = []
 
         for _, row in tqdm(data.iterrows(), total=len(data)):
-
-            user_prompt = (
-                f"Title: {row['poste']}\n"
-                f"Raw experience: {row['experience']}\n"
-                f"Description:\n{row['description']}"
-            )
+            
+            if self.extraction_entity == "company_extraction": 
+                user_prompt = f"Company name: {row['company_normalized']}"
+            
+            else : 
+                user_prompt = (f"Title: {row['poste']}\n" 
+                    f"Raw experience: {row['experience']}\n"
+                    f"Description:\n{row['description']}"
+                )
+                
 
             try:
                 response = ollama.chat(
@@ -157,14 +164,6 @@ class LLMExtractor:
         
         df = pd.concat([data.reset_index(drop=True), pd.DataFrame(results)],axis=1)
         
-        if {"stack_required", "stack_desired"}.issubset(df.columns): # Clean extracted data after inference and merge them
-
-            df["stack_required"] = df["stack_required"].apply(lambda x: sorted(clean_stack(to_set(x))))
-
-            df["stack_desired"] = df["stack_desired"].apply(lambda x: sorted(clean_stack(to_set(x))))
-
-            df["all_technologies"] = [sorted(set(req) | set(des)) for req, des in zip(df["stack_required"],df["stack_desired"])]
-
         return df
 
     def _seniority_from_levels(self, df: pd.DataFrame) -> pd.Series:
@@ -187,7 +186,27 @@ class LLMExtractor:
             ),
             axis=1
         )
-        
+
+    def _eval_stack(self,y_true, y_pred):
+        """Calcule les métriques micro sur toutes les technologies."""
+
+        tp = fn = fp = 0
+
+        for true, pred in zip(y_true, y_pred):
+            tp += len(true & pred) # len des bonnes extractions
+            fp += len(pred - true) # len des extractions en trop
+            fn += len(true - pred) # len des extractions en moins
+
+        precision = tp/(tp+fp) # mesures les techno en trop (si fp (techno en trop) petit alors fp/fp =1)
+        recall = tp/(fn+tp)  # mesures les techno en moins (si fn petit (techno qui manquent) alors tp/tp)
+        f1 = 2*(precision*recall)/(precision+recall)#moyenne harmonique des deux
+
+        return {
+            "precision": precision,
+            "recall": recall,
+            "f1": f1
+        }
+
     def evaluate_prompt(self, mode: str, dataset: str = "val", version: str = "active_version"):
         """Évalue les prédictions du LLM selon le mode sélectionné."""
 
@@ -199,15 +218,12 @@ class LLMExtractor:
         if dataset not in datasets:
             raise ValueError(f"Dataset inconnu : {dataset}")
 
-        if mode not in ["Job", "Seniority", "Stack", "Full", "Job_Stack"]:
+        if mode not in ["Job", "Seniority", "Stack", "Full", "Job_Stack", "Company"]:
             raise ValueError(f"Mode inconnu : {mode}")
 
         data = datasets[dataset].reset_index(drop=True).copy()
 
-        X = data.drop(
-            columns=["Job_cat", "Seniority", "Stack required", "Stack desired"],
-            errors="ignore"
-        )
+        X = data.drop(columns=["Job_cat", "Seniority", "Stack required", "Stack desired","company_true"],errors="ignore")
 
         # Une seule inférence pour tous les modes
         res = self.extract_entities(mode, X, version=version).reset_index(drop=True)
@@ -222,9 +238,7 @@ class LLMExtractor:
         for task, (true_col, pred_col) in classifications.items():
 
             # Job_Stack évalue uniquement Job
-            if mode not in [task, "Full"] and not (
-                mode == "Job_Stack" and task == "Job"
-            ):
+            if mode not in [task, "Full"] and not (mode == "Job_Stack" and task == "Job"):
                 continue
 
             # Compatibilité Seniority v1-v3
@@ -239,13 +253,7 @@ class LLMExtractor:
 
             scores[f"{prefix}accuracy"] = accuracy_score(y_true, y_pred)
 
-            scores[f"{prefix}macro_f1"] = f1_score(
-                y_true,
-                y_pred,
-                labels=y_true.unique(),
-                average="macro",
-                zero_division=0
-            )
+            scores[f"{prefix}macro_f1"] = f1_score(y_true,y_pred,labels=y_true.unique(),average="macro",zero_division=0)
 
             scores[f"{prefix}nb_erreurs"] = int((y_true != y_pred).sum())
 
@@ -271,9 +279,9 @@ class LLMExtractor:
             res["all_technologies"] = res["all_technologies"].apply(to_set).apply(clean_stack)
 
             scores.update({
-                "required": eval_stack(y_req, pred_req),
-                "desired": eval_stack(y_des, pred_des),
-                "globale": eval_stack(y_global, pred_global)
+                "required": self.eval_stack(y_req, pred_req),
+                "desired": self.eval_stack(y_des, pred_des),
+                "globale": self.eval_stack(y_global, pred_global)
             })
 
             # Vérité terrain
@@ -286,9 +294,21 @@ class LLMExtractor:
             res["desired_missing"] = [sorted(true - pred) for true, pred in zip(y_des, pred_des)]
             res["desired_extra"] = [sorted(pred - true) for true, pred in zip(y_des, pred_des)]
 
+        if mode == "Company":
+            # Pour clean les nom des entreprises
+            y_true = data["company_true"].astype(str).str.strip().str.casefold()
+            y_pred = res["company_name_llm"].fillna("ERREUR").astype(str).str.strip().str.casefold()
+
+            scores["accuracy"] = accuracy_score(y_true, y_pred)
+            scores["nb_erreurs"] = int((y_true != y_pred).sum())
+            scores["nb_total"] = len(y_true)
+
+            # Comparaison des résultats pour analyser les erreurs
+            res["company_true"] = y_true
+            res["correct"] = y_true == y_pred
+
         return scores, res
     
-
     def evaluate_prompt_versions(self,mode: str = "All",dataset: str = "val",versions: list | None = None):
         """Évalue les versions des prompts et sauvegarde scores et prédictions."""
 
@@ -322,7 +342,8 @@ class LLMExtractor:
             "Seniority": ["Seniority"],
             "Stack": ["Stack required", "Stack desired"],
             "Full": ["Job_cat","Seniority","Stack required","Stack desired"],
-            "Job_Stack": ["Job_cat","Stack required","Stack desired"]
+            "Job_Stack": ["Job_cat","Stack required","Stack desired"],
+            "Company": ["company_true"]
         }
 
         all_results = []
@@ -348,11 +369,7 @@ class LLMExtractor:
 
                 try:
                     
-                    scores, predictions = self.evaluate_prompt(
-                        mode=current_mode,
-                        dataset=dataset,
-                        version=version
-                    )
+                    scores, predictions = self.evaluate_prompt(mode=current_mode,dataset=dataset,version=version)
 
                     # Conserver la vérité terrain avec les prédictions
                     predictions = predictions.reset_index(drop=True).copy()
@@ -402,8 +419,7 @@ class LLMExtractor:
                 all_results.append(result)
 
         return pd.DataFrame(all_results)
-
-
+    
     def print_config(self):
         print("="*30,"LLM Extractor", "="*30)
         
@@ -415,4 +431,4 @@ class LLMExtractor:
 if __name__ == "__main__":
 
     llm = LLMExtractor()
-    llm.evaluate_prompt_versions(mode="Job_Stack",dataset="test",versions = ["v1"])
+    llm.evaluate_prompt_versions(mode="Company",dataset="val",versions = ["v1"])

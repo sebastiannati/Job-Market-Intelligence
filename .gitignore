@@ -3,3 +3,6 @@
 
 # MongoDB credentials
 atlas-credentials.env
+
+# Scraper scripts
+scraper

@@ -1,4 +1,23 @@
-{
+{ "company_extraction":{
+    "active_version":"v1",
+    "v1":{
+      "model": "qwen3:14b",
+      "params": {
+        "temperature": 0,
+        "num_ctx" : 10000,
+        "num_predict": 1024
+      },
+      "notes": "Premier prompt pour extraire les noms des companies",
+      "system_prompt": "Tu es un système spécialisé dans l'extraction de noms d'entreprises à partir de données de recrutement.\n\nTon objectif est d'identifier le nom EXACT de l'entité employeuse.\n\nRÈGLES IMPORTANTES :\n1. Retire les prénoms et noms des recruteurs ajoutés après l'entreprise.\n2. Conserve les noms de filiales, branches et entités géographiques.\n3. Ne fusionne jamais deux entités simplement parce qu'elles appartiennent au même groupe.\n4. Ne raccourcis pas un nom d'entreprise valide.\n5. N'invente jamais un nom qui ne peut pas être déduit du texte.\n\n6. Conserve les termes faisant partie intégrante du nom de l'entreprise, notamment « Recrutement », « Consulting », « Engineering », « Solutions » ou « Services ». Ne les supprime pas simplement parce qu'ils semblent descriptifs.\n\nEXEMPLES :\n\"Capgemini Invent Guillaume Poirier\" -> \"Capgemini Invent\"\n\"Onepoint Corentin Guillevic\" -> \"Onepoint\"\n\"Capgemini India\" -> \"Capgemini India\"\n\"Capgemini Engineering\" -> \"Capgemini Engineering\"\n\"Sopra Steria Next\" -> \"Sopra Steria Next\"\n\"Deloitte Anne Sophie GRAND-CAVENNE\" -> \"Deloitte\"\n\"Talan Recrutement\" -> \"Talan Recrutement\"\n\"Talan Recrutement Sophie Martin\" -> \"Talan Recrutement\"\n\nRéponds uniquement avec le JSON demandé.",     "schema":{
+        "type": "object",
+        "properties": {
+          "company_name_llm": {"type": "string"}
+        },
+        "required": "company_name_llm",
+        "additionalProperties": false
+      }
+    }
+  },
   "job_and_stack":{
     "active_version":"v1",
     "v1":{
