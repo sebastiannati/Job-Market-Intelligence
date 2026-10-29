@@ -1,0 +1,2 @@
+mode,version,status,erreur,accuracy,nb_erreurs,nb_total
+Company,v1,OK,,0.975,1.0,40.0

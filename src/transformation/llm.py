@@ -6,14 +6,13 @@ from path import Path
 from sklearn.metrics import accuracy_score, f1_score
 from tqdm import tqdm
 
-from pipeline import clean_stack, to_set
+from src.transformation.clean import clean_stack, to_set
 
-from .config.job_constants import *
+from src.transformation.config.job_constants import *
 
 """ 
 Ce fichier contient la classe qui permet d'extraire des informations via un model local.
 """
-
 class LLMExtractor:
     
     def __init__(self):
@@ -23,6 +22,7 @@ class LLMExtractor:
         
         # LLM's configuration
         self.extraction_entity = None
+        self.entity_name = None
         self.active_version = None
         self.version = None
         self.model = None
@@ -47,7 +47,7 @@ class LLMExtractor:
             (full, seniority, job, stack) pour extraire les informations des offres d'emplois.
         """
         # Path
-        instructions_path = Path("src/extraction/instructions_llm.json") 
+        instructions_path = Path("src/transformation/instructions_llm.json") 
         
         instructions = {}
         
@@ -61,7 +61,7 @@ class LLMExtractor:
 
         if entity_to_extract not in self.instructions:
             raise ValueError(f"Entité inconnue : {entity_to_extract}")
-
+        self.entity_name = entity_to_extract
         self.extraction_entity = self.instructions[entity_to_extract]
 
         def _load_classifier():
@@ -84,8 +84,8 @@ class LLMExtractor:
         _load_classifier()
 
     def _load_evaluation_datasets(self):
-        val_path = Path("src/extraction/data_llm/data_val.xlsx")
-        test_path = Path("src/extraction/data_llm/data_test.xlsx")
+        val_path = Path("src/transformation/data_llm/data_val.xlsx")
+        test_path = Path("src/transformation/data_llm/data_test.xlsx")
         
         self.X_val = pd.read_excel(val_path).reset_index(drop=True)
         self.X_test = pd.read_excel(test_path).reset_index(drop=True)
@@ -125,7 +125,7 @@ class LLMExtractor:
 
         for _, row in tqdm(data.iterrows(), total=len(data)):
             
-            if self.extraction_entity == "company_extraction": 
+            if self.entity_name == "company_extraction": 
                 user_prompt = f"Company name: {row['company_normalized']}"
             
             else : 
@@ -221,10 +221,21 @@ class LLMExtractor:
         if mode not in ["Job", "Seniority", "Stack", "Full", "Job_Stack", "Company"]:
             raise ValueError(f"Mode inconnu : {mode}")
 
-        data = datasets[dataset].reset_index(drop=True).copy()
+        data = datasets[dataset].copy()
+        
+        # Ne pas prendre les lignes qui ne contiennent pas de valeurs pour l'entreprise        
+        if mode == "Company":
+            # Exclure les offres sans nom d'entreprise.
+            data = data.dropna(subset=["entreprise"])
 
+            # Exclure également les noms vides.
+            data = data[data["entreprise"].astype(str).str.strip().ne("")]
+            data["company_normalized"] = data["entreprise"] # colonne attendue par le llm
+
+        data = data.reset_index(drop=True)
+        
         X = data.drop(columns=["Job_cat", "Seniority", "Stack required", "Stack desired","company_true"],errors="ignore")
-
+        
         # Une seule inférence pour tous les modes
         res = self.extract_entities(mode, X, version=version).reset_index(drop=True)
 
@@ -318,6 +329,7 @@ class LLMExtractor:
             "Seniority": "seniority_classification",
             "Stack": "stack_extraction",
             "Full": "full_extraction",
+            "Company": "company_extraction"
         }
 
         if mode != "All" and mode not in modes:
@@ -332,7 +344,7 @@ class LLMExtractor:
         selected_modes = modes if mode == "All" else {mode: modes[mode]}
 
         # Dossier de sauvegarde
-        output_dir = Path(f"src/extraction/evaluation_llm/{dataset}")
+        output_dir = Path(f"src/transformation/evaluation_llm/{dataset}")
 
         ground_truth = datasets[dataset].reset_index(drop=True)
 
@@ -360,6 +372,13 @@ class LLMExtractor:
                 current_versions = versions
 
             current_versions = sorted(current_versions,key=lambda v: int(v[1:]))
+            
+            if current_mode == "Company":
+                        # Appliquer le même filtre que dans evaluate_prompt().
+                        ground_truth = ground_truth.dropna(subset=["entreprise"])
+                        ground_truth = ground_truth.loc[ground_truth["entreprise"].astype(str).str.strip().ne("")]
+                        
+            ground_truth = ground_truth.reset_index(drop=True)
 
             for version in current_versions:
 
@@ -432,3 +451,4 @@ if __name__ == "__main__":
 
     llm = LLMExtractor()
     llm.evaluate_prompt_versions(mode="Company",dataset="val",versions = ["v1"])
+    llm.evaluate_prompt_versions(mode="Company",dataset="test",versions = ["v1"])
