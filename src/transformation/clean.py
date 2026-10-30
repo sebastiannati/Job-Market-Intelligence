@@ -28,7 +28,6 @@ def clean_stack(tools):
         and t.strip().casefold() not in EXCLUDED
     }
 
-
 def standardize_companies(data: pd.DataFrame, llm) -> pd.DataFrame:
     """
     Nettoie et normalise les noms d'entreprises.
