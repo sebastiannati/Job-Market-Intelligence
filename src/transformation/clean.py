@@ -109,6 +109,15 @@ def standardize_companies(data: pd.DataFrame, llm) -> pd.DataFrame:
         # Conserver le nom nettoyé en l'absence de correction.
         data["company_name"] = (data["company_normalized"].map(corrections).fillna(data["company_normalized"]))
 
+    # Créer une clé de rapprochement sans modifier le nom affiché. Pour rapprocher les entreprises même lorsqu'il y a une différence d'accents ou de ponctuation
+    data["company_key"] = (data["company_name"].str.casefold()
+                           .str.normalize("NFKD") # Decompose les accents
+                           .str.replace(r"[\u0300-\u036f]", "", regex=True) # remplace les accents
+                           .str.replace(r"[^\w\s]", " ", regex=True) # remplace la ponctuation par un espace
+                           .str.replace(r"\s+", " ", regex=True)
+                           .str.strip()
+                           )
+    
     return data
 
 def clean_df(df: pd.DataFrame, llm) -> pd.DataFrame:
