@@ -3,10 +3,10 @@ from pathlib import Path
 
 import pandas as pd
 
-from load.azuredb import AzureDataLake
-from load.mongodb import *
+from src.load.azuredb import AzureDataLake
+from src.load.mongodb import *
 from src.transformation.clean import clean_df
-from transformation.llm import LLMExtractor
+from src.transformation.llm import LLMExtractor
 
 # --------------------------------------------------------------------------- #
 # Loading and merging data files
