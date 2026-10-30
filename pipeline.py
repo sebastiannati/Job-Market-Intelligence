@@ -88,6 +88,8 @@ def extract_best_models(data: pd.DataFrame,extractor: LLMExtractor,skip=False) -
     except Exception as e:
         raise(f"LLM inference failed: {e}") 
     
+    print("-"*81)
+    
     return result
 
 def save_data(output: str, azure: bool = False,data: pd.DataFrame | None = None, input_file: str | None = None):
@@ -96,62 +98,43 @@ def save_data(output: str, azure: bool = False,data: pd.DataFrame | None = None,
         lake = AzureDataLake()
 
         if input_file is not None:
-            lake.upload_local_file(
-                local_path=input_file,
-                azure_path=output
-            )
+            lake.upload_local_file(local_path=input_file,azure_path=output)
 
         elif data is not None:
-            lake.upload_dataframe(
-                df=data,
-                azure_path=output,
-                format="parquet"
-            )
+            lake.upload_dataframe(df=data,azure_path=output,format="parquet")
 
         else:
             raise ValueError("Aucune donnée à envoyer vers Azure.")
 
     else:
         if data is None:
-            raise ValueError(
-                "Un DataFrame est nécessaire pour la sauvegarde locale."
-            )
+            raise ValueError("Un DataFrame est nécessaire pour la sauvegarde locale.")
 
         data.to_parquet(Path(output),index=False)
 
     print(f"Données sauvegardées : {output}")
 
-def run_pipeline(
-    output: str,
-    azure: bool = False,
-    input_file: str | None = None
-):
+def run_pipeline(output: str,azure: bool = False,input_file: str | None = None):
+    
     # Saving data in azure o
     if input_file is not None:
         save_data(output=output,azure=azure,input_file=input_file)
         return
 
-
     data = load_data()
 
     llm = LLMExtractor()
 
-    data = extract_best_models(
-        data=data,
-        extractor=llm,
-        skip=True
-    )
+    data = extract_best_models(data=data,extractor=llm,skip=True)
 
-    data = clean_df(data)
+    data = clean_df(data,llm)
 
     # Saving data locally or in cloud 
     save_data(output=output,azure=azure,data=data)
 
 if __name__ == "__main__":
     
-    parser = argparse.ArgumentParser(
-        description="Job Market Intelligence Pipeline"
-    )
+    parser = argparse.ArgumentParser(description="Job Market Intelligence Pipeline")
 
     parser.add_argument(
         "-o", "--output",
@@ -175,8 +158,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     
-    run_pipeline(
-        output=args.output,
-        azure=args.azure,
-        input_file=args.input_file
-    )
+    run_pipeline(output=args.output,azure=args.azure,input_file=args.input_file)
