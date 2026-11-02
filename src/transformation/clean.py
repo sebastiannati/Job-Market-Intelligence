@@ -20,13 +20,25 @@ def to_set(value):
     return {outil.strip().lower() for outil in outils if outil.strip()}
 
 def clean_stack(tools):
-    return {
-        TECH_ALIASES.get(t.strip().casefold(),t.strip())
-        for t in tools
-        if isinstance(t, str)
-        and t.strip()
-        and t.strip().casefold() not in EXCLUDED
-    }
+    result = set()
+
+    for t in tools:
+        if not isinstance(t, str):
+            continue
+
+        key = t.strip().casefold()
+
+        if not key:
+            continue
+
+        tech = TECH_ALIASES.get(key, key.capitalize())
+
+        if tech.casefold() in EXCLUDED:
+            continue
+
+        result.add(tech)
+
+    return result
 
 def standardize_companies(data: pd.DataFrame, llm) -> pd.DataFrame:
     """
