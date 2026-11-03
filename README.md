@@ -273,27 +273,32 @@ Pour la classification de la séniorité, j'ai retenu le prompt spécialisé Sen
 
 La stratégie finale repose donc sur deux appels au modèle par offre, afin de conserver de bonnes performances tout en optimisant le coût de calcul.
 
-## 6. Structuration des données et analyse (À faire)
+## 6. Structuration des données et analyse (En cours)
 
-Les informations extraites par les LLM et normalisées sont destinées à être intégrées dans une base relationnelle **Azure SQL**, afin de faciliter leur exploitation dans **Power BI**.
+Les informations extraites par les LLM et normalisées sont sauvegardées au format **Parquet dans Azure Data Lake Storage Gen2 (ADLS Gen2)**.
 
-Le modèle analytique envisagé repose sur trois ensembles principaux :
+Dans **Databricks**, ces données servent à construire un modèle analytique composé d’une table de faits, de dimensions et d’une table pont pour les technologies. Les tables seront ensuite chargées dans **Azure SQL**, puis exploitées dans **Power BI**.
 
-- Une table d'offres contenant les informations générales, les catégories de métiers et les niveaux d'expérience.
-- Un référentiel des technologies normalisées.
-- Une table de liaison associant chaque observation d'offre aux technologies requises ou souhaitées.
+Le modèle repose sur :
 
-Cette organisation permettra d'explorer plusieurs dimensions du marché de l'emploi :
+- Une table de faits `fact_offers`, avec une ligne par offre et par mois de collecte.
+- Des dimensions décrivant les entreprises, les plateformes, les mois de collecte, les catégories de métiers, la séniorité et l’expérience minimale demandée.
+- Une dimension `dim_technology` référençant les technologies normalisées.
+- Une table pont `bridge_offer_technology` associant chaque offre à ses technologies.
 
-- Répartition des offres par catégorie de métier.
-- Répartition des niveaux de séniorité.
-- Technologies les plus fréquemment demandées.
-- Technologies recherchées selon les métiers.
+### Modèle de données
+
+![Schéma relationnel de Job Market Intelligence](docs/images/schema_relationnel.png)
+
+### Analyses prévues
+
+- Répartition des offres par métier, séniorité et expérience minimale demandée.
+- Technologies les plus demandées, globalement et par métier.
 - Différences entre les technologies requises et souhaitées.
-- Répartition géographique des offres.
-- Évolution mensuelle des observations lors de futures collectes.
+- Entreprises et plateformes publiant le plus d’offres.
+- Évolution mensuelle du marché lors des prochaines collectes.
 
-*Figure à ajouter : schéma relationnel SQL, puis captures du dashboard Power BI une fois réalisé.*
+*Les captures du dashboard Power BI seront ajoutées une fois celui-ci réalisé.*
 
 ## 7. Assistant RAG de candidature (À faire)
 
