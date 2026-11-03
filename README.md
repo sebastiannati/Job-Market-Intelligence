@@ -239,21 +239,21 @@ Les résultats ont servi à comparer les différentes stratégies d'inférence e
 Les prompts retenus ont ensuite été utilisés pour enrichir le jeu de données final.
 
 <p align="center">
-  <img src="src/extraction/evaluation_llm/assets/job_results.png" width="700" alt="Résultats classification métier">
+  <img src="src/transformation/evaluation_llm/assets/job_results.png" width="700" alt="Résultats classification métier">
 </p>
 <p align="center">
   <em>Figure 1 — F1-scores des prompts sur le jeu de test pour la classification des métiers</em>
 </p>
 
 <p align="center">
-  <img src="src/extraction/evaluation_llm/assets/seniortity_results.png" width="700" alt="Résultats classification séniorité">
+  <img src="src/transformation/evaluation_llm/assets/seniortity_results.png" width="700" alt="Résultats classification séniorité">
 </p>
 <p align="center">
   <em>Figure 2 — F1-scores des prompts sur le jeu de test pour la classification de la séniorité</em>
 </p>
 
 <p align="center">
-  <img src="src/extraction/evaluation_llm/assets/stack_results.png" width="700" alt="Résultats extraction technologies">
+  <img src="src/transformation/evaluation_llm/assets/stack_results.png" width="700" alt="Résultats extraction technologies">
 </p>
 <p align="center">
   <em>Figure 3 — F1-scores des prompts sur le jeu de test pour l'extraction des technologies</em>
@@ -286,9 +286,12 @@ Le modèle repose sur :
 - Une dimension `dim_technology` référençant les technologies normalisées.
 - Une table pont `bridge_offer_technology` associant chaque offre à ses technologies.
 
-### Modèle de données
-
-![Schéma relationnel de Job Market Intelligence](docs/images/schema_relationnel.png)
+<p align="center">
+  <img src="docs/images/schema_relationnel.png" width="700" alt="Résultats extraction technologies">
+</p>
+<p align="center">
+  <em>Figure 4 — Schéma relationnel avec table pont des technologies</em>
+</p>
 
 ### Analyses prévues
 
