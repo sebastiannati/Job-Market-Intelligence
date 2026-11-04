@@ -289,9 +289,9 @@ class LLMExtractor:
             res["all_technologies"] = res["all_technologies"].apply(to_set).apply(clean_stack)
 
             scores.update({
-                "required": self.eval_stack(y_req, pred_req),
-                "desired": self.eval_stack(y_des, pred_des),
-                "globale": self.eval_stack(y_global, pred_global)
+                "required": self._eval_stack(y_req, pred_req),
+                "desired": self._eval_stack(y_des, pred_des),
+                "globale": self._eval_stack(y_global, pred_global)
             })
 
             # Vérité terrain
