@@ -1,6 +1,7 @@
 CREATE TABLE IF NOT EXISTS bridge_offer_technology (
     offer_id VARCHAR(255) NOT NULL,
     technology_id INT NOT NULL,
+    requirement_type VARCHAR(30) NOT NULL,
 
     CONSTRAINT pk_offer_technology PRIMARY KEY (offer_id, technology_id),
 

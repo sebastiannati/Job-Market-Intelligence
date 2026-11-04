@@ -38,6 +38,5 @@ CREATE TABLE IF NOT EXISTS dim_seniority(
 CREATE TABLE IF NOT EXISTS dim_technology(
     technology_id INT NOT NULL,
     technology_name STRING NOT NULL,
-    requirement_type VARCHAR(30) NOT NULL,
     CONSTRAINT pk_technology PRIMARY KEY (technology_id)
 );
