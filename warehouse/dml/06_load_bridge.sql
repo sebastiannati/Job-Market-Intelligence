@@ -1,0 +1,32 @@
+BEGIN TRANSACTION;
+
+MERGE INTO workspace.default.bridge_offer_technology AS target
+USING (
+    SELECT DISTINCT
+        job.offer_id,
+        tech.technology_id,
+        job.requirement_type
+    FROM workspace.default.v_offer_technology_source AS job
+
+    -- Récupère l'id de la stack
+    INNER JOIN workspace.default.dim_technology as tech
+        ON job.tehcnology_name = tech.technology_name
+    
+    -- Récupère l'id de l'offre
+    INNER JOIN workspace.default.fact_offers as fact
+        ON fact.offer_id = job.offer_id
+) AS source
+
+ON target.offer_id = source.offer_id
+    AND target.technology_id = source.technology_id
+    AND target.requirement_type = source.requirement_type
+
+WHEN NOT MATCHED THEN
+    INSERT (offer_id, technology_id, requirement_type)
+    VALUES (
+        source.offer_id,
+        source.technology_id,
+        source.requirement_type
+    );
+
+COMMIT;

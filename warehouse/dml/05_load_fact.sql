@@ -5,16 +5,16 @@ USING (
     SELECT 
         job.offer_id,
         dates.mois_id,
-        seniority.seniority_id
-        experience.experience_id
-        category.job_category_id
-        platform.platform_id
+        seniority.seniority_id,
+        experience.experience_id,
+        category.job_category_id,
+        platform.platform_id,
         company.company_key AS company_id
     
     FROM workspace.default.job_offers_silver AS job
 
     LEFT JOIN workspace.default.dim_date as dates 
-        ON (REPLACE(jobs.scraping_month,'-','') AS INT) = dates.mois_id
+        ON CAST(REPLACE(jobs.scraping_month,'-','') AS INT) = dates.mois_id
     
     LEFT JOIN workspace.default.dim_seniority as seniority
         ON job.seniority_level = seniority.seniority_level
