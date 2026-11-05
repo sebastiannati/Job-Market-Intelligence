@@ -9,3 +9,5 @@ CREATE TABLE IF NOT EXISTS bridge_offer_technology (
 
     CONSTRAINT fk_technology FOREIGN KEY (technology_id) REFERENCES dim_technology(technology_id)
 );
+ALTER TABLE workspace.default.bridge_offer_technology
+SET TBLPROPERTIES ('delta.feature.catalogManaged' = 'supported');
