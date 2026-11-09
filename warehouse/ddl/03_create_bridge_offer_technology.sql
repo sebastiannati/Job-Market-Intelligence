@@ -30,7 +30,7 @@ CREATE OR REPLACE VIEW jobmarketdatabricks.gold.v_offer_technology_source AS
 
 SELECT
     offer_id,
-    EXPLODE(required_technologies) AS technology_name,
+    EXPLODE(required_technologies) AS technology_name, -- Ne produit pas de NULL dans Spark
     'required' AS requirement_type
 FROM jobmarketdatabricks.gold.job_offers_silver
 
