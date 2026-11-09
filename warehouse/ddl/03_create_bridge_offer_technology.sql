@@ -32,7 +32,7 @@ SELECT
     offer_id,
     EXPLODE(required_technologies) AS technology_name, -- Ne produit pas de NULL dans Spark
     'required' AS requirement_type
-FROM jobmarketdatabricks.gold.job_offers_silver
+FROM jobmarketdatabricks.silver.job_offers
 
 UNION ALL
 
@@ -40,4 +40,4 @@ SELECT
     offer_id,
     EXPLODE(desired_technologies) AS technology_name,
     'desired' AS requirement_type
-FROM jobmarketdatabricks.gold.job_offers_silver;
+FROM jobmarketdatabricks.silver.job_offers;

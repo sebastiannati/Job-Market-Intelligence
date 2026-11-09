@@ -6,7 +6,7 @@ USING (
     SELECT
         company_key,
         MIN(company_name) AS company_name
-    FROM jobmarketdatabricks.gold.job_offers_silver
+    FROM jobmarketdatabricks.silver.job_offers
     GROUP BY company_key
 ) AS source
 ON target.company_key = source.company_key
@@ -27,7 +27,7 @@ USING (
         CAST(REPLACE(scraping_month, '-', '') AS INT) AS mois_id,
         CAST(SUBSTRING(scraping_month, 1, 4) AS INT) AS annee,
         CAST(SUBSTRING(scraping_month, 6, 2) AS INT) AS mois
-    FROM jobmarketdatabricks.gold.job_offers_silver
+    FROM jobmarketdatabricks.silver.job_offers
     WHERE scraping_month IS NOT NULL
 ) AS source
 ON target.mois_id = source.mois_id
@@ -49,7 +49,7 @@ USING (
             WHEN experience_category IN ('5', '5+') THEN '5+'
             ELSE experience_category
         END AS experience_min
-    FROM jobmarketdatabricks.gold.job_offers_silver
+    FROM jobmarketdatabricks.silver.job_offers
     WHERE experience_category IS NOT NULL
 ) AS source
 ON target.experience_min = source.experience_min
@@ -67,7 +67,7 @@ BEGIN TRANSACTION;
 MERGE INTO jobmarketdatabricks.gold.dim_job_category AS target
 USING (
     SELECT DISTINCT job_category
-    FROM jobmarketdatabricks.gold.job_offers_silver
+    FROM jobmarketdatabricks.silver.job_offers
     WHERE job_category IS NOT NULL
 ) AS source
 ON target.job_category = source.job_category
@@ -85,7 +85,7 @@ BEGIN TRANSACTION;
 MERGE INTO jobmarketdatabricks.gold.dim_platform AS target
 USING (
     SELECT DISTINCT platform_name
-    FROM jobmarketdatabricks.gold.job_offers_silver
+    FROM jobmarketdatabricks.silver.job_offers
     WHERE platform_name IS NOT NULL
 ) AS source
 ON target.platform_name = source.platform_name
@@ -103,7 +103,7 @@ BEGIN TRANSACTION;
 MERGE INTO jobmarketdatabricks.gold.dim_seniority as target
 USING(
     SELECT DISTINCT seniority_level
-    FROM jobmarketdatabricks.gold.job_offers_silver
+    FROM jobmarketdatabricks.silver.job_offers
 ) AS source
 
 ON target.seniority_level = source.seniority_level
@@ -122,7 +122,7 @@ USING (
     SELECT DISTINCT technology_name
     FROM (
         SELECT EXPLODE(all_technologies) AS technology_name
-        FROM jobmarketdatabricks.gold.job_offers_silver
+        FROM jobmarketdatabricks.silver.job_offers
     ) AS technologies
     WHERE technology_name IS NOT NULL
       AND TRIM(technology_name) <> ''

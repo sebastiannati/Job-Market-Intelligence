@@ -11,7 +11,7 @@ USING (
         platform.platform_id,
         company.company_key AS company_id
     
-    FROM jobmarketdatabricks.gold.job_offers_silver AS job
+    FROM jobmarketdatabricks.silver.job_offers AS job
 
     LEFT JOIN jobmarketdatabricks.gold.dim_date as dates 
         ON CAST(REPLACE(job.scraping_month,'-','') AS INT) = dates.mois_id
