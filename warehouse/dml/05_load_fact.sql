@@ -1,5 +1,3 @@
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.fact_offers as target 
 USING (
     SELECT 
@@ -60,5 +58,3 @@ WHEN NOT MATCHED THEN
         source.job_category_id,
         source.platform_id
     );
-
-COMMIT;

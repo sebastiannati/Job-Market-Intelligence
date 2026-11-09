@@ -1,5 +1,3 @@
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.bridge_offer_technology AS target
 USING (
     SELECT DISTINCT
@@ -28,5 +26,3 @@ WHEN NOT MATCHED THEN
         source.technology_id,
         source.requirement_type
     );
-
-COMMIT;

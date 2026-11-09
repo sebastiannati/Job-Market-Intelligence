@@ -1,6 +1,4 @@
 -- 1. Entreprises
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.dim_company AS target
 USING (
     SELECT
@@ -15,12 +13,10 @@ WHEN NOT MATCHED THEN
     INSERT (company_key, company_name)
     VALUES (source.company_key, source.company_name);
 
-COMMIT;
+
 
 
 -- 2. Dates
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.dim_date AS target
 USING (
     SELECT DISTINCT
@@ -36,12 +32,10 @@ WHEN NOT MATCHED THEN
     INSERT (mois_id, annee, mois)
     VALUES (source.mois_id, source.annee, source.mois);
 
-COMMIT;
+
 
 
 -- 3. Catégories d’expérience
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.dim_experience AS target
 USING (
     SELECT DISTINCT
@@ -58,12 +52,7 @@ WHEN NOT MATCHED THEN
     INSERT (experience_min)
     VALUES (source.experience_min);
 
-COMMIT;
-
-
 -- 4. Catégories de postes
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.dim_job_category AS target
 USING (
     SELECT DISTINCT job_category
@@ -76,12 +65,7 @@ WHEN NOT MATCHED THEN
     INSERT (job_category)
     VALUES (source.job_category);
 
-COMMIT;
-
-
 -- 5. Plateformes
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.dim_platform AS target
 USING (
     SELECT DISTINCT platform_name
@@ -94,12 +78,7 @@ WHEN NOT MATCHED THEN
     INSERT (platform_name)
     VALUES (source.platform_name);
 
-COMMIT;
-
 -- 6. Seniorité
-
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.dim_seniority as target
 USING(
     SELECT DISTINCT seniority_level
@@ -112,11 +91,7 @@ WHEN NOT MATCHED
     THEN INSERT (seniority_level)
     VALUES (source.seniority_level);
 
-COMMIT;
-
 -- 7. Stack technique
-BEGIN TRANSACTION;
-
 MERGE INTO jobmarketdatabricks.gold.dim_technology AS target
 USING (
     SELECT DISTINCT technology_name
@@ -133,5 +108,3 @@ ON target.technology_name = source.technology_name
 WHEN NOT MATCHED THEN
     INSERT (technology_name)
     VALUES (source.technology_name);
-
-COMMIT;
