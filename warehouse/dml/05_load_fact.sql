@@ -14,7 +14,7 @@ USING (
     FROM workspace.default.job_offers_silver AS job
 
     LEFT JOIN workspace.default.dim_date as dates 
-        ON CAST(REPLACE(jobs.scraping_month,'-','') AS INT) = dates.mois_id
+        ON CAST(REPLACE(job.scraping_month,'-','') AS INT) = dates.mois_id
     
     LEFT JOIN workspace.default.dim_seniority as seniority
         ON job.seniority_level = seniority.seniority_level
@@ -35,7 +35,7 @@ USING (
         ON job.platform_name = platform.platform_name
     
     LEFT JOIN workspace.default.dim_company as company
-        ON job.company_key = company.company_id
+        ON job.company_key = company.company_key
 
 ) AS source
 

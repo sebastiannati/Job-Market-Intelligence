@@ -10,7 +10,7 @@ USING (
 
     -- Récupère l'id de la stack
     INNER JOIN workspace.default.dim_technology as tech
-        ON job.tehcnology_name = tech.technology_name
+        ON job.technology_name = tech.technology_name
     
     -- Récupère l'id de l'offre
     INNER JOIN workspace.default.fact_offers as fact
