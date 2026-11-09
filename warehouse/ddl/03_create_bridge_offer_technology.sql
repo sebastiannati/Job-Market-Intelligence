@@ -18,6 +18,9 @@ CREATE TABLE IF NOT EXISTS jobmarketdatabricks.gold.bridge_offer_technology (
 TBLPROPERTIES ('delta.feature.catalogManaged' = 'supported');
 
 ALTER TABLE jobmarketdatabricks.gold.bridge_offer_technology
+DROP CONSTRAINT IF EXISTS chk_requirement_type;
+
+ALTER TABLE jobmarketdatabricks.gold.bridge_offer_technology
 ADD CONSTRAINT chk_requirement_type
 CHECK (requirement_type IN ('required', 'desired'));
 
