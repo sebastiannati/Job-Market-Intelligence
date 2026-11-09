@@ -1,19 +1,19 @@
 BEGIN TRANSACTION;
 
-MERGE INTO workspace.default.bridge_offer_technology AS target
+MERGE INTO jobmarketdatabricks.gold.bridge_offer_technology AS target
 USING (
     SELECT DISTINCT
         job.offer_id,
         tech.technology_id,
         job.requirement_type
-    FROM workspace.default.v_offer_technology_source AS job
+    FROM jobmarketdatabricks.gold.v_offer_technology_source AS job
 
     -- Récupère l'id de la stack
-    INNER JOIN workspace.default.dim_technology as tech
+    INNER JOIN jobmarketdatabricks.gold.dim_technology as tech
         ON job.technology_name = tech.technology_name
     
     -- Récupère l'id de l'offre
-    INNER JOIN workspace.default.fact_offers as fact
+    INNER JOIN jobmarketdatabricks.gold.fact_offers as fact
         ON fact.offer_id = job.offer_id
 ) AS source
 

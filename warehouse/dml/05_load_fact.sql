@@ -1,6 +1,6 @@
 BEGIN TRANSACTION;
 
-MERGE INTO workspace.default.fact_offers as target 
+MERGE INTO jobmarketdatabricks.gold.fact_offers as target 
 USING (
     SELECT 
         job.offer_id,
@@ -11,16 +11,16 @@ USING (
         platform.platform_id,
         company.company_key AS company_id
     
-    FROM workspace.default.job_offers_silver AS job
+    FROM jobmarketdatabricks.gold.job_offers_silver AS job
 
-    LEFT JOIN workspace.default.dim_date as dates 
+    LEFT JOIN jobmarketdatabricks.gold.dim_date as dates 
         ON CAST(REPLACE(job.scraping_month,'-','') AS INT) = dates.mois_id
     
-    LEFT JOIN workspace.default.dim_seniority as seniority
+    LEFT JOIN jobmarketdatabricks.gold.dim_seniority as seniority
         ON job.seniority_level = seniority.seniority_level
     
     -- on doit refaire la transformation 
-    LEFT JOIN workspace.default.dim_experience as experience
+    LEFT JOIN jobmarketdatabricks.gold.dim_experience as experience
         ON ( 
             CASE WHEN job.experience_category IN ('5','5+') 
                 THEN '5+'
@@ -28,13 +28,13 @@ USING (
             END
         ) = experience.experience_min
 
-    LEFT JOIN workspace.default.dim_job_category as category
+    LEFT JOIN jobmarketdatabricks.gold.dim_job_category as category
         ON job.job_category = category.job_category
     
-    LEFT JOIN workspace.default.dim_platform as platform
+    LEFT JOIN jobmarketdatabricks.gold.dim_platform as platform
         ON job.platform_name = platform.platform_name
     
-    LEFT JOIN workspace.default.dim_company as company
+    LEFT JOIN jobmarketdatabricks.gold.dim_company as company
         ON job.company_key = company.company_key
 
 ) AS source
